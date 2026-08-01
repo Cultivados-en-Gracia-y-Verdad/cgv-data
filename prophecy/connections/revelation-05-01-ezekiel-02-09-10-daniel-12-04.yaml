@@ -1,0 +1,56 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-05-01-ezekiel-02-09-10-daniel-12-04
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 5:1
+  language: greek
+  original: Καὶ εἶδον ἐπὶ τὴν δεξιὰν τοῦ καθημένου ἐπὶ τοῦ θρόνου βιβλίον γεγραμμένον ἔσωθεν καὶ ὄπισθεν, κατεσφραγισμένον σφραγῖσιν ἑπτά
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270501
+
+sources:
+  - reference: Ezekiel 2:9-10
+    language: hebrew
+    hebrew_anchors:
+      - מגלת ספר
+      - והיא כתובה פנים ואחור
+    contribution:
+      - a scroll presented by a divine hand
+      - writing on front and back
+  - reference: Daniel 12:4
+    language: hebrew
+    hebrew_anchor: סתם הדברים וחתם הספר עד עת קץ
+    contribution:
+      - a book or writing sealed until a specified future time
+  - reference: Daniel 12:9
+    language: hebrew
+    hebrew_anchor: כי סתמים וחתמים הדברים עד עת קץ
+    contribution: the words are shut and sealed until the time of the end
+
+shared_features:
+  - a divinely held or presented scroll/book
+  - writing on both sides from Ezekiel
+  - sealing language from Daniel
+  - access to the contents is restricted
+
+differences:
+  - Ezekiel's scroll is opened before him and contains lamentation, mourning, and woe; Revelation's scroll is sealed with seven seals.
+  - Daniel commands sealing until the time of the end; Revelation presents the question of who is worthy to open the scroll.
+  - Revelation does not explicitly identify its scroll as either Ezekiel's scroll or Daniel's book.
+  - Seven seals are unique to Revelation in this comparison.
+
+classification:
+  relation: composite-scroll-and-sealing-reuse
+  evidence_class: E4
+  confidence: high-for-written-front-and-back; moderate-for-Daniel-sealing-combination
+
+chronology_effect:
+  status: narrative-sequence
+  statement: The scroll is present before the Lamb takes it and before the seals are opened. Daniel's 'until the time of the end' is not automatically transferred as a date definition.
+
+unresolved_questions:
+  - What does Revelation itself reveal about the scroll's contents as each seal is opened?
+  - Does the sevenfold sealing signify completeness, or should that remain descriptive without assigning a symbolic definition?

@@ -1,0 +1,59 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-08-03-04-psalm-141-02
+status: verified-textual-reuse
+
+revelation:
+  reference: Revelation 8:3-4
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [270803, 270804]
+  original_anchors:
+    - θυμιάματα πολλὰ
+    - ταῖς προσευχαῖς τῶν ἁγίων
+    - ἀνέβη ὁ καπνὸς τῶν θυμιαμάτων ταῖς προσευχαῖς τῶν ἁγίων
+    - ἐνώπιον τοῦ θεοῦ
+
+source:
+  reference: Psalm 141:2
+  language: hebrew
+  hebrew_original: תִּכּוֹן תְּפִלָּתִי קְטֹרֶת לְפָנֶיךָ מַשְׂאַת כַּפַּי מִנְחַת־עָרֶב
+  contribution:
+    - prayer presented as incense before God
+    - upward or accepted presentation before the divine presence
+
+greek_bridge:
+  witness_reference: Psalm 140:2 in common Greek numbering
+  working_text: κατευθυνθήτω ἡ προσευχή μου ὡς θυμίαμα ἐνώπιόν σου
+  shared_terms:
+    - προσευχή
+    - θυμίαμα
+    - ἐνώπιον
+  status: verified-phrase-family; exact-edition-token-record-pending
+
+shared_features:
+  - prayer and incense explicitly joined
+  - presentation before God
+  - sacrificial or altar setting
+
+differences:
+  - Psalm 141 uses a simile: prayer is to be established as incense.
+  - Revelation presents incense together with the prayers of all the saints and describes their smoke ascending.
+  - Revelation adds an angel, a golden incense vessel, and the golden altar before the throne.
+
+classification:
+  relation: near-verbatim-conceptual-reuse
+  evidence_class: E5
+  confidence: high
+
+internal_control:
+  statement: Revelation itself explicitly joins the incense and the prayers; Psalm 141 supplies the distinctive prior prayer-incense formula.
+
+chronology_effect:
+  status: sequence-only
+  statement: The prayers and incense ascend before the altar fire is cast to earth and before the trumpets sound.
+
+limits:
+  - This record does not identify every biblical incense offering with prayer.
+  - The golden altar's full identity is not inferred solely from Psalm 141.

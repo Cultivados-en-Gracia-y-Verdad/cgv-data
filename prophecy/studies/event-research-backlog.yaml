@@ -1,0 +1,113 @@
+schema_version: 1
+record_type: event-research-backlog
+id: study-prophetic-event-backlog
+status: seeded
+purpose: Preserve proposed prophetic events and titles as research targets before chronological alignment.
+items:
+  - id: event-feet-on-mount-of-olives
+    submitted_label: Standing on the Mount of Olives
+    candidate_passages:
+      - Zechariah 14:3-5
+      - Acts 1:9-12
+    questions:
+      - Who is the grammatical subject in Zechariah 14:4?
+      - What does Acts 1 explicitly establish about the location and manner of return?
+      - Does Scripture explicitly join the two passages as the same event?
+    chronology_status: unplaced
+
+  - id: event-mount-of-olives-splits
+    submitted_label: Mount of Olives splitting
+    candidate_passages:
+      - Zechariah 14:4-5
+    questions:
+      - What sequence markers surround the splitting?
+      - Who flees, where, and when?
+      - What later passages explicitly cite or identify this event?
+    chronology_status: unplaced
+
+  - id: event-second-coming
+    submitted_label: Second coming
+    candidate_passages:
+      - Matthew 24:27-31
+      - Acts 1:9-12
+      - 1 Corinthians 15:23
+      - 1 Thessalonians 4:13-18
+      - 2 Thessalonians 1:6-10
+      - 2 Thessalonians 2:1-8
+      - Hebrews 9:28
+      - Revelation 19:11-21
+    questions:
+      - Which passages use coming, appearing, revelation, return, or presence language?
+      - Which events are explicitly simultaneous or sequential?
+      - Does the phrase “second coming” match a specific canonical expression or function as an index label?
+    chronology_status: collecting
+
+  - id: event-riding-horses
+    submitted_label: Riding horses
+    candidate_passages:
+      - Zechariah 1:7-11
+      - Zechariah 6:1-8
+      - Revelation 6:1-8
+      - Revelation 19:11-21
+    questions:
+      - Who rides in each passage?
+      - Are the colors, missions, and identities explicitly connected?
+      - Which are vision images and which actions are interpreted?
+    chronology_status: parallel-lanes
+
+  - id: event-two-witnesses
+    submitted_label: Two witnesses
+    candidate_passages:
+      - Revelation 11:3-13
+      - Zechariah 4:1-14
+    questions:
+      - What does Revelation explicitly identify about the two witnesses?
+      - What is established by the olive-tree and lampstand wording?
+      - Does the text name the witnesses?
+      - How does the stated 1,260-day period relate to other durations?
+    chronology_status: unplaced
+
+  - id: event-millennial-temple
+    submitted_label: Millennial temple
+    candidate_passages:
+      - Ezekiel 40:1-48:35
+      - Zechariah 14:16-21
+      - Revelation 20:1-10
+    questions:
+      - Does Scripture explicitly call Ezekiel's temple millennial?
+      - Is Ezekiel 40-48 chronologically connected to Revelation 20?
+      - Which temple, city, land, priesthood, and worship details are stated?
+    chronology_status: unplaced
+    caution: “Millennial temple” remains an assumption label until the chronological connection is established.
+
+  - id: event-zechariah-crown
+    submitted_label: Zechariah's crown
+    candidate_passages:
+      - Zechariah 6:9-15
+    questions:
+      - Who receives the crown or crowns?
+      - What memorial function is stated?
+      - What statements concern the Branch, building, ruling, priesthood, and peace?
+      - Which later passages explicitly cite this event?
+    chronology_status: unplaced
+
+  - id: title-the-branch
+    submitted_label: The Branch
+    record_kind: title-and-person-reference
+    candidate_passages:
+      - Isaiah 4:2
+      - Isaiah 11:1
+      - Jeremiah 23:5-6
+      - Jeremiah 33:14-16
+      - Zechariah 3:8
+      - Zechariah 6:12-13
+    questions:
+      - Which Hebrew lemmas and grammatical forms occur in each passage?
+      - Which passages explicitly identify the referent?
+      - Are all occurrences one title and one referent, or are distinctions present?
+      - Which actions and chronological settings are attached to each occurrence?
+    chronology_status: title-study-required
+rules:
+  - A submitted label is an index term, not a conclusion.
+  - Create separate passage, statement, term, event, and chronology files as evidence is gathered.
+  - Do not merge events merely because imagery or vocabulary is similar.

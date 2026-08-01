@@ -1,0 +1,65 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-05-05-genesis-49-09-10-isaiah-11-01-10
+status: verified-textual-reuse
+
+revelation:
+  reference: Revelation 5:5
+  language: greek
+  original: ἰδοὺ ἐνίκησεν ὁ λέων ὁ ἐκ τῆς φυλῆς Ἰούδα, ἡ ῥίζα Δαυίδ, ἀνοῖξαι τὸ βιβλίον καὶ τὰς ἑπτὰ σφραγῖδας αὐτοῦ
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270505
+
+sources:
+  - reference: Genesis 49:9-10
+    language: hebrew
+    hebrew_anchors:
+      - גור אריה יהודה
+      - לא יסור שבט מיהודה
+    contribution:
+      - Judah identified with lion imagery
+      - ruling authority associated with Judah
+  - reference: Isaiah 11:1
+    language: hebrew
+    hebrew_anchor: ויצא חטר מגזע ישי ונצר משרשיו יפרה
+    contribution: a shoot and branch arise from Jesse's roots
+  - reference: Isaiah 11:10
+    language: hebrew
+    hebrew_anchor: שרש ישי אשר עמד לנס עמים
+    contribution: the root of Jesse stands for the peoples
+
+greek_bridge:
+  Genesis 49:
+    shared_terms:
+      - λέων
+      - Ἰούδα
+    status: strong
+  Isaiah 11:
+    shared_terms:
+      - ῥίζα
+      - Davidic family line
+    status: strong-conceptual-and-lexical
+
+shared_features:
+  - lion imagery tied specifically to Judah
+  - royal authority
+  - root imagery tied to the Davidic/Jesse line
+  - victory or authority enabling action
+
+differences:
+  - Genesis speaks of Judah and the ruler arising from him; Revelation identifies one victorious figure as the Lion from Judah's tribe.
+  - Isaiah says root of Jesse; Revelation says root of David.
+  - Revelation connects these titles to worthiness to open the scroll and seals, which the earlier passages do not discuss.
+
+classification:
+  relation: composite-title-reuse
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: identity-before-action
+  statement: The titles identify the victorious one before he opens the scroll; no calendar date is supplied.
+
+limits:
+  - The connection establishes title reuse, not that every detail of Genesis 49 or Isaiah 11 is exhausted in Revelation 5:5.

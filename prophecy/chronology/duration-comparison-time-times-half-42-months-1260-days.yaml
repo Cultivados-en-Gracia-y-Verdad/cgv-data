@@ -1,0 +1,114 @@
+schema_version: 1
+record_type: chronology-duration-comparison
+id: duration-time-times-half-42-months-1260-days
+status: collecting
+question: What connection, if any, does Scripture establish among a time, times, and half a time; forty-two months; and 1,260 days?
+
+expressions:
+  - id: duration-daniel-07-25-time-times-half
+    reference: Daniel 7:25
+    language: aramaic
+    original: עִדָּן וְעִדָּנִין וּפְלַג עִדָּן
+    source_anchor:
+      corpus: OSHB
+      file: morphology/OSHB/morphhb/wlc/Dan.xml
+      token_ids: [27MZa, 27zKB, 27eLd, 27o5N]
+    stated_context: The saints, times, and law are given into the hand of the horn until this duration.
+    relation_status: unplaced-across-passages
+
+  - id: duration-daniel-12-07-appointed-time-times-half
+    reference: Daniel 12:7
+    language: hebrew
+    original: לְמוֹעֵד מוֹעֲדִים וָחֵצִי
+    source_anchor:
+      corpus: OSHB
+      file: morphology/OSHB/morphhb/wlc/Dan.xml
+      token_ids: [27frn, 27ukw, 27VKd]
+    stated_context: The expression answers the question concerning the end of the wonders and is followed by a completion statement.
+    relation_status: unplaced-across-passages
+
+  - id: duration-revelation-12-14-time-times-half
+    reference: Revelation 12:14
+    language: greek
+    original: καιρὸν καὶ καιροὺς καὶ ἥμισυ καιροῦ
+    source_anchor:
+      corpus: MorphGNT
+      file: morphology/MorphGNT/87-Re-morphgnt.txt
+      verse_code: 271214
+    stated_context: The woman is nourished in her wilderness place away from the serpent.
+    relation_status: strong-within-passage-correspondence
+
+  - id: duration-revelation-12-06-1260-days
+    reference: Revelation 12:6
+    language: greek
+    original: ἡμέρας χιλίας διακοσίας ἑξήκοντα
+    source_anchor:
+      corpus: MorphGNT
+      file: morphology/MorphGNT/87-Re-morphgnt.txt
+      verse_code: 271206
+    stated_context: The woman flees to a wilderness place prepared by God where she is nourished for 1,260 days.
+    relation_status: strong-within-passage-correspondence
+
+  - id: duration-revelation-11-02-42-months
+    reference: Revelation 11:2
+    language: greek
+    original: μῆνας τεσσεράκοντα δύο
+    source_anchor:
+      corpus: MorphGNT
+      file: morphology/MorphGNT/87-Re-morphgnt.txt
+      verse_code: 271102
+    stated_context: The nations tread the holy city for forty-two months.
+    relation_status: adjacent-to-1260-days-not-explicitly-equated
+
+  - id: duration-revelation-11-03-1260-days
+    reference: Revelation 11:3
+    language: greek
+    original: ἡμέρας χιλίας διακοσίας ἑξήκοντα
+    source_anchor:
+      corpus: MorphGNT
+      file: morphology/MorphGNT/87-Re-morphgnt.txt
+      verse_code: 271103
+    stated_context: The two witnesses prophesy for 1,260 days.
+    relation_status: adjacent-to-42-months-not-explicitly-equated
+
+  - id: duration-revelation-13-05-42-months
+    reference: Revelation 13:5
+    language: greek
+    original: μῆνας τεσσεράκοντα δύο
+    source_anchor:
+      corpus: MorphGNT
+      file: morphology/MorphGNT/87-Re-morphgnt.txt
+      verse_code: 271305
+    stated_context: Authority is given to the beast to act for forty-two months.
+    relation_status: candidate-alignment-only
+
+findings:
+  explicit:
+    - Revelation 12:6 and 12:14 repeat the same subject, wilderness location, and nourishment action while assigning 1,260 days in one statement and a time, times, and half a time in the other.
+    - Revelation 11 places forty-two months and 1,260 days in adjacent statements, but the text does not explicitly say their start and end points are identical.
+    - Revelation 13 states forty-two months for the beast's authority but does not explicitly equate that duration with Revelation 11 or 12.
+  arithmetic_observation:
+    expression: 1260 / 42 = 30
+    meaning: The two numerical durations are equal under a thirty-day-month model.
+    authority: arithmetic-only
+    warning: Arithmetic compatibility is not itself a scriptural statement that every prophetic month has thirty days.
+  unresolved:
+    - Whether the plural “times” denotes exactly two times in every occurrence.
+    - Whether “time” means a year in these passages.
+    - Whether every occurrence describes the same chronological interval.
+    - Whether the forty-two-month periods in Revelation 11 and 13 are coextensive.
+    - Whether Daniel 7:25, Daniel 12:7, and Revelation 12:14 refer to the same event or only use corresponding duration language.
+
+classification:
+  revelation_12_06_to_12_14:
+    evidence_class: E4
+    status: derived-within-passage
+    conclusion: Strong evidence that the two expressions describe the same duration in Revelation 12's own account.
+  forty_two_months_to_1260_days:
+    evidence_class: E3
+    status: arithmetic-compatible-not-explicitly-equated
+  daniel_to_revelation:
+    evidence_class: E3
+    status: shared-duration-wording-no-identity
+
+chronology_rule: Do not place separate events on the same dates solely because their stated durations are arithmetically compatible.

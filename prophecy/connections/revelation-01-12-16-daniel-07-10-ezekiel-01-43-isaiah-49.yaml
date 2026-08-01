@@ -1,0 +1,78 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-01-12-16-daniel-07-10-ezekiel-01-43-isaiah-49
+status: verified-composite-image-reuse
+
+revelation:
+  reference: Revelation 1:12-16
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [270112, 270113, 270114, 270115, 270116]
+  features:
+    - seven golden lampstands
+    - one like a son of man
+    - long robe and golden sash
+    - white head and hair like wool and snow
+    - eyes like a flame of fire
+    - feet like refined metal in a furnace
+    - voice like many waters
+    - sharp two-edged sword from the mouth
+    - face like the sun
+
+sources:
+  - reference: Daniel 7:9-13
+    language: aramaic
+    contribution:
+      - white hair like pure wool
+      - heavenly court imagery
+      - one like a son of man
+  - reference: Daniel 10:5-6
+    language: hebrew
+    contribution:
+      - linen-clothed figure
+      - gold belt
+      - eyes like torches of fire
+      - arms and feet like polished bronze
+      - voice like the sound of a multitude
+  - reference: Ezekiel 1:24
+    language: hebrew
+    contribution: sound like many waters
+  - reference: Ezekiel 43:2
+    language: hebrew
+    contribution: divine voice like the sound of many waters
+  - reference: Isaiah 49:2
+    language: hebrew
+    contribution: mouth made like a sharp sword
+  - reference: Exodus 25:31-40
+    language: hebrew
+    contribution: golden lampstand imagery
+
+greek_bridge:
+  status: strong-multi-source-correspondence
+  note: Several features align closely with Greek Daniel and Ezekiel wording, but this record classifies the whole unit as a composite image structure rather than one continuous quotation.
+
+shared_features:
+  - Revelation fuses Daniel 7's son-of-man and white-hair imagery with Daniel 10's clothed figure and fiery-metal features.
+  - Ezekiel supplies the many-waters voice image.
+  - Isaiah supplies the mouth-sword image.
+  - Exodus supplies the golden lampstand setting, while Revelation internally identifies the seven lampstands as seven churches in Revelation 1:20.
+
+differences:
+  - Daniel 7 distinguishes the Ancient of Days from one like a son of man; Revelation 1 places white-hair imagery on the one like a son of man.
+  - Daniel 10 says the voice is like the sound of a multitude; Revelation uses many waters, closer to Ezekiel.
+  - Isaiah 49 speaks of the servant's mouth as like a sharp sword; Revelation depicts a sword proceeding from the mouth.
+  - Exodus has one lampstand with branches; Revelation has seven lampstands and supplies its own interpretation.
+
+classification:
+  relation: composite-image-structure-reuse
+  evidence_class: E5
+  confidence: high
+
+limits:
+  - The fusion of images does not collapse the speakers or figures of Daniel, Ezekiel, Isaiah, and Exodus into one referent in their original settings.
+  - Revelation's explicit interpretation of the lampstands controls their meaning within Revelation.
+  - Each image must remain separately traceable to its source candidate.
+
+chronology_effect:
+  status: none

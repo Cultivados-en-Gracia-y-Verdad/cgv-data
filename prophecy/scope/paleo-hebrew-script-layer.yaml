@@ -1,0 +1,52 @@
+schema_version: 1
+record_type: script-representation-policy
+id: paleo-hebrew-script-layer
+status: active
+
+purpose: Provide an optional Paleo-Hebrew visual representation of Hebrew consonantal forms without changing the language, source text, lexical analysis, or evidential status of a record.
+
+canonical_anchor:
+  language: biblical-hebrew
+  corpus: OSHB
+  textual_base: WLC consonantal sequence with OSHB token and morphology anchors
+  authority: canonical-research-anchor
+
+representation_layer:
+  name: paleo-hebrew
+  authority: derived-display-only
+  direction: square-hebrew-consonants-to-paleo-hebrew-glyphs
+  mapping_file: ../data/paleo-hebrew-consonant-map.yaml
+  algorithm_version: 1
+
+rules:
+  - Preserve the OSHB token ID, lemma ID, consonantal form, morphology, and canonical reference as the authoritative research data.
+  - Store Paleo-Hebrew only as an additional script field generated from the Hebrew consonantal sequence.
+  - Remove vowel points, cantillation marks, and other combining marks before script conversion.
+  - Normalize Hebrew final forms to their corresponding base consonants for the Paleo-Hebrew display.
+  - Preserve consonant order exactly.
+  - Never use Paleo-Hebrew glyph shape as lexical, semantic, prophetic, chronological, or theological evidence.
+  - Never assign pictographic meanings to individual letters as a method of interpreting a word or passage.
+  - Never infer the date, provenance, or historical script of a biblical manuscript from this generated display.
+  - Never treat the generated form as a separate textual witness or variant reading.
+  - Similar-looking glyphs do not establish a connection between words or passages.
+  - Any research conclusion must remain reproducible from the Hebrew consonants, morphology, syntax, and canonical context without the Paleo-Hebrew rendering.
+
+final_form_normalization:
+  ך: כ
+  ם: מ
+  ן: נ
+  ף: פ
+  ץ: צ
+
+example:
+  reference: Genesis 11:9
+  square_hebrew_consonants: בבל
+  paleo_hebrew_display: 𐤁𐤁𐤋
+  status: mechanical-script-conversion
+  warning: This display does not add an etymology or meaning to the canonical form.
+
+output_policy:
+  default_visibility: optional
+  square_hebrew_required: true
+  paleo_hebrew_may_be_shown_beside_square_hebrew: true
+  lbf_role: Spanish presentation surface only; unrelated to script conversion

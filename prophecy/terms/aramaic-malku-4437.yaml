@@ -1,0 +1,53 @@
+id: term-aramaic-malku-4437
+record_type: term
+language: aramaic
+lemma:
+  oshb: "4437"
+  consonantal: מלכו
+scope: Daniel 2:31-45
+forms:
+  - reference: Daniel 2:37
+    token_id: 27DCB
+    surface: מַלְכוּתָ֥/א
+    morph: ANcfsd/Td
+  - reference: Daniel 2:39
+    token_id: 27FCe
+    surface: מַלְכ֥וּ
+    morph: ANcfsa
+  - reference: Daniel 2:39
+    token_id: 27rCW
+    surface: וּ/מַלְכ֨וּ
+    morph: AC/Ncfsa
+  - reference: Daniel 2:40
+    token_id: 27xKf
+    surface: וּ/מַלְכוּ֙
+    morph: AC/Ncfsa
+  - reference: Daniel 2:41
+    token_id: 27rHh
+    surface: מַלְכ֤וּ
+    morph: ANcfsa
+  - reference: Daniel 2:42
+    token_id: 27Zy7
+    surface: מַלְכוּתָ/א֙
+    morph: ANcfsd/Td
+  - reference: Daniel 2:44
+    token_id: 27TMW
+    surface: מַלְכוּ֙
+    morph: ANcfsa
+  - reference: Daniel 2:44
+    token_id: 27cqw
+    surface: וּ/מַ֨לְכוּתָ֔/ה
+    morph: AC/Ncfsd/Td
+  - reference: Daniel 2:44
+    token_id: 27e6Q
+    surface: מַלְכְוָתָ֔/א
+    morph: ANcfsd/Td
+source:
+  corpus: OSHB
+  file: morphology/OSHB/morphhb/wlc/Dan.xml
+links:
+  passages:
+    - passage-daniel-02-31-45
+review_status: source-anchored
+notes:
+  - This record stores original-language forms only. LBF wording is resolved at output time.

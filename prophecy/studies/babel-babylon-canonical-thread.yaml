@@ -1,0 +1,104 @@
+schema_version: 1
+record_type: canonical-thread-study
+id: babel-babylon-canonical-thread
+status: collecting
+title: Babel to Babylon across Scripture
+
+question: What connections does Scripture itself establish among Babel in Genesis, Babylon in Israel's history and prophets, and Babylon the Great in Revelation?
+
+source_scope:
+  corpus: Protestant canon
+  languages: [hebrew, aramaic, greek]
+  external_sources: prohibited
+
+canonical_lanes:
+  - id: origins-and-kingdom
+    passages:
+      - Genesis 10:8-12
+      - Genesis 11:1-9
+    explicit_data:
+      - Babel is named in the beginning of Nimrod's kingdom in the land of Shinar.
+      - A city and tower are built in the land of Shinar.
+      - The LORD confuses the language and scatters the people.
+      - Genesis 11:9 explicitly explains the naming within its own Hebrew wordplay.
+
+  - id: kingdom-exile-and-jerusalem
+    passages:
+      - 2 Kings 20:12-19
+      - 2 Kings 24:1-25:30
+      - 2 Chronicles 36:5-23
+      - Daniel 1:1-7
+    explicit_data:
+      - Babylon is connected with kings, armies, deportation, vessels, Jerusalem, and exile.
+      - Daniel 1 also names Shinar, creating an explicit geographical-name echo with Genesis.
+
+  - id: prophetic-oracles
+    passages:
+      - Isaiah 13:1-14:27
+      - Isaiah 21:1-10
+      - Isaiah 46:1-47:15
+      - Jeremiah 25:1-14
+      - Jeremiah 50:1-51:64
+    explicit_data:
+      - Babylon is the named subject of judgment speech.
+      - The passages include rulers, nations, destruction, pride, idols, violence, and restoration-related chronology.
+      - Each oracle must retain its own addressee, grammar, imagery, and temporal markers.
+
+  - id: later-canonical-references
+    passages:
+      - Ezra 1:1-11
+      - Zechariah 2:6-13
+      - Matthew 1:11-17
+      - Acts 7:43
+      - 1 Peter 5:13
+    explicit_data:
+      - Babylon remains connected with deportation, return, citation, genealogy, and a closing greeting.
+      - The referent of each occurrence must be determined only as far as its passage permits.
+
+  - id: revelation-babylon-the-great
+    passages:
+      - Revelation 14:8
+      - Revelation 16:17-21
+      - Revelation 17:1-18
+      - Revelation 18:1-24
+      - Revelation 19:1-3
+    explicit_data:
+      - Revelation names Babylon the Great.
+      - Revelation 17 presents the name on the woman and supplies internal explanations concerning the woman, waters, heads, horns, and kings.
+      - Revelation 18 describes commercial, royal, maritime, violent, and judgment relations.
+      - Revelation 19 records heavenly response to her judgment.
+
+explicit_connections_to_preserve:
+  - type: shared-canonical-name
+    from: Hebrew בבל
+    to: Greek Βαβυλών
+    status: explicit-lexical-thread
+  - type: shared-place-name
+    from: Genesis 10-11 Shinar
+    to: Daniel 1:2 Shinar
+    status: explicit-name-recurrence
+  - type: explicit-quotation-or-allusion
+    status: requires-individual-source-records
+    rule: Similar wording must be tested; only explicit quotation or demonstrable textual reuse may receive a stronger classification.
+
+unresolved_questions:
+  - Does Revelation use Babylon solely as a name, as an identified city, as a woman-symbol, or in more than one stated sense?
+  - Which earlier Babylon passages does Revelation explicitly quote or reuse?
+  - Do Genesis 10-11 and Revelation 17-18 form a scripturally established thematic frame, or only a research candidate based on the shared name and motifs?
+  - Which judgments in Isaiah and Jeremiah are stated as completed, future from their narrative standpoint, repeated, or unplaced relative to Revelation?
+  - What does Scripture establish about Shinar across Genesis, Joshua, Isaiah, Daniel, and Zechariah?
+  - Does Scripture establish institutional or spiritual continuity from Babel to Babylon the Great?
+
+method:
+  - Build original-language occurrence lists for בבל, שנער, Βαβυλών, and direct grammatical associates.
+  - Record every explicit internal identification in Revelation 17-18 separately.
+  - Compare quotations and distinctive phrase clusters without assuming identity from resemblance.
+  - Preserve historical narrative, prophetic oracle, symbolic vision, and epistolary greeting as distinct genres of textual evidence.
+  - Add chronology only where the passage supplies order, reign, duration, fulfillment, or before-and-after markers.
+
+links:
+  terms:
+    - hebrew-0894-babel
+    - greek-babylon
+  unresolved:
+    - babel-babylon-continuity

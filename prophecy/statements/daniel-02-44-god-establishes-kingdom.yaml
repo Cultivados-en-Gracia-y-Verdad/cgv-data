@@ -1,0 +1,36 @@
+id: statement-daniel-02-44-god-establishes-kingdom
+record_type: statement
+passage: passage-daniel-02-31-45
+reference: Daniel 2:44
+language: aramaic
+statement_type: explicit-action
+subject:
+  label: God of heaven
+predicate:
+  relation: establishes
+object:
+  label: kingdom
+qualities:
+  - it shall never be destroyed
+  - its kingdom shall not be left to another people
+  - it shall break in pieces and consume all these kingdoms
+  - it shall stand forever
+evidence_class: E2
+original_language_anchors:
+  - surface: אֱלָ֨הּ
+    lemma: "426"
+  - surface: שְׁמַיָּ֜/א
+    lemma: "8065"
+  - surface: יְקִ֤ים
+    lemma: "6966"
+  - surface: מַלְכוּ֙
+    lemma: "4437"
+  - surface: לְ/עָלְמִ֣ין
+    lemma: l/5957
+observation: The text assigns the establishment of this kingdom to the God of heaven and states its duration and actions.
+constraints:
+  - Preserve each stated quality separately in later expansion.
+  - Do not identify the timing beyond the wording in Daniel 2:44.
+output:
+  bible_surface: LBF
+review_status: source-anchored

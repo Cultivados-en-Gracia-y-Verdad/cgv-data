@@ -1,0 +1,100 @@
+schema_version: 1
+record_type: chronology-structure
+id: daniel-09-seventy-sevens-structure
+status: collecting
+reference_scope: Daniel 9:24-27
+language: hebrew
+
+source_anchor:
+  corpus: OSHB
+  file: morphology/OSHB/morphhb/wlc/Dan.xml
+  osis_ids: [Dan.9.24, Dan.9.25, Dan.9.26, Dan.9.27]
+
+stated_structure:
+  total:
+    expression: seventy sevens
+    reference: Daniel 9:24
+    quantity: 70
+    unit: seven
+    converted_unit: none
+  first_division:
+    expression: seven sevens
+    reference: Daniel 9:25
+    quantity: 7
+  second_division:
+    expression: sixty-two sevens
+    reference: Daniel 9:25
+    quantity: 62
+  final_statement:
+    expression: one seven
+    reference: Daniel 9:27
+    quantity: 1
+
+arithmetic:
+  - expression: 7 + 62 + 1
+    result: 70
+    authority: arithmetic-only
+    note: The arithmetic matches the stated total, but arithmetic does not determine whether the final one follows without a gap.
+
+ordered_textual_markers:
+  - order: 1
+    marker: from the going forth of a word to restore and build Jerusalem
+    reference: Daniel 9:25
+    role: candidate-start-marker
+  - order: 2
+    marker: seven sevens and sixty-two sevens
+    reference: Daniel 9:25
+    role: stated-duration-divisions
+  - order: 3
+    marker: after the sixty-two sevens
+    reference: Daniel 9:26
+    role: relative-sequence-marker
+  - order: 4
+    marker: Messiah is cut off and has nothing
+    reference: Daniel 9:26
+    role: stated-event
+  - order: 5
+    marker: people of the coming prince destroy the city and sanctuary
+    reference: Daniel 9:26
+    role: stated-event
+  - order: 6
+    marker: he strengthens or confirms a covenant for one seven
+    reference: Daniel 9:27
+    role: stated-event-with-duration
+  - order: 7
+    marker: in the middle of the seven sacrifice and offering cease
+    reference: Daniel 9:27
+    role: midpoint-marker
+  - order: 8
+    marker: decreed end is poured on the desolator or desolate one
+    reference: Daniel 9:27
+    role: terminal-marker-under-review
+
+explicit_relations:
+  - Seven sevens and sixty-two sevens are both stated from the Daniel 9:25 starting expression toward Messiah the Prince.
+  - Daniel 9:26 places its events after the sixty-two sevens.
+  - Daniel 9:27 assigns covenant action to one seven and cessation of sacrifice and offering to its middle.
+
+unresolved:
+  - Whether the seven and sixty-two are consecutive without interruption.
+  - Whether the one seven is consecutive with the preceding sixty-two.
+  - The antecedent of he in Daniel 9:27.
+  - Whether the covenant is newly made, confirmed, strengthened, or made to prevail.
+  - The identity of the many.
+  - The exact referent of the final desolation language.
+  - The unit conversion of each seven.
+
+rules:
+  - Preserve Messiah the Prince and the coming prince as distinct textual labels.
+  - Do not assign the coming prince an identity from another chapter without explicit identification.
+  - Do not turn relative markers into absolute dates without a scripturally identified starting word and unit.
+  - Do not infer continuity or a gap solely from arithmetic.
+
+links:
+  passages:
+    - passage-daniel-09-24
+    - passage-daniel-09-20-27
+  terms:
+    - hebrew-7620-shavua
+  studies:
+    - scripture-use-of-seven-and-sevens

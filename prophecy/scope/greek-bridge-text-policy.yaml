@@ -1,0 +1,52 @@
+schema_version: 1
+record_type: textual-source-policy
+id: greek-bridge-text-policy
+status: active
+
+purpose: Define how Greek textual witnesses may be used to test connections between the Greek New Testament and earlier Hebrew or Aramaic Scripture.
+
+source_hierarchy:
+  - level: primary
+    corpus: Hebrew and Aramaic source text of the Old Testament
+    examples: [OSHB, WLC]
+    role: authoritative original-language anchor for Old Testament wording
+  - level: primary
+    corpus: Greek New Testament
+    examples: [MorphGNT, SBLGNT]
+    role: authoritative original-language anchor for New Testament wording
+  - level: secondary-textual-witness
+    corpus: ancient Greek translations of the Old Testament commonly grouped under Septuagint or Old Greek traditions
+    role: Greek bridge for testing whether a New Testament writer reuses a known Greek rendering
+    limitation: Must not replace the Hebrew or Aramaic source or be treated as one uniform text where witnesses differ.
+  - level: translation-only
+    corpus: Hebrew translations of the New Testament
+    role: display or modern translation comparison only
+    limitation: Not an original-language source and not admissible as evidence for lexical or quotation relationships.
+
+septuagint_rules:
+  - Record the exact edition, book, witness, and verse used when legally available.
+  - Do not refer to 'the Septuagint' as though every book has one uniform Greek textual form.
+  - Compare Revelation or other New Testament Greek first with the proposed Greek Old Testament wording, then with the Hebrew or Aramaic source.
+  - A close Greek match may support textual reuse even where the Hebrew wording differs in form.
+  - A Greek match does not by itself prove identity of events, persons, symbols, or fulfillments.
+  - Where Greek witnesses differ, preserve the variants and lower confidence until the relevant wording is established.
+  - Do not use later editorial cross-references as evidence; they are discovery aids only.
+
+new_testament_hebrew_rules:
+  - Hebrew New Testament translations are not original-language witnesses.
+  - They may not establish Hebrew etymology, quotation direction, fulfillment, chronology, or semantic identity.
+  - They may be retained only as optional translation displays with edition and provenance clearly marked.
+
+connection_workflow:
+  - anchor the New Testament passage in Greek
+  - identify the proposed earlier canonical source
+  - anchor that source in Hebrew or Aramaic
+  - compare an ancient Greek Old Testament witness when available
+  - record shared Greek lemmas, syntax, word order, and distinctive phrases
+  - record differences from both the Greek witness and Hebrew or Aramaic source
+  - classify as explicit quotation, near-verbatim reuse, composite reuse, image-pattern reuse, thematic parallel, or rejected candidate
+
+licensing:
+  commit_only_redistributable_data: true
+  licensed_or_restricted_editions: local-and-gitignored
+  derived_records_must_include: [edition, witness, provenance, review_status]

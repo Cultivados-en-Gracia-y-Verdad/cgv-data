@@ -1,6 +1,11 @@
 schema_version: 1
 record_type: prophecy-manifest
 source_of_truth: linked-files
+source_scope:
+  id: scope-protestant-canon
+  path: prophecy/scope/protestant-canon.yaml
+  canon: protestant
+  book_count: 66
 research_languages:
   - hebrew
   - aramaic
@@ -22,6 +27,10 @@ collections:
   chronology: []
   studies: []
   unresolved: []
+coverage:
+  corpus: Genesis through Revelation
+  initial_entry_point: Daniel
+  restricted_to_initial_entry_point: false
 generation:
   authoritative: false
   note: This manifest is a query entry point. Individual linked files remain authoritative.

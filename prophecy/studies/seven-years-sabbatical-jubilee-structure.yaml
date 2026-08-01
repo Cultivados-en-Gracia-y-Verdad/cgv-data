@@ -1,0 +1,62 @@
+schema_version: 1
+record_type: scripture-structure-study
+id: seven-years-sabbatical-jubilee-structure
+status: collecting
+reference_scope: Leviticus 25:1-22
+language: hebrew
+
+question: What does Scripture explicitly establish about seven-year periods, seven times seven years, and the jubilee count?
+
+source_anchor:
+  corpus: OSHB
+  file: morphology/OSHB/morphhb/wlc/Lev.xml
+  osis_ids: [Lev.25.1, Lev.25.2, Lev.25.3, Lev.25.4, Lev.25.8, Lev.25.9, Lev.25.10, Lev.25.11, Lev.25.12, Lev.25.20, Lev.25.21, Lev.25.22]
+
+explicit_structure:
+  land_cycle:
+    work_period: six years
+    seventh_period: sabbath of rest for the land
+    unit: years
+    references: [Leviticus 25:3, Leviticus 25:4]
+  multiplied_cycle:
+    expression: seven sabbaths of years, seven times seven years
+    total_stated: forty-nine years
+    reference: Leviticus 25:8
+  jubilee_proclamation:
+    timing: tenth day of the seventh month after the forty-nine-year count
+    designated_year: fiftieth year
+    references: [Leviticus 25:9, Leviticus 25:10]
+
+findings:
+  explicit:
+    - Scripture can construct a larger chronology from seven year-units.
+    - Leviticus 25 explicitly names both the component unit and the arithmetic total.
+    - The passage distinguishes the forty-nine-year count from the designated fiftieth year.
+  relevance_to_daniel_9:
+    - This is a scriptural example of seven-units whose components are years.
+    - Daniel 9 uses the noun שָׁבוּעַ rather than Leviticus 25's full phrase sabbaths of years.
+    - Leviticus 25 does not explicitly say that Daniel 9's sevens are sabbaths of years.
+
+connection_classification:
+  to_daniel_9:
+    evidence_class: E3
+    status: structural-and-numerical-analogy
+    permitted_conclusion: Scripture demonstrates that sevenfold year periods exist and can be multiplied seven times seven.
+    prohibited_conclusion: Therefore Daniel 9 necessarily means seventy groups of seven years.
+
+related_year-release_texts:
+  - Exodus 21:2
+  - Exodus 23:10-11
+  - Deuteronomy 15:1-2
+  - Deuteronomy 31:10
+  - 2 Chronicles 36:21
+
+unresolved:
+  - Whether Daniel 9 intentionally invokes Leviticus 25's sabbatical-year structure.
+  - Whether the seventy-year Jeremiah context and Leviticus 25 jointly establish a year-unit for Daniel's seventy sevens.
+  - How the fiftieth-year designation relates to repeated jubilee cycles; this is outside the immediate Daniel 9 question unless Scripture supplies a link.
+
+links:
+  terms: [hebrew-7620-shavua]
+  studies: [scripture-use-of-seven-and-sevens]
+  chronology: [daniel-09-seventy-sevens-structure]

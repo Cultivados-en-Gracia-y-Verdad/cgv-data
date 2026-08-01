@@ -1,0 +1,61 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-01-01-daniel-02-28-29-45
+status: verified-textual-reuse
+
+revelation:
+  reference: Revelation 1:1
+  language: greek
+  original: Ἀποκάλυψις Ἰησοῦ Χριστοῦ, ἣν ἔδωκεν αὐτῷ ὁ θεὸς δεῖξαι τοῖς δούλοις αὐτοῦ ἃ δεῖ γενέσθαι ἐν τάχει
+  anchors:
+    corpus: MorphGNT
+    verse_code: 270101
+    key_sequence: δεῖξαι τοῖς δούλοις αὐτοῦ ἃ δεῖ γενέσθαι
+
+sources:
+  - reference: Daniel 2:28
+    language: aramaic
+    original_anchor: וּמְהוֹדַע לְמַלְכָּא נְבוּכַדְנֶצַּר מָה דִּי לֶהֱוֵא בְּאַחֲרִית יוֹמַיָּא
+    contribution: God makes known what will occur in a future period.
+  - reference: Daniel 2:29
+    language: aramaic
+    original_anchor: מָה דִּי לֶהֱוֵא אַחֲרֵי דְנָה
+    contribution: what will occur after this
+  - reference: Daniel 2:45
+    language: aramaic
+    original_anchors:
+      - אֱלָהּ רַב הוֹדַע לְמַלְכָּא
+      - מָה דִי לֶהֱוֵא אַחֲרֵי דְנָה
+    contribution: the great God made known what will occur afterward
+
+greek_bridge:
+  status: verified-phrase-family-pending-witness-token-record
+  shared_sequence: ἃ δεῖ γενέσθαι
+  note: Ancient Greek Daniel witnesses use the phrase family 'what must happen'; the exact Old Greek and Theodotion token records remain to be stored separately.
+
+shared_features:
+  - divine disclosure
+  - disclosure to a servant or royal recipient through a mediated revelation
+  - the distinctive clause 'what must happen'
+  - a temporal qualifier following the clause
+
+differences:
+  - Daniel uses afterward or latter-days language; Revelation 1:1 uses ἐν τάχει.
+  - Revelation identifies Jesus Christ, his servants, an angel, and John within its own disclosure chain.
+  - The shared disclosure formula does not equate every disclosed event in Daniel 2 with every event in Revelation.
+
+classification:
+  relation: near-verbatim-formula-reuse
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: relative-marker-only
+  markers:
+    Daniel: after this / latter days
+    Revelation: in haste or speedily
+  limit: This connection supplies relative temporal wording but no calendar conversion.
+
+unresolved_questions:
+  - Which Greek Daniel witness most closely matches Revelation 1:1 at each word?
+  - Does Revelation 22:6 intentionally close the book with the same Daniel disclosure formula?

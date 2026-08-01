@@ -1,0 +1,31 @@
+id: passage-daniel-02-31-45
+record_type: passage
+reference:
+  book: Daniel
+  chapter: 2
+  verses: 31-45
+language: aramaic
+source_anchor:
+  corpus: OSHB
+  osis_book: Dan
+  start: Dan.2.31
+  end: Dan.2.45
+scope: Nebuchadnezzar's image dream and the explanation recorded in the chapter
+sections:
+  - id: dream-description
+    reference: Daniel 2:31-35
+  - id: recorded-explanation
+    reference: Daniel 2:36-45
+topics:
+  - topic-four-kingdoms
+  - topic-final-kingdom
+  - topic-kingdom
+connections:
+  - connection-daniel-02-daniel-07-four-kingdoms
+output:
+  bible_surface: LBF
+  include_original_language: true
+review_status: seeded
+constraints:
+  - Keep the dream description separate from its recorded explanation.
+  - Do not identify kingdoms beyond identifications explicitly stated in Scripture.

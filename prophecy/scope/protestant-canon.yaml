@@ -1,0 +1,46 @@
+schema_version: 1
+id: scope-protestant-canon
+record_type: source-scope
+label: Protestant canon
+book_count: 66
+source_authority: Scripture
+research_languages:
+  - hebrew
+  - aramaic
+  - greek
+output_bible_surface: LBF
+coverage:
+  old_testament:
+    included: true
+    book_count: 39
+  new_testament:
+    included: true
+    book_count: 27
+eligibility:
+  rule: Any passage in the Protestant canon may contribute prophetic data when the data is explicitly present in the text.
+  forms:
+    - narrative
+    - poetry
+    - prophetic-speech
+    - dream
+    - vision
+    - discourse
+    - gospel
+    - acts-narrative
+    - letter
+    - quotation
+    - explicit-cross-reference
+    - promise
+    - warning
+    - chronology
+    - fulfillment-statement
+    - kingdom-statement
+    - resurrection-statement
+    - judgment-statement
+boundaries:
+  - Daniel is an initial research entry point, not the corpus boundary.
+  - No book, Testament, author, or genre is excluded in advance.
+  - Inclusion does not establish that every passage describes the same event.
+  - Connections require an evidence classification and original-language anchors.
+  - Theology, confessional systems, and external historical identifications are not source records.
+status: locked

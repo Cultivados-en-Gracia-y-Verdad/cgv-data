@@ -1,0 +1,66 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-01-05-06-psalm-89-exodus-19-isaiah-61
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 1:5-6
+  language: greek
+  key_phrases:
+    - ὁ πρωτότοκος τῶν νεκρῶν
+    - ὁ ἄρχων τῶν βασιλέων τῆς γῆς
+    - ἐποίησεν ἡμᾶς βασιλείαν, ἱερεῖς τῷ θεῷ
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [270105, 270106]
+
+sources:
+  - reference: Psalm 89:27
+    language: hebrew
+    hebrew_anchor: אַף־אָנִי בְּכוֹר אֶתְּנֵהוּ עֶלְיוֹן לְמַלְכֵי־אָרֶץ
+    contribution:
+      - firstborn
+      - highest in relation to the kings of the earth
+  - reference: Exodus 19:6
+    language: hebrew
+    hebrew_anchor: וְאַתֶּם תִּהְיוּ־לִי מַמְלֶכֶת כֹּהֲנִים
+    contribution:
+      - kingdom
+      - priests
+  - reference: Isaiah 61:6
+    language: hebrew
+    hebrew_anchor: וְאַתֶּם כֹּהֲנֵי יְהוָה תִּקָּרֵאוּ
+    contribution:
+      - named as priests of the LORD
+
+greek_bridge:
+  status: strong-phrase-correspondence
+  shared_terms:
+    - πρωτότοκος
+    - βασιλεῖς τῆς γῆς
+    - βασίλειον or βασιλεία phrase family
+    - ἱερεῖς
+  note: Exact wording differs across the Greek witnesses and Revelation; the cluster remains distinctive.
+
+shared_features:
+  - Revelation joins royal firstborn language with a kingdom-priest identity.
+  - Psalm 89 supplies the firstborn and kings-of-the-earth royal frame.
+  - Exodus 19 supplies the kingdom-priest wording.
+  - Isaiah 61 reinforces the priest designation.
+
+differences:
+  - Revelation adds 'from the dead' to firstborn.
+  - Revelation calls Jesus the ruler of the kings of the earth rather than reproducing Psalm 89's syntax exactly.
+  - Exodus addresses Israel in its covenant setting; Revelation applies kingdom-priest language to those made so by Jesus.
+
+classification:
+  relation: composite-reuse
+  evidence_class: E4
+  confidence: high
+
+limits:
+  - The textual combination does not erase the distinct addressees and settings of Psalm 89, Exodus 19, Isaiah 61, and Revelation.
+  - Shared royal and priestly vocabulary does not establish every later kingdom passage as the same event.
+
+chronology_effect:
+  status: none

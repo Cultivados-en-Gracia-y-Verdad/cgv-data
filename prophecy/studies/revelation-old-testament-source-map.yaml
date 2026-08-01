@@ -1,0 +1,153 @@
+schema_version: 1
+record_type: canonical-source-map
+id: study-revelation-old-testament-source-map
+status: collecting
+title: Revelation use of earlier canonical terms, phrases, passages, and image structures
+
+question: Where does Revelation draw wording, terms, syntax, images, and passage structures from the Hebrew, Aramaic, and Greek Scriptures?
+
+source_scope:
+  canon: Protestant 66-book canon
+  primary_languages:
+    old_testament: [hebrew, aramaic]
+    new_testament: [greek]
+  bridge_witnesses:
+    - identified ancient Greek Old Testament witnesses
+  prohibited_evidence:
+    - commentary conclusions
+    - theological systems
+    - editorial cross-reference headings as proof
+    - historical identifications not made by Scripture
+
+comparison_columns:
+  - revelation_greek
+  - greek_old_testament_witness
+  - hebrew_or_aramaic_source
+
+relation_classes:
+  - id: explicit-attribution
+    definition: Revelation explicitly names the earlier source or writer.
+  - id: near-verbatim-reuse
+    definition: A distinctive phrase is reproduced with close lexical and syntactic agreement.
+  - id: composite-reuse
+    definition: One Revelation unit combines distinguishable wording or structures from multiple earlier passages.
+  - id: hebrew-or-aramaic-driven-reuse
+    definition: Revelation agrees more closely with the Hebrew or Aramaic source than with the selected Greek witness.
+  - id: greek-witness-driven-reuse
+    definition: Revelation shares distinctive Greek wording with an identified Greek Old Testament witness.
+  - id: image-structure-reuse
+    definition: A sequence of images or actions corresponds without enough verbal agreement for a quotation classification.
+  - id: thematic-parallel
+    definition: A possible conceptual relationship lacking distinctive verbal or structural evidence.
+  - id: rejected-candidate
+    definition: The proposed relationship is too general or contradicted by textual comparison.
+
+rules:
+  - Revelation contains no automatic connection merely because an earlier passage has a similar image.
+  - Shared Greek wording can establish textual reuse but not identity of events or exhaustive fulfillment.
+  - Agreement with Hebrew or Aramaic must be recorded independently from agreement with an ancient Greek witness.
+  - A composite passage must retain each source contribution separately.
+  - Differences are evidence and must be stored, not harmonized away.
+  - Revelation's internal interpretations control the scope of its symbols.
+  - Chronology is added only where Revelation or the connected passage explicitly supplies order.
+
+first_verified_batch:
+  - connection-revelation-01-07-daniel-07-13-zechariah-12-10
+  - connection-revelation-02-27-psalm-02-09
+  - connection-revelation-03-07-isaiah-22-22
+
+chapter_research_queue:
+  Revelation 1:
+    - Daniel 7:13
+    - Daniel 10:5-6
+    - Zechariah 12:10-14
+    - Isaiah 41:4
+    - Isaiah 44:6
+    - Isaiah 48:12
+    - Ezekiel 1:24
+  Revelation 2-3:
+    - Genesis 2-3
+    - Numbers 22-25
+    - 1 Kings 16-21
+    - Psalm 2:9
+    - Isaiah 22:22
+    - Isaiah 62:2
+    - Isaiah 65:15
+  Revelation 4-5:
+    - Exodus 19
+    - Exodus 25
+    - Isaiah 6
+    - Ezekiel 1
+    - Ezekiel 10
+    - Daniel 7
+    - Genesis 49
+    - Isaiah 11
+  Revelation 6:
+    - Zechariah 1
+    - Zechariah 6
+    - Ezekiel 14
+    - Isaiah 34
+    - Hosea 10
+    - Joel 2
+  Revelation 7-9:
+    - Ezekiel 9
+    - Isaiah 49
+    - Exodus 7-10
+    - Joel 1-2
+    - Jeremiah 9
+  Revelation 10-11:
+    - Ezekiel 2-3
+    - Daniel 8
+    - Daniel 12
+    - Zechariah 2
+    - Zechariah 4
+    - 1 Kings 17
+  Revelation 12-13:
+    - Genesis 3
+    - Genesis 37
+    - Daniel 7
+    - Daniel 8
+    - Daniel 10-12
+    - Psalm 2
+  Revelation 14-16:
+    - Isaiah 21
+    - Jeremiah 51
+    - Joel 3
+    - Isaiah 63
+    - Exodus 7-10
+    - Psalm 75
+  Revelation 17-18:
+    - Isaiah 13-14
+    - Isaiah 21
+    - Isaiah 23
+    - Isaiah 47
+    - Jeremiah 25
+    - Jeremiah 50-51
+    - Ezekiel 26-28
+    - Nahum 3
+  Revelation 19-20:
+    - Psalm 2
+    - Isaiah 11
+    - Isaiah 63
+    - Ezekiel 38-39
+    - Daniel 7
+    - Daniel 12
+  Revelation 21-22:
+    - Genesis 2-3
+    - Isaiah 25
+    - Isaiah 35
+    - Isaiah 54
+    - Isaiah 60-66
+    - Ezekiel 40-48
+    - Joel 3
+    - Zechariah 14
+
+output_requirements:
+  - one atomic connection record per Revelation unit and source passage group
+  - exact original-language wording
+  - token or verse anchors
+  - shared terms and syntax
+  - differences
+  - connection class
+  - chronology effect
+  - unresolved questions

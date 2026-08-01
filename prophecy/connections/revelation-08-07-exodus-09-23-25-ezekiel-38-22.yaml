@@ -1,0 +1,72 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-08-07-exodus-09-23-25-ezekiel-38-22
+status: verified-composite-plague-reuse
+
+revelation:
+  reference: Revelation 8:7
+  language: greek
+  original: καὶ ἐγένετο χάλαζα καὶ πῦρ μεμιγμένα ἐν αἵματι, καὶ ἐβλήθη εἰς τὴν γῆν· καὶ τὸ τρίτον τῆς γῆς κατεκάη, καὶ τὸ τρίτον τῶν δένδρων κατεκάη, καὶ πᾶς χόρτος χλωρὸς κατεκάη
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270807
+
+sources:
+  - reference: Exodus 9:23-25
+    language: hebrew
+    hebrew_anchors:
+      - וַיהוָה נָתַן קֹלֹת וּבָרָד וַתִּהֲלַךְ אֵשׁ אָרְצָה
+      - וַיְהִי בָרָד וְאֵשׁ מִתְלַקַּחַת בְּתוֹךְ הַבָּרָד
+      - וַיַּךְ הַבָּרָד בְּכָל־אֶרֶץ מִצְרַיִם אֵת כָּל־אֲשֶׁר בַּשָּׂדֶה ... וְאֵת כָּל־עֵץ הַשָּׂדֶה שִׁבֵּר
+    contribution:
+      - hail and fire acting together
+      - fire moving earthward
+      - destruction of field vegetation and trees
+  - reference: Ezekiel 38:22
+    language: hebrew
+    hebrew_anchor: וְנִשְׁפַּטְתִּי אִתּוֹ בְּדֶבֶר וּבְדָם וְגֶשֶׁם שׁוֹטֵף וְאַבְנֵי אֶלְגָּבִישׁ אֵשׁ וְגָפְרִית אַמְטִיר עָלָיו
+    contribution:
+      - blood
+      - hailstones
+      - fire
+      - judgment rained from above
+
+greek_bridge:
+  exodus_phrase_family:
+    shared_terms:
+      - χάλαζα
+      - πῦρ
+      - γῆ
+    status: strong; exact-edition-token-record-pending
+  ezekiel_phrase_family:
+    shared_elements:
+      - blood
+      - hailstones
+      - fire
+    status: strong-composite-vocabulary; exact-Greek-witness-alignment-pending
+
+shared_features:
+  - hail and fire combined in a divinely initiated plague
+  - the destructive action reaches the earth
+  - vegetation or trees are damaged
+  - Ezekiel supplies the unusual blood-hail-fire judgment cluster
+
+differences:
+  - Exodus does not mention blood in the hail plague.
+  - Ezekiel 38:22 lists blood, hailstones, fire, sulfur, rain, and pestilence; Revelation selects hail, fire, and blood.
+  - Revelation says the elements are mixed in blood and restricts the burning to thirds, while Exodus and Ezekiel do not.
+  - Revelation burns every green grass within its stated scope; Exodus describes agricultural destruction in Egypt.
+
+classification:
+  relation: composite-plague-reuse
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: first-trumpet-sequence
+  statement: The plague follows the first trumpet and affects a stated third of earth and trees.
+
+limits:
+  - The lexical and plague-pattern connection does not prove that the Egyptian plague, Ezekiel 38 judgment, and first trumpet are one event.
+  - The one-third proportions belong to Revelation and must not be imported into Exodus or Ezekiel.
+  - Blood must not be retrojected into Exodus 9, where it is absent.

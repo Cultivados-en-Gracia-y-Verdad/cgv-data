@@ -1,0 +1,38 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-02-27-psalm-02-09
+status: verified-textual-reuse
+
+revelation:
+  reference: Revelation 2:27
+  language: greek
+  original: καὶ ποιμανεῖ αὐτοὺς ἐν ῥάβδῳ σιδηρᾷ, ὡς τὰ σκεύη τὰ κεραμικὰ συντρίβεται
+  source_anchor:
+    corpus: MorphGNT
+    file: 87-Re-morphgnt.txt
+    verse_code: 270227
+
+source:
+  reference: Psalm 2:9
+  language: hebrew
+  hebrew_anchor: תְּרֹעֵם בְּשֵׁבֶט בַּרְזֶל כִּכְלִי יוֹצֵר תְּנַפְּצֵם
+  greek_witness_role: test the ancient Greek wording for shepherding or ruling with an iron rod and breaking pottery vessels
+
+shared_greek_features:
+  - ἐν ῥάβδῳ σιδηρᾷ
+  - vessel or pottery imagery
+  - breaking or shattering action
+
+classification:
+  relation: greek-witness-driven-near-verbatim-reuse
+  evidence_class: E5
+  confidence: high
+
+limits:
+  - The Hebrew verb and the Greek shepherding verb must both be preserved rather than flattened into one gloss.
+  - The quotation-like reuse establishes Psalm 2 as a textual source for Revelation 2:27.
+  - It does not by itself settle every participant or chronological question in Psalm 2 and Revelation 2.
+
+chronology_effect:
+  status: none-direct
+  statement: The connection concerns authority and action, not an independently stated date or duration.

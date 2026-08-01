@@ -1,0 +1,100 @@
+schema_version: 1
+record_type: methodological-assumption-register
+id: unresolved-connection-and-fulfillment-method
+status: collecting
+purpose: Separate definite textual connections from broader claims about fulfillment, application, chronology, literalness, and repeated horizons.
+questions:
+  - id: question-acts-02-joel-02-scope
+    submitted_claim: Acts 2 establishes the full meaning and complete fulfillment scope of Joel 2:28-32.
+    category: quotation-application-fulfillment
+    status: collecting
+    explicit_data:
+      - Acts 2 explicitly introduces material from Joel with wording equivalent to “this is what was spoken through the prophet Joel.”
+      - Acts 2 quotes Joel 2:28-32.
+    established_connection:
+      evidence_class: E1
+      statement: Acts 2 explicitly connects the Pentecost event and speech with the words spoken through Joel.
+    unresolved_scope:
+      - Whether every detail quoted from Joel is stated to be completed at that moment.
+      - Whether the quotation establishes fulfillment, explanation, application, inauguration, correspondence, or more than one of these.
+      - Whether later canonical passages reuse any quoted elements.
+    resolution: null
+
+  - id: question-romans-10-ot-promises-scope
+    submitted_claim: Romans 10 transfers or exhausts the full scope of the Old Testament promises it quotes.
+    category: quotation-application-promise-scope
+    status: collecting
+    candidate_passages:
+      - Romans 10:5-21
+      - Leviticus 18:5
+      - Deuteronomy 30:11-14
+      - Isaiah 28:16
+      - Joel 2:32
+      - Isaiah 52:7
+      - Isaiah 53:1
+      - Deuteronomy 32:21
+      - Isaiah 65:1-2
+    explicit_data:
+      - Romans 10 explicitly quotes or invokes multiple Old Testament passages.
+    unresolved_scope:
+      - What proposition Paul establishes with each quotation.
+      - Whether each source passage is treated as promise, principle, fulfillment, witness, contrast, or application.
+      - Whether Romans 10 claims the complete original context is exhausted.
+    resolution: null
+
+  - id: question-near-far-principle
+    submitted_claim: Prophecy normally or consistently has a near fulfillment and a far fulfillment.
+    category: interpretive-method
+    status: unexamined
+    candidate_passages:
+      - Joel 2:28-32
+      - Acts 2:14-21
+      - Isaiah 7:10-16
+      - Matthew 1:22-23
+      - Daniel 11:1-45
+      - Matthew 24:15-31
+    explicit_data:
+      - Scripture sometimes records a later writer quoting or applying an earlier prophetic passage.
+      - Scripture sometimes distinguishes events within one prophetic discourse by sequence markers.
+    missing_links:
+      - A canonical statement teaching “near-far” as a universal interpretive rule.
+      - Passage-by-passage evidence that one prophecy has two distinct fulfillments rather than one extended sequence, repeated pattern, application, or quotation.
+    resolution: null
+
+  - id: question-prophecy-always-literal
+    submitted_claim: Prophecy is always fulfilled literally.
+    category: interpretive-method
+    status: wording-clarification-needed
+    explicit_data:
+      - Scripture contains concrete events, symbolic visions, interpreted symbols, figures of speech, and imagery.
+      - Some symbols are explicitly interpreted within their passages.
+    unresolved_scope:
+      - What “literal” means when a text itself identifies an image as symbolic.
+      - Whether literal fulfillment means correspondence to the textual referent rather than literal realization of the image form.
+      - Whether the claim can be tested as a universal proposition.
+    resolution: null
+
+  - id: question-imagery-literal-or-symbolic
+    submitted_claim: Prophetic images should be treated as literal objects unless Scripture explicitly says otherwise.
+    category: imagery-method
+    status: unexamined
+    candidate_images:
+      - waters
+      - sea
+      - birds
+      - dragon
+      - beasts
+      - flooding
+    explicit_data:
+      - Daniel 7 explicitly identifies four beasts as four kings or kingdoms.
+      - Revelation 12 explicitly identifies the great dragon with the ancient serpent, the Devil, and Satan.
+      - Revelation 17 explicitly interprets waters as peoples, multitudes, nations, and tongues in that vision.
+    missing_links:
+      - Evidence that one interpretation of an image applies universally to every occurrence of that image.
+      - Passage-level review of each image in its own context.
+    rule_for_research: No image receives a universal symbolic definition. Each occurrence is recorded separately; explicit interpretations are scoped to the passage that gives them unless Scripture extends the identification.
+    resolution: null
+review_rules:
+  - Explicit quotation establishes a textual connection but not automatically total fulfillment or exhaustion of the source context.
+  - Every quotation must record the proposition for which the citing writer uses it.
+  - Interpretive principles remain hypotheses until confirmed passage by passage or explicitly stated canonically.

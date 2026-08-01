@@ -1,0 +1,82 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-06-01-08-zechariah-01-06-ezekiel-14-21
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 6:1-8
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [270601, 270602, 270603, 270604, 270605, 270606, 270607, 270608]
+  original_anchors:
+    - ἵππος λευκός
+    - ἵππος πυρρός
+    - ἵππος μέλας
+    - ἵππος χλωρός
+    - ἐν ῥομφαίᾳ καὶ ἐν λιμῷ καὶ ἐν θανάτῳ καὶ ὑπὸ τῶν θηρίων τῆς γῆς
+
+sources:
+  - reference: Zechariah 1:8-11
+    language: hebrew
+    contribution:
+      - colored horses sent through or reporting on the earth
+      - red, sorrel, and white horse imagery
+    hebrew_anchors:
+      - סוס אדום
+      - סוסים אדמים שרקים ולבנים
+  - reference: Zechariah 6:1-8
+    language: hebrew
+    contribution:
+      - four chariot groups with colored horses
+      - red, black, white, and dappled or strong horses
+      - heavenly agents going out toward different regions of the earth
+    hebrew_anchors:
+      - במרכבה הראשונה סוסים אדמים
+      - ובמרכבה השנית סוסים שחרים
+      - ובמרכבה השלשית סוסים לבנים
+  - reference: Ezekiel 14:21
+    language: hebrew
+    contribution: the four severe judgments of sword, famine, harmful beasts, and pestilence
+    hebrew_anchor: ארבעת שפטי הרעים חרב ורעב וחיה רעה ודבר
+
+greek_bridge:
+  zechariah_horses:
+    status: image-structure-reuse
+    note: Revelation preserves a fourfold colored-horse sequence but not Zechariah's chariots, destinations, or interpretation.
+  ezekiel_judgments:
+    status: near-verbatim-list-reuse
+    shared_terms:
+      - ῥομφαία
+      - λιμός
+      - θάνατος_or_θανατικός_for_pestilence
+      - θηρία
+
+shared_features:
+  - fourfold sequence of colored horses
+  - agents released into the earth
+  - divinely permitted action
+  - sword, famine, death or pestilence, and beasts
+
+differences:
+  - Revelation assigns individual riders, weapons, names, and effects that Zechariah does not provide.
+  - Zechariah presents chariots in chapter 6; Revelation presents mounted riders.
+  - Revelation's first horse is white and carries a bow; no Old Testament source here identifies that rider.
+  - Revelation calls the fourth rider Death with Hades following; Ezekiel supplies the judgment list, not those personifications.
+  - The pale or green color χλωρός is not identical to Zechariah's dappled-horse wording.
+
+classification:
+  relation: composite-transformed-image-and-judgment-list-reuse
+  evidence_class: E5
+  confidence:
+    four_horse_structure: high
+    individual_rider_identity: unresolved
+    four_judgments_list: high
+
+chronology_effect:
+  status: seal-sequence
+  statement: Revelation orders the riders under the first four seals; Zechariah and Ezekiel do not establish the same seal chronology.
+
+limits:
+  - The connection does not identify Revelation's riders with Zechariah's interpreting categories beyond the shared horse-vision structure.
+  - Horse color alone cannot establish identity across passages.

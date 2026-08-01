@@ -1,0 +1,47 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-05-11-daniel-07-10
+status: verified-textual-reuse
+
+revelation:
+  reference: Revelation 5:11
+  language: greek
+  original: καὶ εἶδον, καὶ ἤκουσα φωνὴν ἀγγέλων πολλῶν κύκλῳ τοῦ θρόνου καὶ τῶν ζῴων καὶ τῶν πρεσβυτέρων, καὶ ἦν ὁ ἀριθμὸς αὐτῶν μυριάδες μυριάδων καὶ χιλιάδες χιλιάδων
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270511
+
+source:
+  reference: Daniel 7:10
+  language: aramaic
+  aramaic_anchor: אֶלֶף אַלְפִין יְשַׁמְּשׁוּנֵּהּ וְרִבּוֹ רִבְוָן קָדָמוֹהִי יְקוּמוּן
+  contribution:
+    - an innumerable heavenly court before the enthroned one
+    - thousands and myriads expressed by repeated number terms
+
+greek_bridge:
+  shared_phrase_family:
+    - χίλιαι χιλιάδες
+    - μύριαι μυριάδες
+  status: strong
+  note: Revelation reverses the order and uses pluralized forms but preserves the distinctive doubled-number court formula.
+
+shared_features:
+  - heavenly throne setting
+  - vast attendant multitude
+  - thousands of thousands and myriads of myriads
+  - court or worship service around the throne
+
+differences:
+  - Daniel distinguishes those serving and those standing before the court; Revelation identifies many angels around the throne, living creatures, and elders.
+  - Revelation directs the acclamation to the slain Lamb.
+  - The repeated number formula indicates immensity and does not require a literal arithmetic total.
+
+classification:
+  relation: near-verbatim-formula-reuse
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: heavenly-scene-sequence
+  statement: Revelation places this court acclamation after the new song and before universal creation praise.

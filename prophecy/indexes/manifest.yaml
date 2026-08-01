@@ -28,13 +28,23 @@ collections:
     - statement-daniel-02-44-god-establishes-kingdom
   terms:
     - term-aramaic-malku-4437
+    - hebrew-0894-babel
+    - greek-babylon
   events: []
   chronology:
     - chronology-daniel-02-kingdom-sequence
   studies:
     - study-whole-canon-chronological-spine
+    - babel-babylon-canonical-thread
+    - revelation-earlier-scripture-reuse
   unresolved:
     - unresolved-core-prophetic-assumptions
+    - babel-babylon-continuity
+  data:
+    - revelation-old-testament-reuse-candidates
+  scope_policies:
+    - scope-protestant-canon
+    - paleo-hebrew-script-layer
 coverage:
   corpus: Genesis through Revelation
   initial_entry_point: Daniel

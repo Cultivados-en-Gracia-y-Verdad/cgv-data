@@ -1,0 +1,65 @@
+id: chronology-daniel-02-kingdom-sequence
+record_type: chronology
+reference: Daniel 2:37-45
+language: aramaic
+basis_type: derived-within-passage
+placement_status: explicit
+source_passage: passage-daniel-02-31-45
+sequence:
+  - order: 1
+    node_id: statement-daniel-02-38-head-of-gold
+    label: Nebuchadnezzar is identified as the head of gold
+    reference: Daniel 2:38
+    relation_to_previous: null
+    status: explicit
+  - order: 2
+    node_id: statement-daniel-02-39-kingdom-after
+    label: Another kingdom arises after Nebuchadnezzar
+    reference: Daniel 2:39
+    relation_to_previous: after
+    original_language_anchor:
+      lemma: "870"
+      surface: בָתְרָ֜/ךְ
+    status: explicit
+  - order: 3
+    node_id: chronology-daniel-02-third-kingdom-placeholder
+    label: A third kingdom rules over all the earth
+    reference: Daniel 2:39
+    relation_to_previous: then
+    status: explicit
+    file_status: pending-statement-file
+  - order: 4
+    node_id: statement-daniel-02-40-fourth-kingdom
+    label: The fourth kingdom is described
+    reference: Daniel 2:40
+    relation_to_previous: fourth-in-sequence
+    status: explicit
+  - order: 5
+    node_id: chronology-daniel-02-divided-kingdom-placeholder
+    label: The kingdom is divided and retains mixed strength
+    reference: Daniel 2:41-43
+    relation_to_previous: develops-from-fourth-description
+    status: explicit
+    file_status: pending-statement-file
+  - order: 6
+    node_id: statement-daniel-02-44-god-establishes-kingdom
+    label: In the days of those kings, the God of heaven establishes a kingdom
+    reference: Daniel 2:44
+    relation_to_previous: in-the-days-of-those-kings
+    status: explicit
+  - order: 7
+    node_id: chronology-daniel-02-kingdom-action-placeholder
+    label: That kingdom breaks and ends the preceding kingdoms and remains forever
+    reference: Daniel 2:44
+    relation_to_previous: stated-action-of-established-kingdom
+    status: explicit
+    file_status: pending-statement-file
+constraints:
+  - This sequence records Daniel 2 only.
+  - It does not identify the second, third, or fourth kingdoms beyond the passage's own wording.
+  - It does not equate Daniel 2 items with Daniel 7, Daniel 8, Revelation, or any other passage.
+  - The phrase "those kings" remains anchored to Daniel 2:44 and is not expanded beyond the text here.
+output:
+  bible_surface: LBF
+  expose_status: true
+review_status: collecting

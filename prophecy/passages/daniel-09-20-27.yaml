@@ -1,0 +1,40 @@
+id: passage-daniel-09-20-27
+record_type: passage
+reference:
+  book: Daniel
+  chapter: 9
+  verses: 20-27
+language: hebrew
+source_anchor:
+  corpus: OSHB
+  osis_book: Dan
+  start: Dan.9.20
+  end: Dan.9.27
+scope: Gabriel's arrival and message concerning seventy units of seven
+sections:
+  - id: gabriel-arrives
+    reference: Daniel 9:20-23
+  - id: seventy-units-purpose
+    reference: Daniel 9:24
+  - id: command-and-numbered-periods
+    reference: Daniel 9:25
+  - id: messiah-city-sanctuary
+    reference: Daniel 9:26
+  - id: final-unit-midpoint-desolation
+    reference: Daniel 9:27
+topics:
+  - topic-seventy-units-of-seven
+  - topic-messiah
+  - topic-coming-prince
+  - topic-city-and-sanctuary
+  - topic-desolation
+connections:
+  - connection-daniel-09-02-jeremiah-seventy-years
+output:
+  bible_surface: LBF
+  include_original_language: true
+review_status: seeded
+constraints:
+  - Preserve titles and pronouns exactly as separate textual data.
+  - Do not identify the referent of an unresolved pronoun without explicit textual evidence.
+  - Do not convert the stated units into another unit in the observation layer.

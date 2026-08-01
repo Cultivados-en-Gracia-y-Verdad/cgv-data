@@ -1,0 +1,42 @@
+schema_version: 1
+record_type: term
+id: hebrew-0894-babel
+status: collecting
+language: hebrew
+lemma:
+  strong: '0894'
+  consonantal: בבל
+  pointed_common_form: בָּבֶל
+paleo_hebrew_display: 𐤁𐤁𐤋
+
+source_anchor:
+  corpus: OSHB
+  textual_base: WLC
+  occurrence_collection_status: incomplete
+
+initial_occurrences:
+  - reference: Genesis 10:10
+    context: Babel is named among the beginning of Nimrod's kingdom in the land of Shinar.
+  - reference: Genesis 11:9
+    context: The city is named Babel in the account of language confusion and scattering.
+  - reference: 2 Kings 24-25
+    context: Babylon appears in the kingdom, siege, deportation, and destruction narrative.
+  - reference: Isaiah 13-14
+    context: Prophetic speech is directed concerning Babylon.
+  - reference: Jeremiah 50-51
+    context: Extended prophetic speech is directed against Babylon.
+  - reference: Daniel 1:1-2
+    context: The vessels and captives are carried into the land of Shinar and the house of the king's god.
+
+research_boundaries:
+  - The shared consonantal name establishes a lexical thread within the Hebrew corpus.
+  - A shared name does not by itself establish that every occurrence has the same geographical, political, symbolic, or chronological referent.
+  - Genesis 11's explanation of the name must be analyzed from its Hebrew wording and syntax, not from Paleo-Hebrew letter shapes.
+  - The Paleo-Hebrew form is a generated script display only.
+  - Historical identifications outside Scripture are excluded.
+
+links:
+  studies:
+    - babel-babylon-canonical-thread
+  unresolved:
+    - babel-babylon-continuity

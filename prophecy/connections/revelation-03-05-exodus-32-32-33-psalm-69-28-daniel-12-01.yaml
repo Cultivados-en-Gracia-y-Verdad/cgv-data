@@ -1,0 +1,61 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-03-05-exodus-32-32-33-psalm-69-28-daniel-12-01
+status: verified-textual-reuse
+
+revelation:
+  reference: Revelation 3:5
+  language: greek
+  original: οὐ μὴ ἐξαλείψω τὸ ὄνομα αὐτοῦ ἐκ τῆς βίβλου τῆς ζωῆς
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270305
+
+sources:
+  - reference: Exodus 32:32-33
+    language: hebrew
+    hebrew_anchors:
+      - מחני נא מספרך אשר כתבת
+      - מי אשר חטא לי אמחנו מספרי
+    contribution: blotting a person's name from God's written book
+  - reference: Psalm 69:28
+    language: hebrew
+    hebrew_anchor: ימחו מספר חיים ועם צדיקים אל יכתבו
+    contribution: blotting from the book of life and not being written with the righteous
+  - reference: Daniel 12:1
+    language: hebrew
+    hebrew_anchor: כל הנמצא כתוב בספר
+    contribution: deliverance of everyone found written in the book
+
+shared_features:
+  - a divine book
+  - personal names or persons recorded in it
+  - blotting or remaining written
+  - life or deliverance associated with inscription
+
+greek_bridge:
+  status: strong-phrase-family
+  shared_terms:
+    - ἐξαλείφω
+    - βιβλίον or βίβλος
+    - ζωή
+  note: Exact witness-by-witness Greek alignment remains to be stored, but the phrase family is distinctive and repeated canonically.
+
+differences:
+  - Exodus speaks of God's book without the phrase 'book of life.'
+  - Psalm 69 explicitly has 'book of life.'
+  - Daniel 12 speaks of those written in the book and delivered.
+  - Revelation frames the statement as a promise not to blot out the conqueror's name.
+
+classification:
+  relation: composite-book-inscription-reuse
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: judgment-and-deliverance-frame
+  statement: The connection places inscription in relation to divine judgment and deliverance but gives no calendar date.
+
+unresolved_questions:
+  - Are all canonical references to God's book referring to one explicitly identical book?
+  - How should Revelation 13:8, 17:8, 20:12, and 21:27 be related without assuming uniform wording or referent beyond the text?

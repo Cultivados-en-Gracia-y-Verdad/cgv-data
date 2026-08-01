@@ -1,0 +1,70 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-08-12-isaiah-13-10-ezekiel-32-07-08
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 8:12
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270812
+  original_anchors:
+    - ἐπλήγη τὸ τρίτον τοῦ ἡλίου
+    - τὸ τρίτον τῆς σελήνης
+    - τὸ τρίτον τῶν ἀστέρων
+    - σκοτισθῇ τὸ τρίτον αὐτῶν
+    - ἡ ἡμέρα μὴ φάνῃ τὸ τρίτον αὐτῆς, καὶ ἡ νὺξ ὁμοίως
+
+sources:
+  - reference: Isaiah 13:10
+    language: hebrew
+    hebrew_original: כִּי־כוֹכְבֵי הַשָּׁמַיִם וּכְסִילֵיהֶם לֹא יָהֵלּוּ אוֹרָם חָשַׁךְ הַשֶּׁמֶשׁ בְּצֵאתוֹ וְיָרֵחַ לֹא־יַגִּיהַ אוֹרוֹ
+    contribution:
+      - stars failing to give light
+      - the sun darkened
+      - the moon withholding light
+  - reference: Ezekiel 32:7-8
+    language: hebrew
+    hebrew_anchors:
+      - וְכִסֵּיתִי בְכַבּוֹתְךָ שָׁמַיִם וְהִקְדַּרְתִּי אֶת־כּוֹכְבֵיהֶם
+      - שֶׁמֶשׁ בֶּעָנָן אֲכַסֶּנּוּ וְיָרֵחַ לֹא־יָאִיר אוֹרוֹ
+      - כָּל־מְאוֹרֵי אוֹר בַּשָּׁמַיִם אַקְדִּירֵם עָלֶיךָ
+    contribution:
+      - darkening the stars
+      - covering the sun
+      - the moon not giving light
+      - comprehensive darkening of heavenly lights
+  - reference: Exodus 10:21-23
+    language: hebrew
+    contribution:
+      - darkness affecting ordinary human day activity
+      - a judgment in which light fails for a defined period
+    evidence_limit: Exodus does not name sun, moon, and stars together.
+
+shared_features:
+  - sun, moon, and stars treated as one ordered luminary cluster
+  - loss or darkening of their light
+  - resulting reduction of visible day and night light
+  - divine judgment setting
+
+differences:
+  - Isaiah 13 concerns the day of the LORD against Babylon.
+  - Ezekiel 32 addresses Pharaoh and Egypt in a lament.
+  - Revelation limits the effect repeatedly to one third of each luminary and one third of day and night.
+  - Revelation says the luminaries are struck; the Hebrew passages describe darkening, covering, or withholding light.
+  - The source passages do not contain trumpet sequence language.
+
+classification:
+  relation: composite-luminary-darkening-reuse
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: trumpet-sequence-only
+  statement: Revelation places this partial luminary darkening under the fourth trumpet; no shared calendar date is established.
+
+limits:
+  - Similar luminary-darkening language does not by itself prove that Isaiah 13, Ezekiel 32, and Revelation 8 describe one identical event.
+  - The one-third proportions belong to Revelation and must not be retrojected into the source passages.
+  - This record is distinct from Revelation 6:12-14, where the sun, moon, stars, and sky undergo a different described sequence.

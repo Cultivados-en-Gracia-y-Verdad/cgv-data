@@ -1,0 +1,37 @@
+id: passage-daniel-07-01-28
+record_type: passage
+reference:
+  book: Daniel
+  chapter: 7
+  verses: 1-28
+language: aramaic
+source_anchor:
+  corpus: OSHB
+  osis_book: Dan
+  start: Dan.7.1
+  end: Dan.7.28
+scope: Daniel's four-beast vision, heavenly court scene, questions, and recorded explanations
+sections:
+  - id: vision-four-beasts
+    reference: Daniel 7:1-8
+  - id: heavenly-court
+    reference: Daniel 7:9-14
+  - id: initial-explanation
+    reference: Daniel 7:15-18
+  - id: fourth-beast-explanation
+    reference: Daniel 7:19-27
+  - id: daniel-response
+    reference: Daniel 7:28
+topics:
+  - topic-four-kingdoms
+  - topic-final-kingdom
+  - topic-kingdom
+connections:
+  - connection-daniel-02-daniel-07-four-kingdoms
+output:
+  bible_surface: LBF
+  include_original_language: true
+review_status: seeded
+constraints:
+  - Keep what Daniel saw separate from what the interpreting speaker explained.
+  - Retain unexplained details without assigning identities.

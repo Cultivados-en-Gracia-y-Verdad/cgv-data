@@ -1,0 +1,90 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-09-03-10-exodus-10-joel-01-02
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 9:3-10
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [270903, 270904, 270905, 270906, 270907, 270908, 270909, 270910]
+  original_anchors:
+    - ἀκρίδες
+    - τὰ ὁμοιώματα τῶν ἀκρίδων ὅμοια ἵπποις ἡτοιμασμένοις εἰς πόλεμον
+    - οἱ ὀδόντες αὐτῶν ὡς λεόντων ἦσαν
+    - ἡ φωνὴ τῶν πτερύγων αὐτῶν ὡς φωνὴ ἁρμάτων ἵππων πολλῶν τρεχόντων εἰς πόλεμον
+    - οὐρὰς ὁμοίας σκορπίοις
+    - μῆνας πέντε
+
+sources:
+  - reference: Exodus 10:4,12-15
+    language: hebrew
+    hebrew_anchors:
+      - הִנְנִי מֵבִיא מָחָר אַרְבֶּה בִּגְבֻלֶךָ
+      - נְטֵה יָדְךָ עַל־אֶרֶץ מִצְרַיִם בָּאַרְבֶּה וְיַעַל עַל־אֶרֶץ מִצְרָיִם
+      - וַיֹּאכַל אֶת־כָּל־עֵשֶׂב הָאָרֶץ
+    contribution:
+      - a divinely released locust plague moving over the land
+      - locusts ordinarily consuming vegetation
+  - reference: Joel 1:6
+    language: hebrew
+    hebrew_anchor: שִׁנָּיו שִׁנֵּי אַרְיֵה וּמְתַלְּעוֹת לָבִיא לוֹ
+    contribution: lion-like teeth in the locust or invading-nation description
+  - reference: Joel 2:4-5
+    language: hebrew
+    hebrew_anchors:
+      - כְּמַרְאֵה סוּסִים מַרְאֵהוּ וּכְפָרָשִׁים כֵּן יְרוּצוּן
+      - כְּקוֹל מַרְכָּבוֹת עַל־רָאשֵׁי הֶהָרִים יְרַקֵּדוּן
+      - כְּעַם עָצוּם עֱרוּךְ מִלְחָמָה
+    contribution:
+      - horse-like appearance
+      - rapid movement
+      - chariot-like sound
+      - an army arranged for war
+  - reference: Joel 2:10
+    language: hebrew
+    hebrew_anchor: שֶׁמֶשׁ וְיָרֵחַ קָדָרוּ וְכוֹכָבִים אָסְפוּ נָגְהָם
+    contribution: luminary darkening accompanying the army scene
+    confidence: moderate
+
+greek_bridge:
+  status: strong-phrase-and-image-continuity; exact-edition-token-record-pending
+  key_families:
+    - ἀκρίς
+    - ἵππος
+    - ἅρμα
+    - πόλεμος
+    - λέων + ὀδόντες
+
+shared_features:
+  - locust designation
+  - landward release under divine control
+  - horse-like battle appearance
+  - chariot-like sound
+  - preparation for war
+  - lion-like teeth
+  - atmospheric or luminary darkening in the surrounding scene
+
+differences:
+  - Exodus and Joel describe vegetation-consuming locusts or an army through locust imagery; Revelation forbids harm to grass, green growth, and trees.
+  - Revelation targets unsealed humans and gives the creatures scorpion-like torment.
+  - Revelation adds abyss origin, hybrid human and animal features, iron-like breastplates, crowns, and a five-month limit.
+  - Joel does not identify its army as Revelation's abyss locusts.
+
+classification:
+  relation: transformed-locust-army-reuse
+  evidence_class: E5
+  confidence:
+    joel_horse_chariot_war_pattern: high
+    joel_lion_teeth_pattern: high
+    exodus_locust_plague_frame: high
+    identical_agents_or_event: not-established
+
+chronology_effect:
+  status: explicit-revelation-duration-only
+  statement: Revelation assigns five months of permitted torment; neither Exodus nor Joel supplies that duration for this scene.
+
+limits:
+  - Shared original-language patterns establish literary reuse, not identity of the historical Exodus plague, Joel's army, and Revelation's fifth-trumpet agents.
+  - The star, abyss, scorpion tails, and five-month duration require Revelation's own interpretation and must not be imported into Joel or Exodus.

@@ -1,0 +1,88 @@
+schema_version: 1
+record_type: research-manifest
+id: daniel-chronology-research-manifest
+status: active
+priority: critical
+
+purpose: Build a Scripture-only, file-backed chronology of Daniel with special priority on Daniel 9 and every scriptural use relevant to seventy sevens.
+
+canonical_records:
+  passages:
+    - passage-daniel-09-20-27
+    - passage-daniel-09-24
+  chronology:
+    - daniel-09-seventy-sevens-structure
+    - daniel-09-jeremiah-seventy-years
+    - duration-time-times-half-42-months-1260-days
+    - calendar-30-day-month-360-day-year
+  terms:
+    - hebrew-7620-shavua
+  studies:
+    - scripture-use-of-seven-and-sevens
+    - seven-years-sabbatical-jubilee-structure
+  connections:
+    - daniel-09-02--jeremiah-seventy-years
+
+required_next_records:
+  daniel_9_passages:
+    - Daniel 9:1-2
+    - Daniel 9:3-19
+    - Daniel 9:20-23
+    - Daniel 9:25
+    - Daniel 9:26
+    - Daniel 9:27
+  term_indexes:
+    - every occurrence of Hebrew lemma 7620
+    - every chronological use of Hebrew seven and seventh lemmas
+    - every chronological use of Aramaic seven-language in Daniel
+    - every chronological use of Greek seven, seventh, week, and sevenfold terms
+  chronology_connections:
+    - Jeremiah 25 and 29
+    - 2 Chronicles 36
+    - Leviticus 25 and 26
+    - Deuteronomy 15, 16, and 31
+    - Ezra and Nehemiah restoration/building words
+    - Daniel 7, 8, 10, 11, and 12 duration markers
+    - Revelation 11, 12, and 13 duration markers
+  event_records:
+    - word to restore and build Jerusalem
+    - Messiah the Prince
+    - Messiah cut off
+    - city and sanctuary destroyed
+    - coming prince
+    - covenant with many
+    - midpoint cessation
+    - abomination and desolation
+    - decreed consummation
+
+required_fields_for_each_occurrence:
+  - stable_id
+  - reference
+  - language
+  - lemma
+  - morphology
+  - original_surface
+  - source_anchor
+  - immediate_context
+  - explicit_unit
+  - derived_unit
+  - chronology_role
+  - connection_class
+  - unresolved_questions
+  - review_status
+
+research_controls:
+  - Original-language corpus is canonical.
+  - LBF is the only output surface and is inserted only during rendering.
+  - No external chronology, historical date, ruler identification, or calendar system may enter an accepted record unless Scripture explicitly supplies it.
+  - Search results are candidates; only reviewed records become canonical files.
+  - Shared words, numbers, or patterns are not identities.
+  - Preserve textual sequence separately from calculated chronology.
+  - Preserve all competing grammatical antecedents as unresolved until the text settles them.
+
+completion_criteria:
+  - every Daniel chronological statement has an atomic file
+  - every explicit cross-reference has a connection file
+  - every proposed unit conversion records its premises
+  - every seven/sevens occurrence relevant to duration is classified
+  - generated indexes can rebuild the graph from canonical files

@@ -1,0 +1,55 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-07-03-ezekiel-09-04-06
+status: verified-textual-and-structural-reuse
+
+revelation:
+  reference: Revelation 7:3
+  language: greek
+  original: Μὴ ἀδικήσητε τὴν γῆν μήτε τὴν θάλασσαν μήτε τὰ δένδρα, ἄχρι σφραγίσωμεν τοὺς δούλους τοῦ θεοῦ ἡμῶν ἐπὶ τῶν μετώπων αὐτῶν
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270703
+
+source:
+  reference: Ezekiel 9:4-6
+  language: hebrew
+  hebrew_anchors:
+    - וְהִתְוִיתָ תָּו עַל־מִצְחוֹת הָאֲנָשִׁים
+    - וְעַל־כָּל־אִישׁ אֲשֶׁר־עָלָיו הַתָּו אַל־תִּגַּשׁוּ
+  contribution:
+    - a divine mark placed upon foreheads
+    - marking occurs before destructive agents proceed
+    - marked persons are distinguished from those exposed to judgment
+
+greek_bridge:
+  status: strong-structural-lexical
+  shared_terms_or-functions:
+    - forehead marking
+    - restraint of harm until marking is complete
+    - divine servants or faithful persons distinguished before judgment
+  note: Ezekiel uses a mark-sign vocabulary; Revelation uses sealing vocabulary. The action sequence is more decisive than an exact shared noun.
+
+shared_features:
+  - divine authorization
+  - forehead as the location of the sign
+  - marking or sealing before judgment
+  - protection or distinction of a defined group
+
+differences:
+  - Ezekiel marks those grieving over Jerusalem's abominations; Revelation seals servants of God.
+  - Ezekiel's sign is a תו; Revelation uses σφραγίζω and does not call the seal a tau.
+  - Revelation delays harm to earth, sea, and trees; Ezekiel restrains executioners from approaching marked persons.
+
+classification:
+  relation: transformed-judgment-protection-pattern
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: explicit-order
+  statement: Sealing precedes the authorized harm.
+
+limits:
+  - The record does not identify Revelation's seal shape or visible content from Ezekiel's sign.
+  - It does not prove that the marked groups in Ezekiel and Revelation are numerically or personally identical.

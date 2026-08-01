@@ -1,0 +1,55 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-02-14-numbers-22-25-31-16
+status: verified-explicit-reuse
+
+revelation:
+  reference: Revelation 2:14
+  language: greek
+  original: ἔχεις ἐκεῖ κρατοῦντας τὴν διδαχὴν Βαλαάμ, ὃς ἐδίδασκεν τῷ Βαλὰκ βαλεῖν σκάνδαλον ἐνώπιον τῶν υἱῶν Ἰσραήλ, φαγεῖν εἰδωλόθυτα καὶ πορνεῦσαι
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270214
+
+sources:
+  - reference: Numbers 22-24
+    language: hebrew
+    contribution: Balaam and Balak are explicitly named in the narrative.
+  - reference: Numbers 25:1-3
+    language: hebrew
+    contribution:
+      - Israel joins with Moabite women
+      - Israel eats sacrifices of their gods
+      - Israel bows to their gods
+      - Israel joins itself to Baal of Peor
+  - reference: Numbers 31:16
+    language: hebrew
+    hebrew_anchor: הן הנה היו לבני ישראל בדבר בלעם למסר מעל ביהוה על דבר פעור
+    contribution: Scripture explicitly attributes the Peor trespass to Balaam's counsel or matter.
+
+shared_features:
+  - Balaam
+  - Balak
+  - sons of Israel
+  - idolatrous eating
+  - sexual immorality
+  - an intentional stumbling action
+
+differences:
+  - Numbers distributes the evidence across narrative and later explanation.
+  - Revelation compresses the canonical interpretation into one sentence and calls it Balaam's teaching.
+  - Revelation applies the earlier pattern to persons within the Pergamum assembly without saying they are the historical Balaam or Balak.
+
+classification:
+  relation: explicit-named-canonical-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: typological-sequence-only
+  statement: The historical Balaam-Balak-Peor sequence precedes Revelation's application.
+  limit: This does not prove a repeated prophetic timetable.
+
+unresolved_questions:
+  - Does Revelation's term σκάνδαλον reflect a particular Greek witness wording or summarize the canonical event?
+  - How precisely does Revelation distinguish Balaam's teaching from the Nicolaitan teaching in the adjacent verse?

@@ -1,0 +1,54 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-08-05-ezekiel-10-02-07
+status: verified-image-structure-reuse
+
+revelation:
+  reference: Revelation 8:5
+  language: greek
+  original: καὶ εἴληφεν ὁ ἄγγελος τὸν λιβανωτόν, καὶ ἐγέμισεν αὐτὸν ἐκ τοῦ πυρὸς τοῦ θυσιαστηρίου, καὶ ἔβαλεν εἰς τὴν γῆν· καὶ ἐγένοντο βρονταὶ καὶ φωναὶ καὶ ἀστραπαὶ καὶ σεισμός
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270805
+
+source:
+  reference: Ezekiel 10:2,6-7
+  language: hebrew
+  hebrew_anchors:
+    - בֹּא אֶל־בֵּינוֹת לַגַּלְגַּל אֶל־תַּחַת לַכְּרוּב וּמַלֵּא חָפְנֶיךָ גַחֲלֵי־אֵשׁ מִבֵּינוֹת לַכְּרֻבִים וּזְרֹק עַל־הָעִיר
+    - שְׁלַח יָדְךָ מִבֵּינוֹת לַגַּלְגַּל אֶל־בֵּינוֹת לַכְּרוּבִים וְקַח מִשָּׁם
+  contribution:
+    - a heavenly agent takes fire from the throne-cherubim complex
+    - the fire is cast upon an earthly location
+    - the casting initiates judgment
+
+greek_bridge:
+  shared_action_family:
+    - filling or taking from heavenly fire
+    - casting the fire downward
+  status: image-structure-verified; exact-Greek-witness-alignment-pending
+
+shared_features:
+  - heavenly messenger or agent
+  - fire taken from a sacred heavenly location
+  - fire cast downward upon the earthly realm
+  - judgment follows the casting
+
+differences:
+  - Ezekiel places the fire among the cherubim and casts it upon the city.
+  - Revelation takes fire from the altar and casts it to the earth.
+  - Revelation adds thunder, voices, lightning, and an earthquake.
+  - Ezekiel's agent is the linen-clothed man; Revelation names an angel.
+
+classification:
+  relation: transformed-image-structure-reuse
+  evidence_class: E4
+  confidence: high-for-action-structure; moderate-for-direct-literary-dependence
+
+chronology_effect:
+  status: explicit-sequence
+  statement: In Revelation, altar fire is cast to earth after the saints' prayers ascend and before the seven trumpets sound.
+
+limits:
+  - The connection does not prove that Ezekiel's city judgment and Revelation's trumpet judgments are the same event.
+  - The altar in Revelation is not identified with Ezekiel's cherubim complex.

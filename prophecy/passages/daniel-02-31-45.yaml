@@ -20,12 +20,20 @@ topics:
   - topic-four-kingdoms
   - topic-final-kingdom
   - topic-kingdom
+terms:
+  - term-aramaic-malku-4437
+statements:
+  - statement-daniel-02-38-head-of-gold
+  - statement-daniel-02-39-kingdom-after
+  - statement-daniel-02-40-fourth-kingdom
+  - statement-daniel-02-44-god-establishes-kingdom
 connections:
   - connection-daniel-02-daniel-07-four-kingdoms
 output:
   bible_surface: LBF
   include_original_language: true
-review_status: seeded
+review_status: collecting
 constraints:
   - Keep the dream description separate from its recorded explanation.
   - Do not identify kingdoms beyond identifications explicitly stated in Scripture.
+  - Store each identification, quality, and sequence relation as a separate object.

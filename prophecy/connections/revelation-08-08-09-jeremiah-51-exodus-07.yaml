@@ -1,0 +1,79 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-08-08-09-jeremiah-51-exodus-07
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 8:8-9
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [270808, 270809]
+  original_anchors:
+    - ὡς ὄρος μέγα πυρὶ καιόμενον ἐβλήθη εἰς τὴν θάλασσαν
+    - ἐγένετο τὸ τρίτον τῆς θαλάσσης αἷμα
+    - ἀπέθανε τὸ τρίτον τῶν κτισμάτων τῶν ἐν τῇ θαλάσσῃ
+    - τὸ τρίτον τῶν πλοίων διεφθάρησαν
+
+sources:
+  - reference: Jeremiah 51:25
+    language: hebrew
+    hebrew_original: הִנְנִי אֵלֶיךָ הַר הַמַּשְׁחִית נְאֻם־יְהוָה הַמַּשְׁחִית אֶת־כָּל־הָאָרֶץ וְנָטִיתִי אֶת־יָדִי עָלֶיךָ וְגִלְגַּלְתִּיךָ מִן־הַסְּלָעִים וּנְתַתִּיךָ לְהַר שְׂרֵפָה
+    contribution:
+      - a destroying mountain under divine judgment
+      - the mountain rolled down from the rocks
+      - the mountain made a burning or burned mountain
+  - reference: Jeremiah 51:63-64
+    language: hebrew
+    hebrew_anchors:
+      - תִּקְשֹׁר עָלָיו אֶבֶן וְהִשְׁלַכְתּוֹ אֶל־תּוֹךְ פְּרָת
+      - כָּכָה תִּשְׁקַע בָּבֶל וְלֹא־תָקוּם
+    contribution:
+      - a symbolic object cast into a body of water
+      - sinking used as a judgment sign for Babylon
+  - reference: Exodus 7:17-21
+    language: hebrew
+    hebrew_anchors:
+      - הַמַּיִם אֲשֶׁר בַּיְאֹר וְנֶהֶפְכוּ לְדָם
+      - וַיֵּהָפְכוּ כָּל־הַמַּיִם אֲשֶׁר־בַּיְאֹר לְדָם
+      - וְהַדָּגָה אֲשֶׁר־בַּיְאֹר מֵתָה
+    contribution:
+      - water becoming blood
+      - aquatic creatures dying after the water becomes blood
+
+greek_bridge:
+  status: pending-exact-edition-token-record
+  expected_phrase_families:
+    - ὄρος + πῦρ or καίω
+    - βάλλω into water
+    - ὕδωρ or θάλασσα becoming αἷμα
+    - aquatic life dying
+
+shared_features:
+  - mountain imagery joined to burning judgment
+  - downward casting into water
+  - water becoming blood
+  - death of creatures living in the water
+
+differences:
+  - Jeremiah 51 explicitly addresses Babylon; Revelation does not identify the burning mountain within this verse.
+  - Jeremiah's symbolic stone is thrown into the Euphrates, not a burning mountain into the sea.
+  - Exodus concerns the Nile and waters of Egypt; Revelation concerns one third of the sea.
+  - Revelation adds destruction of ships and repeated one-third proportions.
+  - Revelation says the object is like a great burning mountain, preserving a comparison rather than explicitly naming it as a literal mountain.
+
+classification:
+  relation: composite-image-and-plague-reuse
+  evidence_class: E5
+  confidence:
+    burning_mountain_cluster: high
+    water_to_blood_and_aquatic_death: high
+    identification_with_babylon: unresolved
+
+chronology_effect:
+  status: trumpet-sequence-only
+  statement: The event follows the second trumpet; the source passages do not establish that their historical judgments and Revelation's trumpet are the same event.
+
+limits:
+  - The mountain is not identified as Babylon solely because Jeremiah 51 uses a burning-mountain judgment image for Babylon.
+  - The record establishes textual reuse, not geographical identity between the Euphrates, Nile, and sea.

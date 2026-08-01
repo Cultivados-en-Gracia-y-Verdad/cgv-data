@@ -1,0 +1,92 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-04-02-08-isaiah-06-ezekiel-01-10-daniel-07-exodus-19
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 4:2-8
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [270402, 270403, 270405, 270406, 270407, 270408]
+  original_anchors:
+    - θρόνος ἔκειτο ἐν τῷ οὐρανῷ, καὶ ἐπὶ τὸν θρόνον καθήμενος
+    - ἀστραπαὶ καὶ φωναὶ καὶ βρονταί
+    - τέσσαρα ζῷα γέμοντα ὀφθαλμῶν ἔμπροσθεν καὶ ὄπισθεν
+    - ὅμοιον λέοντι ... ὅμοιον μόσχῳ ... πρόσωπον ὡς ἀνθρώπου ... ὅμοιον ἀετῷ πετομένῳ
+    - ἀνὰ πτέρυγας ἕξ
+    - Ἅγιος ἅγιος ἅγιος κύριος ὁ θεὸς ὁ παντοκράτωρ
+
+sources:
+  - reference: Isaiah 6:1-3
+    language: hebrew
+    contribution:
+      - the Lord seated upon a throne
+      - heavenly beings positioned above the throne
+      - six wings for each heavenly being
+      - the threefold holiness proclamation
+    hebrew_anchors:
+      - ואראה את אדני ישב על כסא רם ונשא
+      - שרפים עמדים ממעל לו שש כנפים שש כנפים לאחד
+      - קדוש קדוש קדוש יהוה צבאות
+  - reference: Ezekiel 1:5-10,18,22,26-28
+    language: hebrew
+    contribution:
+      - four living creatures
+      - human, lion, bovine, and eagle faces
+      - eye-filled surrounding structures
+      - expanse and throne appearance
+      - radiant or rainbow-like throne glory
+    hebrew_anchors:
+      - דמות ארבע חיות
+      - פני אדם ופני אריה ... ופני שור ... ופני נשר
+      - מלאת עינים סביב
+      - דמות כסא
+  - reference: Ezekiel 10:12,14
+    language: hebrew
+    contribution:
+      - eyes surrounding the living-creature throne complex
+      - four-face sequence including human, lion, bovine or cherub, and eagle forms
+  - reference: Daniel 7:9-10
+    language: aramaic
+    contribution:
+      - heavenly throne or thrones set in place
+      - the enthroned court scene
+      - fiery features proceeding from the throne
+  - reference: Exodus 19:16
+    language: hebrew
+    contribution:
+      - voices or thunder and lightning accompanying the divine manifestation
+    hebrew_anchor: קלת וברקים
+
+shared_features:
+  - heavenly throne and enthroned figure
+  - radiant throne environment
+  - four living creatures
+  - human, lion, bovine, and eagle imagery
+  - extensive eye imagery
+  - six wings
+  - threefold holiness proclamation
+  - thunder or voices and lightning
+
+differences:
+  - Ezekiel gives each living creature four faces; Revelation presents four creatures, each with one predominant likeness.
+  - Ezekiel gives the creatures four wings; Revelation gives each creature six wings, corresponding to Isaiah's seraphim.
+  - Ezekiel places many eyes on the wheel structures; Revelation describes the creatures themselves as full of eyes around and within.
+  - Isaiah names seraphim; Revelation calls its beings living creatures.
+  - Revelation adds the temporal title 'the one who was and is and is coming.'
+  - Similar throne imagery does not establish that every visionary detail is identical across all four passages.
+
+classification:
+  relation: composite-image-and-verbal-reuse
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: vision-sequence-only
+  statement: Revelation places this throne-room vision after the seven messages and before the scroll is opened; the source passages do not supply a shared calendar date.
+
+unresolved_elements:
+  - The identity of the twenty-four elders is not established by these passages.
+  - Revelation's seven spirits before the throne require a separate comparison and must not be derived automatically from Isaiah 11:2.
+  - The glass-like sea is not assigned an Old Testament identity solely from resemblance to Ezekiel's expanse.

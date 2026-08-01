@@ -1,0 +1,47 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-03-07-isaiah-22-22
+status: verified-textual-reuse
+
+revelation:
+  reference: Revelation 3:7
+  language: greek
+  original: ὁ ἔχων τὴν κλεῖν Δαυίδ, ὁ ἀνοίγων καὶ οὐδεὶς κλείσει, καὶ κλείων καὶ οὐδεὶς ἀνοίγει
+  source_anchor:
+    corpus: MorphGNT
+    file: 87-Re-morphgnt.txt
+    verse_code: 270307
+
+source:
+  reference: Isaiah 22:22
+  language: hebrew
+  hebrew_anchor: וְנָתַתִּי מַפְתֵּחַ בֵּית־דָּוִד עַל־שִׁכְמוֹ וּפָתַח וְאֵין סֹגֵר וְסָגַר וְאֵין פֹּתֵחַ
+  explicit_elements:
+    - key of the house of David
+    - opening with none shutting
+    - shutting with none opening
+
+comparison:
+  hebrew_alignment:
+    status: strong
+    shared_structure:
+      - David-key expression
+      - open/no one shuts
+      - shut/no one opens
+  greek_old_testament_alignment:
+    status: witness-dependent
+    note: The selected standard Greek witness must be recorded exactly because its wording may not reproduce every Hebrew element as closely as Revelation does.
+
+classification:
+  relation: hebrew-driven-near-verbatim-structural-reuse
+  evidence_class: E5
+  confidence: high
+
+limits:
+  - The textual transfer of the David-key wording does not automatically transfer every statement about Eliakim to the speaker in Revelation.
+  - The record establishes source reuse and claimed authority language, not exhaustive personal identity.
+  - Greek witness differences must remain visible when the exact LXX verse is added.
+
+chronology_effect:
+  status: none-direct
+  statement: The connection concerns authority to open and shut, not an explicit chronological interval.

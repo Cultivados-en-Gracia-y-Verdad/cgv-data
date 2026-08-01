@@ -1,0 +1,80 @@
+id: study-whole-canon-chronological-spine
+record_type: study
+study_type: chronological-spine
+scope: Protestant canon, Genesis through Revelation
+purpose: Maintain a visible, continually expanding order of prophetic events while detailed research is gathered.
+status: living
+rules:
+  - Include only events or relations already represented by source files.
+  - Show explicit, provisional, and unplaced material distinctly.
+  - Keep separate passage lanes until textual evidence supports synchronization.
+  - Never hide gaps in the sequence.
+  - Preserve original-language anchors and cited references.
+  - Render Spanish Scripture only from LBF.
+lanes:
+  - lane_id: daniel-02
+    label: Daniel 2 internal sequence
+    chronology_file: chronology-daniel-02-kingdom-sequence
+    placement_status: explicit-within-passage
+    broader_canon_placement: unplaced
+  - lane_id: daniel-07
+    label: Daniel 7 internal sequence
+    chronology_file: null
+    placement_status: pending-collection
+    broader_canon_placement: unplaced
+  - lane_id: daniel-09
+    label: Daniel 9 internal sequence
+    chronology_file: null
+    placement_status: pending-collection
+    broader_canon_placement: unplaced
+  - lane_id: jeremiah-seventy-years
+    label: Jeremiah seventy-years statements and Daniel 9:2 connection
+    chronology_file: null
+    placement_status: pending-collection
+    broader_canon_placement: unplaced
+  - lane_id: new-testament-prophetic-data
+    label: Gospel, Acts, Epistle, and Revelation sequences
+    chronology_file: null
+    placement_status: pending-collection
+    broader_canon_placement: unplaced
+current_visible_spine:
+  - display_order: 1
+    source_lane: daniel-02
+    node: statement-daniel-02-38-head-of-gold
+    label: Nebuchadnezzar is identified as the head of gold
+    status: explicit-within-daniel-02
+  - display_order: 2
+    source_lane: daniel-02
+    node: statement-daniel-02-39-kingdom-after
+    label: Another kingdom arises after him
+    status: explicit-within-daniel-02
+  - display_order: 3
+    source_lane: daniel-02
+    node: chronology-daniel-02-third-kingdom-placeholder
+    label: A third kingdom follows
+    status: explicit-within-daniel-02
+  - display_order: 4
+    source_lane: daniel-02
+    node: statement-daniel-02-40-fourth-kingdom
+    label: A fourth kingdom follows
+    status: explicit-within-daniel-02
+  - display_order: 5
+    source_lane: daniel-02
+    node: chronology-daniel-02-divided-kingdom-placeholder
+    label: The kingdom is described as divided and mixed
+    status: explicit-within-daniel-02
+  - display_order: 6
+    source_lane: daniel-02
+    node: statement-daniel-02-44-god-establishes-kingdom
+    label: In the days of those kings, the God of heaven establishes a kingdom
+    status: explicit-within-daniel-02
+unresolved_synchronizations:
+  - Daniel 2 kingdom sequence with Daniel 7 kingdom sequence
+  - Daniel 2 sequence with named kingdoms in Daniel 8
+  - Daniel 2 established kingdom with kingdom passages elsewhere in the canon
+  - Daniel 9 chronological units with Gospel, Epistle, and Revelation sequences
+output:
+  format: interactive-timeline-and-yaml
+  bible_surface: LBF
+  show_evidence_class: true
+  show_placement_status: true

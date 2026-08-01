@@ -1,0 +1,151 @@
+schema_version: 1
+record_type: assumption-register
+id: unresolved-core-prophetic-assumptions
+status: collecting
+purpose: Preserve commonly asserted prophetic claims as questions to test against the whole Protestant canon.
+assumptions:
+  - id: assumption-feet-iron-clay-rome
+    submitted_claim: The feet of iron mixed with clay in Daniel 2 are Rome.
+    category: identity
+    status: unexamined
+    candidate_passages:
+      - Daniel 2:31-45
+      - Daniel 7:1-28
+    explicit_data:
+      - Daniel 2 identifies Nebuchadnezzar as the head of gold.
+      - Daniel 2 states that another kingdom comes after him, then another, then a fourth kingdom.
+      - Daniel 2 describes the feet and toes as partly iron and partly clay and the kingdom as divided.
+    missing_links:
+      - A scriptural statement explicitly identifying the feet or iron-and-clay phase as Rome.
+      - A scriptural connection establishing that the named fourth kingdom and Rome are identical.
+    chronology_effect: Would place Rome in the iron-and-clay phase of the Daniel 2 sequence.
+    resolution: null
+
+  - id: assumption-last-kingdom-rome
+    submitted_claim: The last human kingdom in the prophetic sequence is Rome.
+    category: identity-and-sequence
+    status: wording-clarification-needed
+    candidate_passages:
+      - Daniel 2:31-45
+      - Daniel 7:1-28
+      - Revelation 13:1-18
+      - Revelation 17:1-18
+    explicit_data:
+      - Daniel 2 numbers a fourth kingdom and later describes a divided phase.
+      - Daniel 7 describes four beasts and states that they are four kings or kingdoms.
+    missing_links:
+      - A precise definition of “last kingdom.”
+      - A scriptural statement naming Rome as that kingdom.
+      - A scriptural statement establishing whether later divided or ten-king phases are the same kingdom, a continuation, or a distinct configuration.
+    chronology_effect: Would identify the final human kingdom lane before the kingdom established by God.
+    resolution: null
+
+  - id: assumption-rome-continues-and-resurges-into-ten
+    submitted_claim: Rome continues and resurges into a ten-king or ten-part form.
+    category: continuity-and-identity
+    status: unexamined
+    candidate_passages:
+      - Daniel 2:41-44
+      - Daniel 7:7-24
+      - Revelation 13:1
+      - Revelation 17:3-14
+    explicit_data:
+      - Daniel 2 mentions toes and refers to “those kings.”
+      - Daniel 7 describes ten horns and identifies them as ten kings arising from the fourth kingdom.
+      - Revelation 17 identifies ten horns as ten kings.
+    missing_links:
+      - A scriptural statement identifying the fourth kingdom as Rome.
+      - A scriptural statement connecting Daniel 2’s toes with Daniel 7’s ten horns.
+      - A scriptural statement connecting Daniel 7’s ten kings with Revelation 17’s ten kings.
+      - A scriptural statement describing the relationship as continuation, revival, resurgence, or reconstitution.
+    chronology_effect: Would connect multiple ten-part passages into one continuous kingdom trajectory.
+    resolution: null
+
+  - id: assumption-tribulation-seven-years
+    submitted_claim: The tribulation lasts seven years.
+    category: duration
+    status: unexamined
+    candidate_passages:
+      - Daniel 9:24-27
+      - Daniel 12:1-13
+      - Matthew 24:15-31
+      - Mark 13:14-27
+      - Revelation 6:1-19:21
+    explicit_data:
+      - Daniel 9:27 states one unit of seven and refers to its middle.
+      - Matthew 24 and Mark 13 use tribulation language but do not state “seven years” in the cited wording.
+      - Daniel and Revelation contain several stated three-and-one-half-like durations in different forms.
+    missing_links:
+      - A scriptural statement identifying Daniel 9:27’s final unit with “the tribulation.”
+      - A scriptural statement establishing that the complete tribulation spans the entire unit.
+      - A scriptural statement joining all candidate passages into one seven-year period.
+    chronology_effect: Would define a seven-year block on the whole-canon spine.
+    resolution: null
+
+  - id: assumption-great-tribulation-three-and-half-years
+    submitted_claim: The great tribulation lasts three and one-half years.
+    category: duration-and-identity
+    status: unexamined
+    candidate_passages:
+      - Daniel 7:25
+      - Daniel 9:27
+      - Daniel 12:7
+      - Matthew 24:15-22
+      - Revelation 11:2-3
+      - Revelation 12:6
+      - Revelation 12:14
+      - Revelation 13:5
+    explicit_data:
+      - Matthew 24 names “great tribulation.”
+      - Daniel and Revelation state durations expressed as time, times, and half a time; forty-two months; and 1,260 days.
+    missing_links:
+      - A scriptural statement identifying Matthew 24’s great tribulation with each stated three-and-one-half-like duration.
+      - A scriptural statement establishing whether those durations are coextensive, overlapping, or separate.
+    chronology_effect: Would assign a defined half-period to the great tribulation.
+    resolution: null
+
+  - id: assumption-rapture
+    submitted_claim: There is an event commonly called the rapture, and its place in the prophetic chronology can be established from Scripture.
+    category: event-and-placement
+    status: wording-clarification-needed
+    candidate_passages:
+      - John 14:1-3
+      - 1 Corinthians 15:20-58
+      - 1 Thessalonians 4:13-18
+      - 1 Thessalonians 5:1-11
+      - 2 Thessalonians 2:1-12
+      - Matthew 24:29-44
+    explicit_data:
+      - 1 Thessalonians 4 describes living believers being caught up together with resurrected believers to meet the Lord.
+      - 1 Corinthians 15 describes resurrection and transformation.
+      - 2 Thessalonians 2 refers to the coming of the Lord and gathering together to him.
+    missing_links:
+      - A precise submitted claim concerning timing, participants, relationship to resurrection, and relationship to the coming of the Lord.
+      - Explicit chronological relations connecting the event to tribulation, wrath, the man of lawlessness, and other proposed anchors.
+    chronology_effect: Would place the catching-up, resurrection, and gathering events on the whole-canon spine.
+    resolution: null
+
+  - id: assumption-thousand-year-kingdom
+    submitted_claim: There is a one-thousand-year kingdom period in the prophetic chronology.
+    category: duration-and-kingdom
+    status: unexamined
+    candidate_passages:
+      - Revelation 19:11-21
+      - Revelation 20:1-10
+      - 1 Corinthians 15:20-28
+      - Daniel 2:44-45
+      - Daniel 7:13-27
+    explicit_data:
+      - Revelation 20 repeatedly states one thousand years and describes reigning with Christ during that period.
+      - Revelation 20 places events before and after the thousand years within its own narrative sequence.
+    missing_links:
+      - A scriptural statement defining the full scope of the kingdom during the thousand years.
+      - Classified connections showing how Revelation 20 relates chronologically to kingdom passages elsewhere.
+      - A decision on whether the claim should be worded “thousand-year reign” rather than “thousand-year kingdom.”
+    chronology_effect: Would add a stated one-thousand-year period to the spine, with its placement governed by Revelation 19-20’s internal sequence.
+    resolution: null
+review_rules:
+  - Candidate passages are research targets, not proof of identity.
+  - Explicit data must be expanded into separate source records before resolving an assumption.
+  - Assumptions do not populate the settled chronological spine.
+  - Resolution requires documented evidence classes and original-language anchors.

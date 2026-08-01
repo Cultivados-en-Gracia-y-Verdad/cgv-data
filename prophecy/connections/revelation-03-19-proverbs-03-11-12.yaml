@@ -1,0 +1,50 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-03-19-proverbs-03-11-12
+status: verified-near-verbatim-reuse
+
+revelation:
+  reference: Revelation 3:19
+  language: greek
+  original: ἐγὼ ὅσους ἐὰν φιλῶ ἐλέγχω καὶ παιδεύω· ζήλευε οὖν καὶ μετανόησον
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270319
+
+source:
+  reference: Proverbs 3:11-12
+  language: hebrew
+  hebrew_anchors:
+    - מוּסַר יְהוָה
+    - תּוֹכַחְתּוֹ
+    - כִּי אֶת אֲשֶׁר יֶאֱהַב יְהוָה יוֹכִיחַ
+  contribution:
+    - the LORD reproves the one he loves
+    - correction and discipline belong together
+
+greek_bridge:
+  shared_sequence: ὃν γὰρ ἀγαπᾷ κύριος παιδεύει
+  revelation_correspondence:
+    - φιλῶ
+    - ἐλέγχω
+    - παιδεύω
+  status: close-lexical-and-syntactic-reuse
+
+shared_features:
+  - love as the stated reason for correction
+  - reproof and discipline
+  - an exhortation to respond rather than reject correction
+
+differences:
+  - Proverbs warns the son not to despise or grow weary of discipline.
+  - Revelation commands zeal and repentance.
+  - Revelation uses φιλέω while the Greek Proverbs witness uses ἀγαπάω.
+
+classification:
+  relation: near-verbatim-reuse
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: immediate-response-command
+  statement: Reproof and discipline precede the commanded response of zeal and repentance; no calendar duration is supplied.

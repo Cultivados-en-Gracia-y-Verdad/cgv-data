@@ -1,0 +1,69 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-02-20-23-1-kings-16-19-21-jeremiah-17-10
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 2:20-23
+  language: greek
+  key_anchors:
+    - τὴν γυναῖκα Ἰεζάβελ
+    - λέγουσα ἑαυτὴν προφῆτιν
+    - διδάσκει καὶ πλανᾷ τοὺς ἐμοὺς δούλους
+    - πορνεῦσαι καὶ φαγεῖν εἰδωλόθυτα
+    - ἐγώ εἰμι ὁ ἐραυνῶν νεφροὺς καὶ καρδίας
+    - δώσω ὑμῖν ἑκάστῳ κατὰ τὰ ἔργα ὑμῶν
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [270220, 270221, 270222, 270223]
+
+sources:
+  - reference: 1 Kings 16:31; 18:4,13,19; 19:1-2; 21:5-16,23-25
+    language: hebrew
+    contribution:
+      - Jezebel is explicitly named.
+      - She promotes Baal worship and sustains its prophets.
+      - She opposes and kills servants or prophets of the LORD.
+      - She influences Ahab toward evil and directs false witness and death in Naboth's case.
+  - reference: Jeremiah 17:10
+    language: hebrew
+    hebrew_anchor: אֲנִי יְהוָה חֹקֵר לֵב בֹּחֵן כְּלָיוֹת וְלָתֵת לְאִישׁ כִּדְרָכָיו כִּפְרִי מַעֲלָלָיו
+    contribution:
+      - the LORD searches the heart and tests the kidneys
+      - recompense is according to a person's way and deeds
+
+greek_bridge:
+  heart_kidneys:
+    shared_terms:
+      - καρδία
+      - νεφρός
+      - ἐραυνάω_or_δοκιμάζω_phrase_family
+    status: near-verbatim-conceptual-and-lexical-reuse
+  jezebel:
+    shared_name: Ἰεζάβελ
+    status: explicit-name-reuse
+
+shared_features:
+  - named Jezebel figure
+  - religious deception and corrupting influence
+  - divine judgment on the woman and those joined to her works
+  - searching inner faculties
+  - repayment according to deeds
+
+differences:
+  - Revelation identifies a woman called Jezebel in Thyatira; it does not explicitly say she is the same historical individual as the queen in Kings.
+  - The title 'prophetess,' the specific teaching activity, and eating idol-sacrifices belong to Revelation's own description.
+  - Jeremiah speaks of the LORD in first person; Revelation places the formula in the speaker's self-identification.
+
+classification:
+  relation: explicit-name-plus-near-verbatim-divine-formula
+  evidence_class: E5
+  confidence: high
+
+limits:
+  - Name reuse does not prove personal identity across the passages.
+  - The Kings narrative supplies a canonical characterization pattern, not an exhaustive interpretation of every detail in Revelation 2.
+
+chronology_effect:
+  status: local-warning-sequence
+  statement: Revelation gives time to repent, then threatens tribulation and judgment if repentance does not occur.

@@ -1,0 +1,54 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-05-06-zechariah-03-09-04-10-isaiah-11-02
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 5:6
+  language: greek
+  original: ἀρνίον ἑστηκὸς ὡς ἐσφαγμένον, ἔχων κέρατα ἑπτὰ καὶ ὀφθαλμοὺς ἑπτά, οἵ εἰσιν τὰ ἑπτὰ πνεύματα τοῦ θεοῦ ἀπεσταλμένοι εἰς πᾶσαν τὴν γῆν
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270506
+
+sources:
+  - reference: Zechariah 3:9
+    language: hebrew
+    hebrew_anchor: על אבן אחת שבעה עינים
+    contribution: seven eyes associated with a divinely appointed object in the prophetic vision
+  - reference: Zechariah 4:10
+    language: hebrew
+    hebrew_anchor: שבעה אלה עיני יהוה המה משוטטים בכל הארץ
+    contribution:
+      - seven identified as the eyes of the LORD
+      - movement or surveying throughout the whole earth
+  - reference: Isaiah 11:2
+    language: hebrew
+    hebrew_anchor: ונחה עליו רוח יהוה רוח חכמה ובינה רוח עצה וגבורה רוח דעת ויראת יהוה
+    contribution: the Spirit of the LORD described through a clustered set of qualities resting upon the Davidic figure
+
+shared_features:
+  - seven eyes
+  - divine eyes extending throughout the whole earth
+  - explicit identification in Revelation of the seven eyes with the seven spirits of God
+  - Spirit language associated with a Davidic figure
+
+differences:
+  - Zechariah associates seven eyes with the stone and then identifies seven as the LORD's eyes; Revelation places seven eyes on the Lamb.
+  - Zechariah says the eyes range throughout the earth; Revelation says the seven spirits are sent into all the earth.
+  - Isaiah 11:2 does not numerically call the Spirit 'seven spirits.' Counting its descriptive clauses is an editorial analysis, not an explicit verse statement.
+  - Revelation itself supplies the interpretation of the seven eyes; that interpretation controls this record.
+  - The seven horns have no source assigned here merely because horn imagery elsewhere signifies power.
+
+classification:
+  relation: composite-image-and-interpretation-reuse
+  evidence_class: E5-for-Zechariah; E3-for-Isaiah-association
+  confidence: high-for-Zechariah; moderate-for-Isaiah
+
+chronology_effect:
+  status: none
+  statement: The passage describes the Lamb before he takes the scroll; the source imagery supplies no date.
+
+unresolved_questions:
+  - Does Revelation 1:4 and 4:5 refer to the same seven spirits as Revelation 5:6? The wording strongly suggests an internal connection, but it should be recorded separately.
+  - What earlier canonical source, if any, most directly informs the Lamb's seven horns?

@@ -1,0 +1,50 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-05-08-psalm-141-02
+status: verified-textual-reuse
+
+revelation:
+  reference: Revelation 5:8
+  language: greek
+  original: φιάλας χρυσᾶς γεμούσας θυμιαμάτων, αἵ εἰσιν αἱ προσευχαὶ τῶν ἁγίων
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270508
+
+source:
+  reference: Psalm 141:2
+  language: hebrew
+  hebrew_anchor: תכון תפלתי קטרת לפניך משאת כפי מנחת ערב
+  contribution: prayer is placed in direct comparison with incense before God
+
+greek_bridge:
+  phrase_family:
+    - κατευθυνθήτω ἡ προσευχή μου ὡς θυμίαμα ἐνώπιόν σου
+    - θυμιαμάτων ... αἱ προσευχαὶ τῶν ἁγίων
+  shared_terms:
+    - προσευχή
+    - θυμίαμα
+  status: strong
+
+shared_features:
+  - prayer
+  - incense
+  - presentation before God
+
+differences:
+  - Psalm 141 compares one prayer to incense.
+  - Revelation explicitly interprets incense-filled golden bowls as the prayers of the saints.
+  - The bowls, elders, and heavenly liturgical scene are Revelation's own setting.
+
+classification:
+  relation: near-verbatim-conceptual-reuse-with-explicit-interpretation
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: none
+  statement: The prayers are present when the Lamb takes the scroll; no calendar marker is supplied.
+
+limits:
+  - Revelation's own statement that the incense represents prayers is authoritative within Revelation.
+  - This connection does not establish that every biblical incense reference symbolizes prayer.

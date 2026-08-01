@@ -1,0 +1,35 @@
+id: statement-daniel-02-40-fourth-kingdom
+record_type: statement
+passage: passage-daniel-02-31-45
+reference: Daniel 2:40
+language: aramaic
+statement_type: sequence-position
+subject:
+  label: fourth kingdom
+predicate:
+  relation: shall be
+object:
+  quality: strong as iron
+evidence_class: E2
+original_language_anchors:
+  - surface: וּ/מַלְכוּ֙
+    lemma: c/4437
+    morph: AC/Ncfsa
+  - surface: רְבִיעָיָ֔/ה
+    lemma: "7244"
+    morph: AOfsa/Sp3fs
+  - surface: תֶּהֱוֵ֥א
+    lemma: "1934"
+    morph: AVqi3fs
+  - surface: תַקִּיפָ֖/ה
+    lemma: "8624"
+    morph: AAfs/Sp3fs
+  - surface: כְּ/פַרְזְלָ֑/א
+    lemma: k/6523
+    morph: AR/Ncmsd/Td
+observation: The recorded explanation explicitly numbers this kingdom as fourth and describes its strength by comparison with iron.
+constraints:
+  - This record does not assign a historical name to the fourth kingdom.
+output:
+  bible_surface: LBF
+review_status: source-anchored

@@ -1,0 +1,32 @@
+id: statement-daniel-02-38-head-of-gold
+record_type: statement
+passage: passage-daniel-02-31-45
+reference: Daniel 2:38
+language: aramaic
+statement_type: explicit-identification
+subject:
+  referent: Nebuchadnezzar
+  textual_form: second-person singular pronoun
+predicate:
+  relation: is
+object:
+  label: head of gold
+evidence_class: E2
+original_language_anchors:
+  - surface: אַ֣נְתְּה
+    lemma: "607"
+    morph: APp2ms
+  - surface: רֵאשָׁ֥/ה
+    lemma: "7217"
+    morph: ANcfsd/Sp3fs
+  - surface: דִּֽי
+    lemma: "1768"
+    morph: AR
+  - surface: דַהֲבָ֖/א
+    lemma: "1722"
+    morph: ANcmsd/Td
+observation: The recorded explanation identifies the king addressed as the head of gold.
+identity_scope: This identification applies only as stated in Daniel 2:38.
+output:
+  bible_surface: LBF
+review_status: source-anchored

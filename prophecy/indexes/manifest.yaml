@@ -21,12 +21,20 @@ collections:
     - passage-daniel-09-20-27
   connections:
     - connection-daniel-09-02-jeremiah-seventy-years
-  statements: []
-  terms: []
+  statements:
+    - statement-daniel-02-38-head-of-gold
+    - statement-daniel-02-39-kingdom-after
+    - statement-daniel-02-40-fourth-kingdom
+    - statement-daniel-02-44-god-establishes-kingdom
+  terms:
+    - term-aramaic-malku-4437
   events: []
-  chronology: []
-  studies: []
-  unresolved: []
+  chronology:
+    - chronology-daniel-02-kingdom-sequence
+  studies:
+    - study-whole-canon-chronological-spine
+  unresolved:
+    - unresolved-core-prophetic-assumptions
 coverage:
   corpus: Genesis through Revelation
   initial_entry_point: Daniel

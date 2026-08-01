@@ -1,0 +1,59 @@
+schema_version: 1
+record_type: passage-observation
+id: passage-daniel-09-24
+status: collecting
+reference: Daniel 9:24
+language: hebrew
+
+source_anchor:
+  corpus: OSHB
+  file: morphology/OSHB/morphhb/wlc/Dan.xml
+  osis_id: Dan.9.24
+  key_tokens:
+    - {id: 27hNu, lemma: '7620', surface: 'שָׁבֻעִים'}
+    - {id: 2793D, lemma: '7657', surface: 'שִׁבְעִים'}
+    - {id: 27Evy, lemma: '2852', surface: 'נֶחְתַּךְ'}
+
+key_phrase:
+  original: שָׁבֻעִים שִׁבְעִים
+  form: plural-noun-plus-cardinal-number
+  surface_gloss: seventy sevens
+  translation_policy: Render through LBF only at output time.
+
+explicit_scope:
+  - your people
+  - your holy city
+
+explicit_outcomes:
+  - restrain or finish the transgression
+  - finish sins; ketiv and qere are preserved in the source record
+  - make atonement for iniquity
+  - bring everlasting righteousness
+  - seal vision and prophet
+  - anoint holy of holies or a most holy thing; grammatical referent remains under review
+
+chronology:
+  stated_duration: seventy sevens
+  verb: decreed
+  conversion: none
+  start_point_in_this_verse: not stated
+  internal_division_in_this_verse: not stated
+
+observations:
+  - The noun שָׁבֻעִים is lemma 7620, a plural unit built on seven-language.
+  - The number is seventy, lemma 7657.
+  - The verse states what is decreed and the scope upon which it is decreed.
+  - The verse does not itself state days, months, or years.
+
+prohibited_inferences:
+  - Do not convert the seventy sevens to years merely from the English word week.
+  - Do not assign calendar dates without a separately established start command and unit definition.
+  - Do not collapse the six outcomes into one event unless Scripture explicitly does so.
+
+links:
+  chronology:
+    - daniel-09-seventy-sevens-structure
+    - daniel-09-jeremiah-seventy-years
+  terms:
+    - hebrew-7620-shavua
+    - hebrew-7657-seventy

@@ -1,0 +1,83 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-20-11-15-daniel-07-12-psalm-69
+status: verified-composite-books-and-life-register-reuse
+
+revelation:
+  reference: Revelation 20:11-15
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [272011, 272012, 272013, 272014, 272015]
+  original_anchors:
+    - θρόνον μέγαν λευκὸν
+    - τοὺς νεκροὺς τοὺς μεγάλους καὶ τοὺς μικρούς
+    - βιβλία ἠνοίχθησαν
+    - ἄλλο βιβλίον ἠνοίχθη ὅ ἐστιν τῆς ζωῆς
+    - ἐκρίθησαν οἱ νεκροὶ ἐκ τῶν γεγραμμένων ἐν τοῖς βιβλίοις κατὰ τὰ ἔργα αὐτῶν
+    - εἴ τις οὐχ εὑρέθη ἐν τῇ βίβλῳ τῆς ζωῆς γεγραμμένος
+
+sources:
+  - reference: Daniel 7:9-10
+    language: aramaic
+    aramaic_anchors:
+      - חָזֵה הֲוֵית עַד דִּי כָרְסָוָן רְמִיו וְעַתִּיק יוֹמִין יְתִב
+      - דִּינָא יְתִב וְסִפְרִין פְּתִיחוּ
+    contribution:
+      - heavenly throne and seated judge
+      - court convened
+      - books opened in judgment
+  - reference: Daniel 12:1-2
+    language: hebrew
+    hebrew_anchors:
+      - וּבָעֵת הַהִיא יִמָּלֵט עַמְּךָ כָּל־הַנִּמְצָא כָּתוּב בַּסֵּפֶר
+      - וְרַבִּים מִיְּשֵׁנֵי אַדְמַת־עָפָר יָקִיצוּ אֵלֶּה לְחַיֵּי עוֹלָם וְאֵלֶּה לַחֲרָפוֹת לְדִרְאוֹן עוֹלָם
+    contribution:
+      - deliverance connected with being found written in the book
+      - resurrection with divergent outcomes
+  - reference: Psalm 69:28
+    language: hebrew
+    hebrew_anchor: יִמָּחוּ מִסֵּפֶר חַיִּים וְעִם צַדִּיקִים אַל־יִכָּתֵבוּ
+    contribution:
+      - a book of life
+      - inclusion among the righteous represented by written registration
+  - reference: Exodus 32:32-33
+    language: hebrew
+    hebrew_anchors:
+      - מְחֵנִי נָא מִסִּפְרְךָ אֲשֶׁר כָּתָבְתָּ
+      - מִי אֲשֶׁר חָטָא־לִי אֶמְחֶנּוּ מִסִּפְרִי
+    contribution:
+      - God's book containing personal names
+      - removal from the book associated with sin and judgment
+
+shared_features:
+  - a divine throne and universal judgment setting
+  - books opened before judgment
+  - persons evaluated in relation to written records
+  - a distinct register associated with life or deliverance
+  - resurrection and final divergent outcomes
+
+differences:
+  - Daniel 7 does not call its opened books the book of life or explicitly say judgment is according to each person's works.
+  - Daniel 12 mentions one book and resurrection but does not describe the sea, Death, and Hades surrendering the dead.
+  - Psalm 69 and Exodus 32 use life-book or divine-book language in prayer and covenant judgment, not the full great-white-throne scene.
+  - Revelation distinguishes plural books recording works from another book, the book of life.
+  - Revelation uniquely calls the lake of fire the second death and casts Death and Hades into it.
+
+classification:
+  relation: composite-judgment-books-and-life-register-reuse
+  evidence_class: E5
+  confidence:
+    opened_judgment_books: very-high
+    written_book_and_deliverance: very-high
+    book_of_life_title: high
+
+chronology_effect:
+  status: revelation-controlled
+  statement: The sources establish judgment, resurrection, and written heavenly records; Revelation supplies the final sequence after the Gog-Magog judgment and the fate of Death and Hades.
+
+limits:
+  - The plural books and the book of life must remain textually distinct.
+  - The record does not specify the contents, physical form, or mechanism of the heavenly books beyond the biblical wording.
+  - Judgment according to works must not be reduced to a claim that Revelation describes only one undifferentiated record.
+  - The source links do not independently resolve every theological question about resurrection, salvation, or degrees of judgment.

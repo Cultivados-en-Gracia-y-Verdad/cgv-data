@@ -1,0 +1,57 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-14-14-daniel-07-13-14
+status: verified-explicit-image-reuse
+
+revelation:
+  reference: Revelation 14:14
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 271414
+  original_anchors:
+    - νεφέλη λευκή
+    - ἐπὶ τὴν νεφέλην καθήμενον
+    - ὅμοιον υἱὸν ἀνθρώπου
+    - στέφανον χρυσοῦν
+    - δρέπανον ὀξύ
+
+source:
+  reference: Daniel 7:13-14
+  language: aramaic
+  aramaic_anchors:
+    - עִם־עֲנָנֵי שְׁמַיָּא כְּבַר אֱנָשׁ אָתֵה הֲוָה
+    - וְעַד־עַתִּיק יוֹמַיָּא מְטָה
+    - וְלֵהּ יְהִיב שָׁלְטָן וִיקָר וּמַלְכוּ
+  contribution:
+    - a humanlike figure associated with heavenly clouds
+    - royal authority and universal dominion
+
+greek_bridge:
+  status: explicit-phrase-continuity
+  key_phrase: ὅμοιον υἱὸν ἀνθρώπου
+  cloud_family: νεφέλη / μετὰ τῶν νεφελῶν
+
+shared_features:
+  - a humanlike figure
+  - association with a heavenly cloud or clouds
+  - royal presentation
+  - authority exercised over the earth or nations
+
+differences:
+  - Daniel's figure comes with the clouds to the Ancient of Days and receives dominion.
+  - Revelation's figure sits on a white cloud and carries a sharp sickle for harvest.
+  - The golden crown and harvest action are not stated in Daniel 7:13-14.
+
+classification:
+  relation: explicit-image-and-title-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: judgment-application
+  statement: Revelation applies Daniel's cloud-borne human figure to an earth-harvest judgment scene without reproducing Daniel's full throne-court sequence.
+
+limits:
+  - The Daniel connection identifies the literary figure and royal framework, but the harvest must be interpreted from Revelation 14 and its harvest sources.
+  - Cloud imagery alone must not be generalized to every biblical cloud scene.

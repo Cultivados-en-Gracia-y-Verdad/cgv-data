@@ -1,0 +1,55 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-20-01-03-isaiah-24-21-22
+status: verified-image-structure-reuse
+
+revelation:
+  reference: Revelation 20:1-3
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [272001, 272002, 272003]
+  original_anchors:
+    - τὴν κλεῖν τῆς ἀβύσσου
+    - ἅλυσιν μεγάλην
+    - ἔδησεν αὐτὸν χίλια ἔτη
+    - ἔβαλεν αὐτὸν εἰς τὴν ἄβυσσον
+    - ἔκλεισεν καὶ ἐσφράγισεν ἐπάνω αὐτοῦ
+    - μετὰ ταῦτα δεῖ λυθῆναι αὐτὸν μικρὸν χρόνον
+
+source:
+  reference: Isaiah 24:21-22
+  language: hebrew
+  hebrew_anchors:
+    - וְהָיָה בַּיּוֹם הַהוּא יִפְקֹד יְהוָה עַל־צְבָא הַמָּרוֹם בַּמָּרוֹם וְעַל־מַלְכֵי הָאֲדָמָה עַל־הָאֲדָמָה
+    - וְאֻסְּפוּ אֲסֵפָה אַסִּיר עַל־בּוֹר וְסֻגְּרוּ עַל־מַסְגֵּר וּמֵרֹב יָמִים יִפָּקֵדוּ
+  contribution:
+    - judgment on heavenly and earthly powers
+    - hostile powers gathered as prisoners in a pit
+    - confinement behind enclosure
+    - a later visitation after many days
+
+shared_features:
+  - supernatural or ruling opposition subjected to divine judgment
+  - imprisonment in a pit-like place
+  - confinement followed by a later appointed action
+
+differences:
+  - Isaiah does not name the dragon, ancient serpent, Devil, or Satan.
+  - Isaiah gives no chain, key, seal, thousand years, or purpose of preventing deception of nations.
+  - Revelation explicitly identifies the prisoner and gives the duration and reason for confinement.
+  - Isaiah's later visitation is not defined as release for a short time.
+
+classification:
+  relation: imprisonment-and-later-visitation-image-structure
+  evidence_class: E4
+  confidence: high
+
+chronology_effect:
+  status: revelation-controlled
+  statement: Isaiah contributes the imprisonment pattern, but the thousand years and short release are supplied only by Revelation 20.
+
+limits:
+  - The imprisoned host and kings in Isaiah must not be declared identical in every detail to Satan.
+  - Isaiah 24 cannot be used to convert Revelation's thousand years into a different duration.
+  - The abyss is not geographically identified by this connection.

@@ -1,0 +1,98 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-15-02-04-exodus-14-15-deuteronomy-32
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 15:2-4
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271502, 271503, 271504]
+  original_anchors:
+    - τοὺς νικῶντας ἐκ τοῦ θηρίου
+    - ἑστῶτας ἐπὶ τὴν θάλασσαν τὴν ὑαλίνην
+    - ᾄδουσιν τὴν ᾠδὴν Μωϋσέως τοῦ δούλου τοῦ θεοῦ καὶ τὴν ᾠδὴν τοῦ ἀρνίου
+    - Μεγάλα καὶ θαυμαστὰ τὰ ἔργα σου
+    - δίκαιαι καὶ ἀληθιναὶ αἱ ὁδοί σου
+    - τίς οὐ μὴ φοβηθῇ κύριε καὶ δοξάσει τὸ ὄνομά σου
+    - πάντα τὰ ἔθνη ἥξουσιν καὶ προσκυνήσουσιν ἐνώπιόν σου
+
+sources:
+  - reference: Exodus 14:27-31; 15:1,11
+    language: hebrew
+    hebrew_anchors:
+      - וַיּוֹשַׁע יְהוָה בַּיּוֹם הַהוּא אֶת־יִשְׂרָאֵל מִיַּד מִצְרָיִם
+      - אָז יָשִׁיר־מֹשֶׁה וּבְנֵי יִשְׂרָאֵל אֶת־הַשִּׁירָה הַזֹּאת לַיהוָה
+      - מִי־כָמֹכָה בָּאֵלִם יְהוָה מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ נוֹרָא תְהִלֹּת עֹשֵׂה פֶלֶא
+    contribution:
+      - deliverance from an oppressing power
+      - victors positioned in relation to the sea
+      - Moses and the delivered people singing after divine victory
+      - incomparable holiness and wonder-working deeds
+  - reference: Deuteronomy 32:3-4
+    language: hebrew
+    hebrew_anchors:
+      - כִּי שֵׁם יְהוָה אֶקְרָא הָבוּ גֹדֶל לֵאלֹהֵינוּ
+      - הַצּוּר תָּמִים פָּעֳלוֹ כִּי כָל־דְּרָכָיו מִשְׁפָּט אֵל אֱמוּנָה וְאֵין עָוֶל צַדִּיק וְיָשָׁר הוּא
+    contribution:
+      - proclamation of YHWH's name and greatness
+      - perfect work
+      - all divine ways characterized by justice
+      - God described as faithful, righteous, and upright
+  - reference: Psalm 86:9
+    language: hebrew
+    hebrew_anchor: כָּל־גּוֹיִם אֲשֶׁר עָשִׂיתָ יָבוֹאוּ וְיִשְׁתַּחֲווּ לְפָנֶיךָ אֲדֹנָי וִיכַבְּדוּ לִשְׁמֶךָ
+    contribution:
+      - all nations coming
+      - worship before the Lord
+      - glorification of the divine name
+  - reference: Jeremiah 10:7
+    language: hebrew
+    hebrew_anchor: מִי לֹא יִרָאֲךָ מֶלֶךְ הַגּוֹיִם כִּי לְךָ יָאָתָה כִּי בְכָל־חַכְמֵי הַגּוֹיִם וּבְכָל־מַלְכוּתָם מֵאֵין כָּמוֹךָ
+    contribution:
+      - the question who would not fear the Lord
+      - the divine title king of the nations
+      - incomparability among the nations
+
+greek_bridge:
+  status: strong-composite-continuity
+  key_families:
+    - ᾠδή + Μωϋσῆς
+    - θαυμαστός + ἔργον
+    - δίκαιος + ὁδός
+    - φοβέομαι + κύριος
+    - ἔθνη + ἥκω + προσκυνέω + ἐνώπιον
+
+shared_features:
+  - deliverance followed by song
+  - Moses explicitly named
+  - victory associated with a sea setting
+  - praise of God's wondrous works and just ways
+  - fear and glorification of the divine name
+  - the nations coming to worship
+
+differences:
+  - Exodus describes Israel's deliverance from Egypt at the sea; Revelation describes victory over the beast, its image, and its number.
+  - Revelation's sea is glasslike and mixed with fire; Exodus does not use that description.
+  - Revelation names the song both the song of Moses and the song of the Lamb.
+  - The wording of Revelation 15:3-4 is a composite and is not a verbatim reproduction of one Mosaic song.
+
+classification:
+  relation: composite-victory-song-reuse
+  evidence_class: E5
+  confidence:
+    exodus_victory_song_frame: very-high
+    deuteronomy_justice_formula: high
+    psalm_nations_worship_formula: very-high
+    jeremiah_fear_question: high
+    glass_sea_identical_to_exodus_sea: not-established
+
+chronology_effect:
+  status: typological-sequence-only
+  statement: Deliverance precedes the victory song in both scenes, but Exodus does not determine Revelation's plague chronology.
+
+limits:
+  - The literary reuse does not make Egypt and the beast identical entities.
+  - The sea imagery must not be converted into a geographic identification.
+  - The song of the Lamb is Revelation's own christological addition and must not be read back into the wording of Exodus or Deuteronomy.

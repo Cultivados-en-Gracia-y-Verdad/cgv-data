@@ -1,0 +1,63 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-21-22-27-isaiah-60
+status: verified-near-verbatim-city-light-reuse
+
+revelation:
+  reference: Revelation 21:22-27
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [272122, 272123, 272124, 272125, 272126, 272127]
+  original_anchors:
+    - ναὸν οὐκ εἶδον ἐν αὐτῇ
+    - ὁ κύριος ὁ θεὸς ὁ παντοκράτωρ ναὸς αὐτῆς ἐστιν καὶ τὸ ἀρνίον
+    - οὐ χρείαν ἔχει τοῦ ἡλίου οὐδὲ τῆς σελήνης
+    - ἡ δόξα τοῦ θεοῦ ἐφώτισεν αὐτήν
+    - ὁ λύχνος αὐτῆς τὸ ἀρνίον
+    - περιπατήσουσιν τὰ ἔθνη διὰ τοῦ φωτὸς αὐτῆς
+    - οἱ βασιλεῖς τῆς γῆς φέρουσιν τὴν δόξαν αὐτῶν εἰς αὐτήν
+    - οἱ πυλῶνες αὐτῆς οὐ μὴ κλεισθῶσιν ἡμέρας
+    - νὺξ γὰρ οὐκ ἔσται ἐκεῖ
+
+source:
+  reference: Isaiah 60:1-22
+  language: hebrew
+  hebrew_anchors:
+    - קוּמִי אוֹרִי כִּי בָא אוֹרֵךְ וּכְבוֹד יְהוָה עָלַיִךְ זָרָח
+    - וְהָלְכוּ גוֹיִם לְאוֹרֵךְ וּמְלָכִים לְנֹגַהּ זַרְחֵךְ
+    - וּפִתְּחוּ שְׁעָרַיִךְ תָּמִיד יוֹמָם וָלַיְלָה לֹא יִסָּגֵרוּ לְהָבִיא אֵלַיִךְ חֵיל גּוֹיִם וּמַלְכֵיהֶם נְהוּגִים
+    - לֹא־יִהְיֶה־לָּךְ עוֹד הַשֶּׁמֶשׁ לְאוֹר יוֹמָם וּלְנֹגַהּ הַיָּרֵחַ לֹא־יָאִיר לָךְ וְהָיָה־לָךְ יְהוָה לְאוֹר עוֹלָם וֵאלֹהַיִךְ לְתִפְאַרְתֵּךְ
+    - לֹא־יָבוֹא עוֹד שִׁמְשֵׁךְ וִירֵחֵךְ לֹא יֵאָסֵף כִּי יְהוָה יִהְיֶה־לָּךְ לְאוֹר עוֹלָם
+  contribution:
+    - divine glory illuminating restored Zion
+    - nations and kings walking toward that light
+    - gates continually open to receive the wealth and honor of nations
+    - sun and moon displaced as primary lights by YHWH's everlasting light
+
+shared_features:
+  - God's glory as the city's light
+  - nations walking by that light
+  - kings bringing glory or wealth into the city
+  - gates remaining open
+  - sun and moon no longer needed as sources of illumination
+
+differences:
+  - Isaiah says the sun and moon will no longer function as Zion's primary light; Revelation says the city has no need of them.
+  - Revelation identifies the Lamb as the city's lamp and God and the Lamb as its temple.
+  - Revelation states that night is absent and excludes everything unclean or false.
+  - Isaiah's nations bring wealth in a Zion-restoration setting; Revelation places the scene in the descending new Jerusalem.
+
+classification:
+  relation: near-verbatim-restored-city-light-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: revelation-controlled
+  statement: Isaiah supplies the restored-city promises; Revelation locates their transformed fulfillment in the new Jerusalem after the new creation appears.
+
+limits:
+  - Nations and kings in the city must not be assigned modern identities without textual evidence.
+  - Open gates do not imply unrestricted entrance; Revelation explicitly limits entry to those written in the Lamb's book of life.
+  - The absence of a temple building is Revelation's development and must not be read back into Isaiah 60.

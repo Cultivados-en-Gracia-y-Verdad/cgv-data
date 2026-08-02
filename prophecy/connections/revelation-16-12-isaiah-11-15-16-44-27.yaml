@@ -1,0 +1,67 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-16-12-isaiah-11-15-16-44-27
+status: verified-image-structure-reuse
+
+revelation:
+  reference: Revelation 16:12
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 271612
+  original_anchors:
+    - τὸν ποταμὸν τὸν μέγαν τὸν Εὐφράτην
+    - ἐξηράνθη τὸ ὕδωρ αὐτοῦ
+    - ἵνα ἑτοιμασθῇ ἡ ὁδὸς
+    - τῶν βασιλέων τῶν ἀπὸ ἀνατολῆς ἡλίου
+
+sources:
+  - reference: Isaiah 11:15-16
+    language: hebrew
+    hebrew_anchors:
+      - וְהֶחֱרִים יְהוָה אֵת לְשׁוֹן יָם־מִצְרַיִם
+      - וְהִכָּהוּ לְשִׁבְעָה נְחָלִים וְהִדְרִיךְ בַּנְּעָלִים
+      - וְהָיְתָה מְסִלָּה לִשְׁאָר עַמּוֹ
+    contribution:
+      - divinely dried or divided waters
+      - a prepared roadway through the former water barrier
+  - reference: Isaiah 44:27-28
+    language: hebrew
+    hebrew_anchors:
+      - הָאֹמֵר לַצּוּלָה חֳרָבִי וְנַהֲרֹתַיִךְ אוֹבִישׁ
+      - הָאֹמֵר לְכוֹרֶשׁ רֹעִי וְכָל־חֶפְצִי יַשְׁלִם
+    contribution:
+      - drying deep waters and rivers
+      - a royal agent named immediately after the drying declaration
+  - reference: Isaiah 50:2
+    language: hebrew
+    hebrew_anchor: הֵן בְּגַעֲרָתִי אַחֲרִיב יָם אָשִׂים נְהָרוֹת מִדְבָּר
+    contribution:
+      - sea and rivers dried by divine command
+
+shared_features:
+  - divine drying of major waters
+  - removal of a water barrier
+  - preparation of a route
+  - association with royal movement or agency
+
+differences:
+  - Isaiah 11 prepares a highway for the remnant of God's people, not invading kings.
+  - Isaiah 44 names Cyrus and speaks of Jerusalem and temple restoration; Revelation names no individual king.
+  - Revelation specifies the Euphrates and kings from the rising of the sun.
+  - Revelation places the drying within the sixth bowl and the gathering toward the day of God Almighty.
+
+classification:
+  relation: transformed-river-drying-way-reuse
+  evidence_class: E4
+  confidence:
+    drying-and-way-pattern: high
+    identification_of_eastern_kings_with_cyrus_or_israel: rejected
+
+chronology_effect:
+  status: bowl-sequence-only
+
+limits:
+  - The source pattern does not identify the kings from the east as Cyrus, Israel, or any modern political coalition.
+  - The Euphrates reference is explicit in Revelation and must not be replaced by Isaiah's Egyptian sea or unnamed rivers.
+  - The prepared way may facilitate judgment without carrying Isaiah 11's positive remnant meaning into Revelation.

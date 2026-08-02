@@ -1,0 +1,55 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-19-17-18-ezekiel-39-17-20
+status: verified-near-verbatim-scene-reuse
+
+revelation:
+  reference: Revelation 19:17-18
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271917, 271918]
+  original_anchors:
+    - πᾶσι τοῖς ὀρνέοις τοῖς πετομένοις ἐν μεσουρανήματι
+    - Δεῦτε συνάχθητε εἰς τὸ δεῖπνον τὸ μέγα τοῦ θεοῦ
+    - φάγητε σάρκας βασιλέων καὶ σάρκας χιλιάρχων καὶ σάρκας ἰσχυρῶν
+    - σάρκας ἵππων καὶ τῶν καθημένων ἐπ’ αὐτούς
+    - σάρκας πάντων ἐλευθέρων τε καὶ δούλων καὶ μικρῶν καὶ μεγάλων
+
+source:
+  reference: Ezekiel 39:17-20
+  language: hebrew
+  hebrew_anchors:
+    - אֱמֹר לְצִפּוֹר כָּל־כָּנָף וּלְכֹל חַיַּת הַשָּׂדֶה הִקָּבְצוּ וָבֹאוּ הֵאָסְפוּ מִסָּבִיב עַל־זִבְחִי אֲשֶׁר אֲנִי זֹבֵחַ לָכֶם
+    - בְּשַׂר גִּבּוֹרִים תֹּאכֵלוּ וְדַם־נְשִׂיאֵי הָאָרֶץ תִּשְׁתּוּ
+    - וּשְׂבַעְתֶּם עַל־שֻׁלְחָנִי סוּס וָרֶכֶב גִּבּוֹר וְכָל־אִישׁ מִלְחָמָה
+  contribution:
+    - summons to birds and beasts to gather
+    - divine sacrificial feast after battle
+    - flesh of rulers, warriors, horses, riders, and fighting men
+
+shared_features:
+  - an authoritative summons to birds
+  - gathering for a divine feast
+  - defeated rulers and warriors as food
+  - horses and riders included
+  - total battlefield humiliation
+
+differences:
+  - Ezekiel addresses both birds and field animals; Revelation explicitly addresses birds flying in midheaven.
+  - Ezekiel's feast belongs to the Gog judgment sequence; Revelation applies the scene to the armies gathered against the mounted rider.
+  - Revelation expands the social range to free and slave, small and great.
+  - Revelation calls it the great supper of God rather than a sacrificial feast on Israel's mountains.
+
+classification:
+  relation: near-verbatim-battlefield-feast-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: none-from-ezekiel
+  statement: Ezekiel supplies the feast scene but does not independently prove that Revelation 19 is identical in all details or chronology to Ezekiel 38-39.
+
+limits:
+  - The reuse does not establish a modern identification for Gog, the beast's armies, or the geographic battlefield.
+  - Similar participants and bird imagery do not make every detail in Ezekiel 39 transferable to Revelation 19.

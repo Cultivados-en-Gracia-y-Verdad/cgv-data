@@ -1,0 +1,60 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-17-12-14-daniel-07-24
+status: verified-explicit-interpretive-reuse
+
+revelation:
+  reference: Revelation 17:12-14
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271712, 271713, 271714]
+  original_anchors:
+    - τὰ δέκα κέρατα ἃ εἶδες δέκα βασιλεῖς εἰσιν
+    - μίαν ὥραν λαμβάνουσιν μετὰ τοῦ θηρίου
+    - τὴν δύναμιν καὶ ἐξουσίαν αὐτῶν τῷ θηρίῳ διδόασιν
+    - μετὰ τοῦ ἀρνίου πολεμήσουσιν
+    - τὸ ἀρνίον νικήσει αὐτούς
+
+source:
+  reference: Daniel 7:7,24-27
+  language: aramaic
+  aramaic_anchors:
+    - וְקַרְנַיִן עֲשַׂר לַהּ
+    - וְקַרְנַיָּא עֲשַׂר מַלְכוּתָה עַשְׂרָה מַלְכִין יְקֻמוּן
+    - וְדִינָא יִתִּב וְשָׁלְטָנֵהּ יְהַעְדּוֹן
+    - וּמַלְכוּתָה וְשָׁלְטָנָא וּרְבוּתָא דִּי מַלְכְוָת תְּחוֹת כָּל־שְׁמַיָּא יְהִיבַת לְעַם קַדִּישֵׁי עֶלְיוֹנִין
+  contribution:
+    - ten horns interpreted as ten kings
+    - temporary hostile rule
+    - final removal of hostile authority
+    - kingdom transferred under divine judgment
+
+shared_features:
+  - ten horns explicitly interpreted as ten kings
+  - temporary coordinated hostile authority
+  - opposition to God's holy ruler or people
+  - defeat under divine sovereignty
+
+differences:
+  - Daniel's ten kings arise from one kingdom; Revelation's ten kings have not yet received a kingdom and receive authority with the beast for one hour.
+  - Revelation states that the kings voluntarily give their power and authority to the beast.
+  - Revelation names the Lamb as their victorious opponent and calls him Lord of lords and King of kings.
+  - Daniel does not contain Revelation's one-hour expression or its beast-and-prostitute relationship.
+
+classification:
+  relation: explicit-interpretive-reuse
+  evidence_class: E5
+  confidence: very-high
+
+internal_interpretation:
+  source: Revelation 17:12
+  statement: Revelation itself explicitly interprets its ten horns as ten kings.
+
+chronology_effect:
+  status: bounded-but-unspecified
+  statement: Revelation presents their authority as brief and coordinated, but the phrase one hour must not be converted into a calendar duration without textual warrant.
+
+limits:
+  - The record does not identify the ten kings with modern states, alliances, institutions, or named rulers.
+  - Daniel's source interpretation establishes the king-symbol relationship but does not make every detail of Daniel 7 and Revelation 17 identical.

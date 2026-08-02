@@ -1,0 +1,62 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-12-06-14-daniel-07-25-12-07
+status: verified-chronology-connection
+
+revelation:
+  references:
+    - Revelation 12:6
+    - Revelation 12:14
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271206, 271214]
+  original_anchors:
+    - ἡμέρας χιλίας διακοσίας ἑξήκοντα
+    - καιρὸν καὶ καιροὺς καὶ ἥμισυ καιροῦ
+  internal_equivalence:
+    statement: Revelation assigns the woman's wilderness nourishment both 1,260 days and a time, times, and half a time.
+    confidence: explicit
+
+sources:
+  - reference: Daniel 7:25
+    language: aramaic
+    aramaic_anchor: וְיִתְיַהֲבוּן בִּידֵהּ עַד־עִדָּן וְעִדָּנִין וּפְלַג עִדָּן
+    contribution:
+      - the period described as a time, times, and half a time
+      - a period associated with pressure against the holy ones
+  - reference: Daniel 12:7
+    language: hebrew
+    hebrew_anchor: לְמוֹעֵד מוֹעֲדִים וָחֵצִי
+    contribution:
+      - the same three-part time formula
+      - completion language concerning the shattering of the holy people's power
+
+shared_features:
+  - time + times + half-time formula
+  - divinely bounded period
+  - preservation or affliction of a covenant-associated people within the surrounding context
+
+differences:
+  - Revelation explicitly equates the formula with 1,260 days through two descriptions of the same woman's wilderness preservation.
+  - Daniel 7 uses Aramaic עִדָּן; Daniel 12 uses Hebrew מוֹעֵד; Revelation uses Greek καιρός.
+  - Revelation 12 concerns nourishment away from the serpent; Daniel 7 concerns the little horn's oppression, and Daniel 12 concerns the completion of a stated period.
+  - Daniel does not explicitly state 1,260 days in these verses.
+
+classification:
+  relation: explicit-internal-equivalence-with-danielic-time-formula
+  evidence_class: E5
+  confidence:
+    revelation_1260_equals_time-times-half: certain
+    deliberate_daniel_reuse: very-high
+    identical_events: not-established
+
+chronology_effect:
+  status: established-duration-equivalence-within-revelation
+  conclusions:
+    - Revelation 12 treats 1,260 days and time-times-half-a-time as equivalent descriptions of one period.
+    - This internal equation provides a strong basis for comparing Revelation 11's 1,260 days and 42 months, but identity of all scenes still requires textual argument.
+
+limits:
+  - The record does not convert every biblical use of three-and-a-half units into the same event.
+  - A prophetic-year day count is not imported from an external calendar system; the equation rests on Revelation's own parallel descriptions.

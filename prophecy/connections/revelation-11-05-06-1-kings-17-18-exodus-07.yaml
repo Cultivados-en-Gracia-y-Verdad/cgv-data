@@ -1,0 +1,70 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-11-05-06-1-kings-17-18-exodus-07
+status: verified-composite-prophetic-action-reuse
+
+revelation:
+  reference: Revelation 11:5-6
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes:
+      - 271105
+      - 271106
+  original_anchors:
+    - πῦρ ἐκπορεύεται ἐκ τοῦ στόματος αὐτῶν
+    - ἐξουσίαν κλεῖσαι τὸν οὐρανόν
+    - ἵνα μὴ ὑετὸς βρέχῃ
+    - ἐξουσίαν ἐπὶ τῶν ὑδάτων στρέφειν αὐτὰ εἰς αἷμα
+    - πατάξαι τὴν γῆν ἐν πάσῃ πληγῇ
+
+sources:
+  - reference: 1 Kings 17:1; 18:1,36-38
+    language: hebrew
+    hebrew_anchors:
+      - אִם־יִהְיֶה הַשָּׁנִים הָאֵלֶּה טַל וּמָטָר כִּי אִם־לְפִי דְבָרִי
+      - וְאֶתְּנָה מָטָר עַל־פְּנֵי הָאֲדָמָה
+      - וַתִּפֹּל אֵשׁ־יְהוָה
+    contribution:
+      - prophetic withholding and restoration of rain
+      - fire associated with Elijah's public prophetic contest
+  - reference: Exodus 7:17-21
+    language: hebrew
+    hebrew_anchors:
+      - וְנֶהֶפְכוּ לְדָם
+      - וַיֵּהָפְכוּ כָּל־הַמַּיִם אֲשֶׁר־בַּיְאֹר לְדָם
+    contribution:
+      - waters turned to blood
+      - plague judgment upon the land through Moses and Aaron
+  - reference: 2 Kings 1:10-12
+    language: hebrew
+    hebrew_anchors:
+      - וְאִם־אִישׁ אֱלֹהִים אָנִי תֵּרֶד אֵשׁ מִן־הַשָּׁמַיִם
+      - וַתֹּאכַל אֹתוֹ וְאֶת־חֲמִשָּׁיו
+    contribution:
+      - fire consuming hostile agents who approach the prophet
+
+shared_features:
+  - prophetic authority over rain
+  - water transformed into blood
+  - repeated plagues
+  - fire consuming hostile opponents
+
+differences:
+  - Revelation's fire proceeds from the witnesses' mouths; the Kings narratives describe fire descending from heaven.
+  - Revelation combines actions associated with Elijah and Moses into the authority of two unnamed witnesses.
+  - Revelation permits repeated plagues whenever the witnesses wish; Exodus narrates a defined plague sequence commanded by God.
+  - Revelation does not explicitly name either witness as Moses or Elijah.
+
+classification:
+  relation: composite-prophetic-action-reuse
+  evidence_class: E4
+  confidence: high
+
+chronology_effect:
+  status: none
+  statement: The narratives supply action patterns but do not identify Revelation's witnesses or determine their chronological placement.
+
+limits:
+  - Similarity of deeds is not sufficient to establish personal identity.
+  - The phrase about fire from the mouth may also function as prophetic-word imagery and must not be reduced to a literal replay of 2 Kings 1.

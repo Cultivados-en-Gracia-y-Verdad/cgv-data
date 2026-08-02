@@ -1,0 +1,82 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-16-17-21-exodus-09-isaiah-13-jeremiah-25
+status: verified-composite-judgment-reuse
+
+revelation:
+  reference: Revelation 16:17-21
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271617, 271618, 271619, 271620, 271621]
+  original_anchors:
+    - Γέγονεν
+    - σεισμὸς μέγας οἷος οὐκ ἐγένετο
+    - Βαβυλὼν ἡ μεγάλη ἐμνήσθη ἐνώπιον τοῦ θεοῦ
+    - δοῦναι αὐτῇ τὸ ποτήριον τοῦ οἴνου τοῦ θυμοῦ τῆς ὀργῆς αὐτοῦ
+    - πᾶσα νῆσος ἔφυγεν καὶ ὄρη οὐχ εὑρέθησαν
+    - χάλαζα μεγάλη ὡς ταλαντιαία
+
+sources:
+  - reference: Exodus 9:18-26
+    language: hebrew
+    hebrew_anchors:
+      - הִנְנִי מַמְטִיר כָּעֵת מָחָר בָּרָד כָּבֵד מְאֹד אֲשֶׁר לֹא־הָיָה כָמֹהוּ בְּמִצְרַיִם
+      - וַיְהִי בָרָד וְאֵשׁ מִתְלַקַּחַת בְּתוֹךְ הַבָּרָד כָּבֵד מְאֹד
+      - וַיַּךְ הַבָּרָד בְּכָל־אֶרֶץ מִצְרַיִם
+    contribution:
+      - uniquely severe hail
+      - comprehensive destructive judgment
+      - human resistance continuing under plague
+  - reference: Isaiah 13:13,19
+    language: hebrew
+    hebrew_anchors:
+      - עַל־כֵּן שָׁמַיִם אַרְגִּיז וְתִרְעַשׁ הָאָרֶץ מִמְּקוֹמָהּ
+      - וְהָיְתָה בָבֶל צְבִי מַמְלָכוֹת תִּפְאֶרֶת גְּאוֹן כַּשְׂדִּים כְּמַהְפֵּכַת אֱלֹהִים אֶת־סְדֹם וְאֶת־עֲמֹרָה
+    contribution:
+      - cosmic shaking under divine wrath
+      - Babylon singled out for catastrophic judgment
+  - reference: Jeremiah 25:15-17,26
+    language: hebrew
+    hebrew_anchors:
+      - קַח אֶת־כּוֹס הַיַּיִן הַחֵמָה הַזֹּאת מִיָּדִי וְהִשְׁקִיתָה אֹתוֹ אֶת־כָּל־הַגּוֹיִם
+      - וּמֶלֶךְ שֵׁשַׁךְ יִשְׁתֶּה אַחֲרֵיהֶם
+    contribution:
+      - cup of divine wrath given to nations
+      - Babylon included in the final drinking sequence
+  - reference: Haggai 2:6,21-22
+    language: hebrew
+    hebrew_anchors:
+      - וַאֲנִי מַרְעִישׁ אֶת־הַשָּׁמַיִם וְאֶת־הָאָרֶץ וְאֶת־הַיָּם וְאֶת־הֶחָרָבָה
+      - וְהָפַכְתִּי כִּסֵּא מַמְלָכוֹת וְהִשְׁמַדְתִּי חֹזֶק מַמְלְכוֹת הַגּוֹיִם
+    contribution:
+      - shaking heaven, earth, sea, and dry land
+      - overthrow of kingdoms
+
+shared_features:
+  - an unprecedented judgment event
+  - shaking of earth and political structures
+  - Babylon brought into divine remembrance for wrath
+  - the cup of wrath
+  - extraordinary hail
+  - collapse or displacement of created terrain
+
+differences:
+  - Exodus's hail falls on Egypt and spares Goshen; Revelation describes global-scale terrain disruption and Babylon's judgment.
+  - Isaiah and Jeremiah address historical Babylon within their own prophetic horizons.
+  - Revelation combines earthquake, city division, Babylon's cup, fleeing islands, missing mountains, and massive hail in one final bowl scene.
+  - Revelation gives the hailstone comparison as about a talent; the source texts do not provide that weight.
+
+classification:
+  relation: composite-cosmic-plague-and-babylon-judgment-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: terminal-bowl-sequence
+  statement: The proclamation "It is done" marks the seventh bowl's completion within Revelation; the source texts do not independently date this event.
+
+limits:
+  - Historical Babylon passages supply judgment language without exhausting Revelation's later interpretation of Babylon the Great.
+  - The hail comparison must not be converted into a precise modern meteorological prediction beyond the text.
+  - The disappearance of islands and mountains must not be reduced to metaphor solely because the source texts use cosmic shaking language.

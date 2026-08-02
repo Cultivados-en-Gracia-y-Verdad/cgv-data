@@ -1,0 +1,71 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-13-16-17-deuteronomy-06-08-11-18
+status: verified-contrastive-placement-reuse
+
+revelation:
+  reference: Revelation 13:16-17
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271316, 271317]
+  original_anchors:
+    - χάραγμα ἐπὶ τῆς χειρὸς αὐτῶν τῆς δεξιᾶς ἢ ἐπὶ τὸ μέτωπον αὐτῶν
+    - μὴ τις δύνηται ἀγοράσαι ἢ πωλῆσαι
+    - τὸ ὄνομα τοῦ θηρίου ἢ τὸν ἀριθμὸν τοῦ ὀνόματος αὐτοῦ
+
+sources:
+  - reference: Deuteronomy 6:6-8
+    language: hebrew
+    hebrew_anchors:
+      - וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל־לְבָבֶךָ
+      - וּקְשַׁרְתָּם לְאוֹת עַל־יָדֶךָ
+      - וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ
+    contribution:
+      - covenant words associated with the hand
+      - covenant words placed between the eyes
+      - embodied remembrance and allegiance
+  - reference: Deuteronomy 11:18
+    language: hebrew
+    hebrew_anchors:
+      - וְשַׂמְתֶּם אֶת־דְּבָרַי אֵלֶּה עַל־לְבַבְכֶם וְעַל־נַפְשְׁכֶם
+      - וּקְשַׁרְתֶּם אֹתָם לְאוֹת עַל־יֶדְכֶם
+      - וְהָיוּ לְטוֹטָפֹת בֵּין עֵינֵיכֶם
+    contribution:
+      - repeated hand and forehead or between-the-eyes placement
+      - inward and outward covenant commitment
+  - reference: Exodus 13:9,16
+    language: hebrew
+    hebrew_anchors:
+      - וְהָיָה לְךָ לְאוֹת עַל־יָדְךָ וּלְזִכָּרוֹן בֵּין עֵינֶיךָ
+      - וְהָיָה לְאוֹת עַל־יָדְכָה וּלְטוֹטָפֹת בֵּין עֵינֶיךָ
+    contribution:
+      - hand and forehead placement as a sign of remembered redemption and divine instruction
+
+shared_features:
+  - paired hand and forehead or between-the-eyes locations
+  - an outward sign associated with loyalty, identity, and governing authority
+  - conduct and thought represented through bodily placement
+
+differences:
+  - Torah's sign concerns YHWH's words and remembered redemption; Revelation's mark concerns the beast's name or number.
+  - Torah includes the hand generally; Revelation specifies the right hand.
+  - Revelation attaches economic exclusion to absence of the mark; Torah does not.
+  - Revelation uses χάραγμα, an engraved or impressed mark, rather than the Torah's Hebrew אוֹת and טוֹטָפֹת terminology.
+  - Revelation 7 and 14 also describe God's servants as sealed or bearing the divine name, creating an internal allegiance contrast.
+
+classification:
+  relation: contrastive-placement-and-allegiance-reuse
+  evidence_class: E4
+  confidence:
+    hand_forehead_pattern: high
+    deliberate_counter-sign_function: high
+    physical_form_of_mark: unresolved
+
+chronology_effect:
+  status: none
+
+limits:
+  - The text does not define the mark's physical technology or modern implementation.
+  - The connection does not identify Torah observance with the beast's mark; it establishes a deliberate contrast in allegiance locations.
+  - Hand and forehead placement must not be universalized so that every biblical occurrence denotes the same sign.

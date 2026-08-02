@@ -1,0 +1,72 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-13-01-02-daniel-07-02-07
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 13:1-2
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271301, 271302]
+  original_anchors:
+    - ἐκ τῆς θαλάσσης θηρίον ἀναβαῖνον
+    - κέρατα δέκα
+    - ὅμοιον παρδάλει
+    - οἱ πόδες αὐτοῦ ὡς ἄρκου
+    - τὸ στόμα αὐτοῦ ὡς στόμα λέοντος
+    - ἔδωκεν αὐτῷ ὁ δράκων τὴν δύναμιν αὐτοῦ καὶ τὸν θρόνον αὐτοῦ καὶ ἐξουσίαν μεγάλην
+
+source:
+  reference: Daniel 7:2-7
+  language: aramaic
+  aramaic_anchors:
+    - וַאֲרוּ אַרְבַּע רוּחֵי שְׁמַיָּא מְגִיחָן לְיַמָּא רַבָּא
+    - וְאַרְבַּע חֵיוָן רַבְרְבָן סָלְקָן מִן־יַמָּא
+    - קַדְמָיְתָא כְאַרְיֵה
+    - וַאֲרוּ חֵיוָה אָחֳרִי תִנְיָנָה דָּמְיָה לְדֹב
+    - וַאֲרוּ אָחֳרִי כִּנְמַר
+    - וְקַרְנַיִן עֲשַׂר לַהּ
+  contribution:
+    - beasts rising from the sea
+    - lion, bear, and leopard forms
+    - a terrifying final beast with ten horns
+
+greek_bridge:
+  status: strong-image-and-lexical-continuity
+  key_families:
+    - θηρίον
+    - θάλασσα
+    - λέων
+    - ἄρκος
+    - πάρδαλις
+    - κέρατα δέκα
+
+shared_features:
+  - a beast or beasts rising from the sea
+  - lion, bear, and leopard imagery
+  - ten horns
+  - political authority represented through beast imagery
+
+differences:
+  - Daniel presents four successive and distinct beasts; Revelation combines their animal features into one beast.
+  - Daniel's leopard has four heads, whereas Revelation's beast has seven heads.
+  - Revelation adds ten diadems, blasphemous names, and authority received from the dragon.
+  - Daniel internally identifies the beasts as kings or kingdoms; Revelation 13 must be interpreted within its own explanations and later identifications.
+
+classification:
+  relation: composite-reuse
+  evidence_class: E5
+  confidence: very-high
+
+internal_control:
+  statement: Daniel 7:17 and 7:23 interpret its beasts as kings and kingdoms; this controls the source imagery without proving a one-to-one identity for every Revelation feature.
+
+chronology_effect:
+  status: structural-sequence
+  statement: Revelation deliberately gathers features from Daniel's successive beasts into a single present vision; the combination does not erase Daniel's original sequence.
+
+limits:
+  - The literary dependence does not by itself identify a modern nation, ruler, empire, or date.
+  - The dragon's grant of throne and authority is a Revelation-specific relationship.
+  - The seven heads must not be derived from Daniel's four leopard heads merely by numerical combination.

@@ -1,0 +1,79 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-11-15-18-psalm-02-daniel-07
+status: verified-composite-kingdom-judgment-reuse
+
+revelation:
+  reference: Revelation 11:15-18
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes:
+      - 271115
+      - 271116
+      - 271117
+      - 271118
+  original_anchors:
+    - Ἐγένετο ἡ βασιλεία τοῦ κόσμου τοῦ κυρίου ἡμῶν καὶ τοῦ χριστοῦ αὐτοῦ
+    - βασιλεύσει εἰς τοὺς αἰῶνας τῶν αἰώνων
+    - τὰ ἔθνη ὠργίσθησαν
+    - ἦλθεν ἡ ὀργή σου
+    - ὁ καιρὸς τῶν νεκρῶν κριθῆναι
+    - δοῦναι τὸν μισθὸν τοῖς δούλοις σου τοῖς προφήταις καὶ τοῖς ἁγίοις
+
+sources:
+  - reference: Psalm 2:1-2,5-6,8-9
+    language: hebrew
+    hebrew_anchors:
+      - לָמָּה רָגְשׁוּ גוֹיִם
+      - עַל־יְהוָה וְעַל־מְשִׁיחוֹ
+      - אָז יְדַבֵּר אֵלֵימוֹ בְאַפּוֹ וּבַחֲרוֹנוֹ יְבַהֲלֵמוֹ
+      - וַאֲנִי נָסַכְתִּי מַלְכִּי עַל־צִיּוֹן הַר־קָדְשִׁי
+      - שְׁאַל מִמֶּנִּי וְאֶתְּנָה גוֹיִם נַחֲלָתֶךָ
+    contribution:
+      - nations in revolt
+      - YHWH and his anointed
+      - divine wrath against rebellious nations
+      - enthronement and rule of the anointed king
+  - reference: Daniel 7:9-14,22,26-27
+    language: aramaic
+    aramaic_anchors:
+      - דִּינָא יְתִב וְסִפְרִין פְּתִיחוּ
+      - וְלֵהּ יְהִיב שָׁלְטָן וִיקָר וּמַלְכוּ
+      - שָׁלְטָנֵהּ שָׁלְטָן עָלַם דִּי־לָא יֶעְדֵּה
+      - וּמַלְכוּתֵהּ דִּי־לָא תִתְחַבַּל
+      - וְדִינָא יִתִּב
+      - וּמַלְכוּתָא וְשָׁלְטָנָא וּרְבוּתָא דִּי מַלְכְוָת תְּחוֹת כָּל־שְׁמַיָּא יְהִיבַת לְעַם קַדִּישֵׁי עֶלְיוֹנִין
+      - מַלְכוּתֵהּ מַלְכוּת עָלַם
+    contribution:
+      - heavenly court and judgment
+      - everlasting dominion and kingdom
+      - judgment in favor of the holy ones
+      - transfer of kingdom and dominion
+
+shared_features:
+  - rebellious nations
+  - the Lord and his anointed
+  - divine wrath
+  - heavenly judgment
+  - everlasting kingdom
+  - the holy servants receiving vindication or reward
+
+differences:
+  - Revelation announces that the kingdom of the world has become the kingdom of the Lord and his Christ; neither source uses that exact formula.
+  - Daniel distinguishes the one like a son of man and the holy ones while Revelation names the Lord and his Christ and then God's servants, prophets, and saints.
+  - Revelation explicitly mentions judgment of the dead and destruction of those destroying the earth; these details are not stated in Psalm 2 or Daniel 7 in the same form.
+  - Revelation embeds the proclamation at the seventh trumpet.
+
+classification:
+  relation: composite-kingdom-judgment-reuse
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: revelation-sequence-only
+  statement: Psalm 2 and Daniel 7 supply kingdom and judgment structures, but Revelation alone places this proclamation at the seventh trumpet.
+
+limits:
+  - The shared kingdom language does not by itself resolve every relationship among the Lord, his Christ, the son-of-man figure, and the holy ones.
+  - The seventh trumpet must not be synchronized with another prophetic event without explicit textual evidence.

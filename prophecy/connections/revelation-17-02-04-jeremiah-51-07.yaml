@@ -1,0 +1,53 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-17-02-04-jeremiah-51-07
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 17:2-4
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271702, 271703, 271704]
+  original_anchors:
+    - μεθ’ ἧς ἐπόρνευσαν οἱ βασιλεῖς τῆς γῆς
+    - ἐμεθύσθησαν οἱ κατοικοῦντες τὴν γῆν ἐκ τοῦ οἴνου τῆς πορνείας αὐτῆς
+    - ποτήριον χρυσοῦν ἐν τῇ χειρὶ αὐτῆς
+    - γέμον βδελυγμάτων καὶ τὰ ἀκάθαρτα τῆς πορνείας αὐτῆς
+
+sources:
+  - reference: Jeremiah 51:7
+    language: hebrew
+    hebrew_anchor: כּוֹס־זָהָב בָּבֶל בְּיַד־יְהוָה מְשַׁכֶּרֶת כָּל־הָאָרֶץ מִיֵּינָהּ שָׁתוּ גוֹיִם עַל־כֵּן יִתְהֹלְלוּ גוֹיִם
+    contribution:
+      - Babylon as a golden cup
+      - the nations drinking its wine
+      - worldwide intoxication or derangement
+  - reference: Nahum 3:4
+    language: hebrew
+    hebrew_anchor: מֵרֹב זְנוּנֵי זוֹנָה טוֹבַת חֵן בַּעֲלַת כְּשָׁפִים הַמֹּכֶרֶת גּוֹיִם בִּזְנוּנֶיהָ וּמִשְׁפָּחוֹת בִּכְשָׁפֶיהָ
+    contribution:
+      - imperial-city prostitution imagery
+      - nations entangled through her corrupting practices
+
+shared_features:
+  - an imperial city represented through sexual immorality
+  - a golden cup in relation to Babylon
+  - nations and rulers intoxicated or corrupted
+  - outward splendor joined to inner abomination
+
+differences:
+  - Jeremiah calls Babylon a golden cup in YHWH's hand; Revelation places the cup in the woman's hand.
+  - Jeremiah speaks of nations drinking Babylon's wine; Revelation defines the wine through her sexual immorality.
+  - Nahum addresses Nineveh, not Babylon.
+  - Revelation combines city, prostitute, cup, beast, and universal-rule imagery into its own vision.
+
+classification:
+  relation: composite-city-prostitution-and-cup-reuse
+  evidence_class: E5
+  confidence: very-high
+
+limits:
+  - Similar prostitution imagery does not make every condemned city the same entity.
+  - The golden cup is a literary judgment image and does not identify a physical artifact.
+  - Revelation's own naming of Babylon the Great and interpretation of the woman as the ruling great city control the record.

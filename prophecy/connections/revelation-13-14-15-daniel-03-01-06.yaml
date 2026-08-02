@@ -1,0 +1,52 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-13-14-15-daniel-03-01-06
+status: verified-transformed-image-worship-reuse
+
+revelation:
+  reference: Revelation 13:14-15
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271314, 271315]
+  original_anchors:
+    - ποιῆσαι εἰκόνα τῷ θηρίῳ
+    - δοῦναι πνεῦμα τῇ εἰκόνι τοῦ θηρίου
+    - λαλήσῃ ἡ εἰκὼν τοῦ θηρίου
+    - ὅσοι ἐὰν μὴ προσκυνήσωσιν τῇ εἰκόνι τοῦ θηρίου ἀποκτανθῶσιν
+
+source:
+  reference: Daniel 3:1-6
+  language: aramaic
+  aramaic_anchors:
+    - נְבוּכַדְנֶצַּר מַלְכָּא עֲבַד צְלֵם דִּי־דְהַב
+    - תִּפְּלוּן וְתִסְגְּדוּן לְצֶלֶם דַּהֲבָא
+    - מַן־דִּי לָא־יִפֵּל וְיִסְגֻּד בַּהּ־שַׁעֲתָא יִתְרְמֵא לְגוֹא־אַתּוּן נוּרָא יָקִדְתָּא
+  contribution:
+    - an image established under royal authority
+    - universal command to worship the image
+    - death threatened for refusal
+
+shared_features:
+  - a politically authorized image
+  - compulsory worship
+  - capital punishment for refusal
+  - broad social enforcement
+
+differences:
+  - Daniel's image represents Nebuchadnezzar's royal command but is not said to speak or receive breath.
+  - Revelation's image represents the beast and is animated to speak.
+  - Daniel specifies a fiery furnace; Revelation states death without naming the method in this verse.
+  - Daniel narrates faithful refusal and deliverance; Revelation 13 focuses on the coercive system.
+
+classification:
+  relation: transformed-image-worship-reuse
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: none
+
+limits:
+  - The shared structure does not make Nebuchadnezzar's image and the beast's image the same object or event.
+  - The image's animation is a Revelation-specific feature and must not be imported into Daniel 3.

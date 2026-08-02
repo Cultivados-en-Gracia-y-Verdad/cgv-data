@@ -1,0 +1,70 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-16-02-07-exodus-07-09
+status: verified-composite-plague-reuse
+
+revelation:
+  reference: Revelation 16:2-7
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271602, 271603, 271604, 271605, 271606, 271607]
+  original_anchors:
+    - ἕλκος κακὸν καὶ πονηρόν
+    - ἐγένετο αἷμα ὡς νεκροῦ
+    - πᾶσα ψυχὴ ζωῆς ἀπέθανεν τὰ ἐν τῇ θαλάσσῃ
+    - οἱ ποταμοὶ καὶ αἱ πηγαὶ τῶν ὑδάτων
+    - αἷμα αὐτοῖς ἔδωκας πιεῖν
+
+sources:
+  - reference: Exodus 9:8-11
+    language: hebrew
+    hebrew_anchors:
+      - וְהָיָה עַל־הָאָדָם וְעַל־הַבְּהֵמָה לִשְׁחִין פֹּרֵחַ אֲבַעְבֻּעֹת
+      - וַיְהִי שְׁחִין אֲבַעְבֻּעֹת פֹּרֵחַ בָּאָדָם וּבַבְּהֵמָה
+    contribution:
+      - a divinely imposed bodily sore
+      - humans specifically afflicted
+  - reference: Exodus 7:17-21
+    language: hebrew
+    hebrew_anchors:
+      - וְנֶהֶפְכוּ לְדָם
+      - וְהַדָּגָה אֲשֶׁר־בַּיְאֹר תָּמוּת
+      - וַיֵּהָפְכוּ כָל־הַמַּיִם אֲשֶׁר־בַּיְאֹר לְדָם
+    contribution:
+      - water becoming blood
+      - aquatic death following the blood plague
+
+greek_bridge:
+  status: strong-plague-vocabulary-and-sequence-continuity
+  key_families:
+    - ἕλκος
+    - αἷμα
+    - ἀποθνῄσκω
+    - ὕδωρ
+
+shared_features:
+  - bodily sores under divine judgment
+  - water transformed into blood
+  - aquatic life dying
+  - plagues directed against a resistant worshiping population
+
+differences:
+  - Exodus afflicts Egyptians and livestock; Revelation targets those bearing the beast's mark and worshiping its image.
+  - Exodus transforms Nile water; Revelation affects the sea, rivers, and springs.
+  - Revelation describes the sea as blood like that of a dead person and states that every living soul in it dies.
+  - Revelation explicitly interprets the blood plague as recompense for shed blood of saints and prophets.
+
+classification:
+  relation: transformed-egyptian-plague-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: sequence-within-revelation-only
+  statement: The bowl sequence reuses Egyptian-plague patterns but does not reproduce the Exodus plague order exactly.
+
+limits:
+  - The source relationship does not identify Revelation's beast-worshiping population as ancient Egypt.
+  - The waters must not be geographically restricted to the Nile.
+  - The judgment explanation in Revelation 16:5-7 is Revelation's own explicit rationale.

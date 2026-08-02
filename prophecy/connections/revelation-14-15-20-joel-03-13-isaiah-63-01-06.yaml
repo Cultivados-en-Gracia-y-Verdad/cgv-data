@@ -1,0 +1,82 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-14-15-20-joel-03-13-isaiah-63-01-06
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 14:15-20
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271415,271416,271417,271418,271419,271420]
+  original_anchors:
+    - πέμψον τὸ δρέπανόν σου καὶ θέρισον
+    - ἐξηράνθη ὁ θερισμὸς τῆς γῆς
+    - τρύγησον τοὺς βότρυας τῆς ἀμπέλου τῆς γῆς
+    - ἤκμασαν αἱ σταφυλαὶ αὐτῆς
+    - τὴν ληνὸν τοῦ θυμοῦ τοῦ θεοῦ τὸν μέγαν
+    - ἐπατήθη ἡ ληνὸς ἔξωθεν τῆς πόλεως
+
+sources:
+  - reference: Joel 3:13
+    language: hebrew
+    hebrew_anchors:
+      - שִׁלְחוּ מַגָּל כִּי בָשַׁל קָצִיר
+      - בֹּאוּ רְדוּ כִּי־מָלְאָה גַּת הֵשִׁיקוּ הַיְקָבִים
+    contribution:
+      - command to send the sickle
+      - ripe harvest
+      - full winepress and overflowing vats
+      - judgment on gathered nations
+  - reference: Isaiah 63:1-6
+    language: hebrew
+    hebrew_anchors:
+      - פוּרָה דָּרַכְתִּי לְבַדִּי
+      - וְאֶדְרְכֵם בְּאַפִּי וְאֶרְמְסֵם בַּחֲמָתִי
+      - וְיֵז נִצְחָם עַל־בְּגָדַי
+      - כִּי יוֹם נָקָם בְּלִבִּי
+    contribution:
+      - treading a winepress in divine wrath
+      - bloodlike staining from judgment
+      - vengeance and anger
+  - reference: Lamentations 1:15
+    language: hebrew
+    hebrew_anchor: גַּת דָּרַךְ אֲדֹנָי לִבְתוּלַת בַּת־יְהוּדָה
+    contribution:
+      - the Lord treading a winepress as judgment
+
+greek_bridge:
+  status: strong-lexical-and-scene-continuity
+  key_families:
+    - δρέπανον
+    - θερίζω
+    - ληνός
+    - πατέω
+    - θυμός
+
+shared_features:
+  - a commanded sickle
+  - harvest declared ripe
+  - grape gathering
+  - winepress imagery
+  - divine wrath expressed through treading
+
+differences:
+  - Joel places grain harvest and winepress images together in a summons against nations.
+  - Isaiah focuses on a single divine warrior treading alone.
+  - Revelation presents two successive harvest actions: earth harvest by the cloud-borne figure and grape harvest by an angel.
+  - Revelation adds the location outside the city and a quantified blood-flow image.
+
+classification:
+  relation: composite-harvest-and-winepress-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: sequential-within-revelation
+  statement: Revelation distinguishes the first earth harvest from the subsequent grape harvest; the source imagery must not collapse them into one action without textual warrant.
+
+limits:
+  - The record does not determine whether the first harvest is salvation, judgment, or a mixed gathering solely from the word harvest.
+  - Revelation's blood depth and distance are unique details and must not be imported into Joel or Isaiah.
+  - The city is not externally identified by these source texts.

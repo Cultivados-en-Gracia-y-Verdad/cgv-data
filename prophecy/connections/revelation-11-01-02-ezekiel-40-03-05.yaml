@@ -1,0 +1,53 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-11-01-02-ezekiel-40-03-05
+status: verified-image-structure-reuse
+
+revelation:
+  reference: Revelation 11:1-2
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes:
+      - 271101
+      - 271102
+  original_anchors:
+    - κάλαμος ὅμοιος ῥάβδῳ
+    - μέτρησον τὸν ναὸν τοῦ θεοῦ
+    - καὶ τὸ θυσιαστήριον
+    - τὴν αὐλὴν τὴν ἔξωθεν τοῦ ναοῦ ἔκβαλε ἔξωθεν καὶ μὴ αὐτὴν μετρήσῃς
+
+sources:
+  - reference: Ezekiel 40:3-5
+    language: hebrew
+    hebrew_anchors:
+      - וּפְתִיל־פִּשְׁתִּים בְּיָדוֹ וּקְנֵה הַמִּדָּה
+      - וּבְיַד הָאִישׁ קְנֵה הַמִּדָּה
+    contribution:
+      - a measuring reed in the hand of the visionary guide
+      - commanded attention to a revealed sanctuary complex
+      - repeated measurement of the structure
+
+shared_features:
+  - a reed used as a measuring instrument
+  - a visionary command involving sacred architecture
+  - measured and distinguished spaces
+
+differences:
+  - Ezekiel's guide performs the measurements; Revelation's seer is told to measure.
+  - Ezekiel measures an extensive temple complex, while Revelation names the sanctuary, altar, and worshipers.
+  - Revelation explicitly excludes the outer court and assigns it to the nations; Ezekiel 40 does not contain that exclusion.
+  - Measuring worshipers has no direct equivalent in Ezekiel 40.
+
+classification:
+  relation: image-structure-reuse
+  evidence_class: E4
+  confidence: high
+
+chronology_effect:
+  status: none
+  statement: Ezekiel's measuring vision supplies the scene structure but does not determine the forty-two-month period in Revelation.
+
+limits:
+  - Measurement must not automatically be equated with protection, ownership, judgment, or architectural dimensions beyond what Revelation states.
+  - The record does not identify Revelation's sanctuary with every architectural feature in Ezekiel 40-48.

@@ -1,0 +1,87 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-19-11-16-isaiah-11-63-psalm-02-deuteronomy-10
+status: verified-composite-warrior-king-reuse
+
+revelation:
+  reference: Revelation 19:11-16
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271911, 271912, 271913, 271914, 271915, 271916]
+  original_anchors:
+    - πιστὸς καὶ ἀληθινός
+    - ἐν δικαιοσύνῃ κρίνει καὶ πολεμεῖ
+    - περιβεβλημένος ἱμάτιον βεβαμμένον αἵματι
+    - ἐκ τοῦ στόματος αὐτοῦ ἐκπορεύεται ῥομφαία ὀξεῖα
+    - ποιμανεῖ αὐτοὺς ἐν ῥάβδῳ σιδηρᾷ
+    - πατεῖ τὴν ληνὸν τοῦ οἴνου τοῦ θυμοῦ τῆς ὀργῆς τοῦ θεοῦ τοῦ παντοκράτορος
+    - Βασιλεὺς βασιλέων καὶ κύριος κυρίων
+
+sources:
+  - reference: Isaiah 11:4-5
+    language: hebrew
+    hebrew_anchors:
+      - וְשָׁפַט בְּצֶדֶק דַּלִּים וְהוֹכִיחַ בְּמִישׁוֹר לְעַנְוֵי־אָרֶץ
+      - וְהִכָּה־אֶרֶץ בְּשֵׁבֶט פִּיו וּבְרוּחַ שְׂפָתָיו יָמִית רָשָׁע
+      - וְהָיָה צֶדֶק אֵזוֹר מָתְנָיו וְהָאֱמוּנָה אֵזוֹר חֲלָצָיו
+    contribution:
+      - righteous judgment
+      - striking by the agency of the ruler's mouth
+      - righteousness and faithfulness characterizing the ruler
+  - reference: Psalm 2:9
+    language: hebrew
+    hebrew_anchor: תְּרֹעֵם בְּשֵׁבֶט בַּרְזֶל כִּכְלִי יוֹצֵר תְּנַפְּצֵם
+    contribution:
+      - royal authority over the nations
+      - iron-rod judgment
+    greek_witness_bridge:
+      status: explicit
+      anchor: ποιμανεῖς αὐτοὺς ἐν ῥάβδῳ σιδηρᾷ
+      note: Revelation follows the ancient Greek shepherd-rule wording while the Hebrew reads break them with an iron rod.
+  - reference: Isaiah 63:1-6
+    language: hebrew
+    hebrew_anchors:
+      - מַדּוּעַ אָדֹם לִלְבוּשֶׁךָ וּבְגָדֶיךָ כְּדֹרֵךְ בְּגַת
+      - פּוּרָה דָּרַכְתִּי לְבַדִּי וּמֵעַמִּים אֵין־אִישׁ אִתִּי
+      - וְיֵז נִצְחָם עַל־בְּגָדַי וְכָל־מַלְבּוּשַׁי אֶגְאָלְתִּי
+    contribution:
+      - divine warrior with bloodlike staining on garments
+      - trampling a winepress in wrath
+      - judgment of peoples
+  - reference: Deuteronomy 10:17
+    language: hebrew
+    hebrew_anchor: כִּי יְהוָה אֱלֹהֵיכֶם הוּא אֱלֹהֵי הָאֱלֹהִים וַאֲדֹנֵי הָאֲדֹנִים הָאֵל הַגָּדֹל הַגִּבֹּר וְהַנּוֹרָא
+    contribution:
+      - supreme Lord-title above all other lords
+
+shared_features:
+  - a faithful and righteous ruler who judges
+  - destructive authority proceeding from the mouth
+  - rule over the nations with an iron rod
+  - garments associated with blood and winepress judgment
+  - supreme royal and lordly authority
+
+differences:
+  - Revelation presents a mounted heavenly warrior named the Word of God; the source passages do not use that title or horse scene.
+  - Isaiah 11 speaks of the Davidic shoot and judicial speech; Revelation depicts a sharp sword proceeding from the mouth.
+  - Isaiah 63 describes the warrior returning from trampling; Revelation's garment is already dipped in blood before the narrated battle.
+  - Deuteronomy says God of gods and Lord of lords; Revelation's title is King of kings and Lord of lords.
+
+classification:
+  relation: composite-messianic-and-divine-warrior-reuse
+  evidence_class: E5
+  confidence:
+    righteous_mouth_judgment: very-high
+    iron_rod: explicit-near-verbatim
+    winepress_and_blooded_garment: very-high
+    supreme_title: high
+
+chronology_effect:
+  status: none-from-sources
+  statement: The sources establish the warrior's character and actions but do not independently date Revelation's battle.
+
+limits:
+  - The blood on the garment is not explicitly identified in Revelation 19:13 as the rider's own blood or the blood of enemies.
+  - Shared warrior imagery does not collapse Isaiah 11, Psalm 2, Isaiah 63, and Deuteronomy 10 into one original historical scene.
+  - No modern military technology, nation, or ruler is identified by these images.

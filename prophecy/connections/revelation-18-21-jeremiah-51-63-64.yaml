@@ -1,0 +1,54 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-18-21-jeremiah-51-63-64
+status: verified-near-verbatim-sign-act-reuse
+
+revelation:
+  reference: Revelation 18:21
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 271821
+  original_anchors:
+    - ἦρεν εἷς ἄγγελος ἰσχυρὸς λίθον ὡς μύλινον μέγαν
+    - ἔβαλεν εἰς τὴν θάλασσαν
+    - οὕτως ὁρμήματι βληθήσεται Βαβυλὼν ἡ μεγάλη πόλις
+    - οὐ μὴ εὑρεθῇ ἔτι
+
+source:
+  reference: Jeremiah 51:63-64
+  language: hebrew
+  hebrew_anchors:
+    - וְהָיָה כְּכַלֹּתְךָ לִקְרֹא אֶת־הַסֵּפֶר הַזֶּה תִּקְשֹׁר עָלָיו אֶבֶן וְהִשְׁלַכְתּוֹ אֶל־תּוֹךְ פְּרָת
+    - וְאָמַרְתָּ כָּכָה תִּשְׁקַע בָּבֶל וְלֹא־תָקוּם מִפְּנֵי הָרָעָה אֲשֶׁר אָנֹכִי מֵבִיא עָלֶיהָ
+  contribution:
+    - a stone bound to the written judgment
+    - the stone cast into the Euphrates
+    - the enacted sign interpreted as Babylon sinking
+    - explicit statement that Babylon will not rise from the announced disaster
+
+shared_features:
+  - a stone thrown into water as an enacted prophetic sign
+  - Babylon explicitly named
+  - the act immediately interpreted as Babylon's downfall
+  - irreversible disappearance emphasized
+
+differences:
+  - Jeremiah's scroll is tied to a stone and thrown into the Euphrates by Seraiah.
+  - Revelation's mighty angel throws a stone like a great millstone into the sea.
+  - Jeremiah says Babylon will sink and not rise; Revelation says the great city will be thrown down violently and never found again.
+  - Revelation continues with loss of music, crafts, mill sound, lamp light, and wedding voices.
+
+classification:
+  relation: near-verbatim-prophetic-sign-act-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: terminal-judgment-image
+  statement: The sign-act marks the announced downfall as irreversible within the judgment sequence.
+
+limits:
+  - The change from Euphrates to sea is a deliberate transformation and should not be harmonized away.
+  - The millstone image does not independently specify the physical mechanism of destruction.
+  - The record establishes literary dependence and finality, not a modern geographical identification.

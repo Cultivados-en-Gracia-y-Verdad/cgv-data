@@ -1,0 +1,51 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-17-01-15-jeremiah-51-13
+status: verified-near-verbatim-reuse-with-internal-interpretation
+
+revelation:
+  reference: Revelation 17:1,15
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271701, 271715]
+  original_anchors:
+    - τῆς πόρνης τῆς μεγάλης τῆς καθημένης ἐπὶ ὑδάτων πολλῶν
+    - τὰ ὕδατα ἃ εἶδες οὗ ἡ πόρνη κάθηται
+    - λαοὶ καὶ ὄχλοι εἰσὶν καὶ ἔθνη καὶ γλῶσσαι
+
+source:
+  reference: Jeremiah 51:13
+  language: hebrew
+  hebrew_anchor: שֹׁכַנְתְּ עַל־מַיִם רַבִּים רַבַּת אוֹצָרֹת בָּא קִצֵּךְ אַמַּת בִּצְעֵךְ
+  contribution:
+    - Babylon addressed as dwelling upon many waters
+    - wealth and impending judgment joined to the many-waters description
+
+shared_features:
+  - Babylon-associated power dwelling upon many waters
+  - wealth and ruling influence
+  - announced judgment
+
+differences:
+  - Jeremiah addresses historical Babylon in its riverine setting.
+  - Revelation identifies the many waters as peoples, crowds, nations, and languages.
+  - Revelation presents the woman as the great prostitute and later as the great city ruling the kings of the earth.
+  - Jeremiah does not supply Revelation's seven-headed beast or its internal interpretation.
+
+classification:
+  relation: near-verbatim-image-reuse-controlled-by-revelation
+  evidence_class: E5
+  confidence: very-high
+
+internal_interpretation:
+  source: Revelation 17:15
+  statement: The many waters in Revelation are explicitly interpreted as human populations, not left as an undefined geographical symbol.
+
+chronology_effect:
+  status: none
+
+limits:
+  - Jeremiah's literal waters do not require Revelation's waters to be literal rivers or seas.
+  - The connection does not independently identify the woman with a modern city, state, institution, or religious body.
+  - Revelation 17:18 remains the controlling identification: the woman is the great city exercising rule over the kings of the earth.

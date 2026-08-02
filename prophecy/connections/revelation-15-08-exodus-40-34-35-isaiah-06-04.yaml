@@ -1,0 +1,71 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-15-08-exodus-40-34-35-isaiah-06-04
+status: verified-composite-sanctuary-reuse
+
+revelation:
+  reference: Revelation 15:8
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 271508
+  original_anchors:
+    - ἐγεμίσθη ὁ ναὸς καπνοῦ ἐκ τῆς δόξης τοῦ θεοῦ καὶ ἐκ τῆς δυνάμεως αὐτοῦ
+    - οὐδεὶς ἐδύνατο εἰσελθεῖν εἰς τὸν ναόν
+    - ἄχρι τελεσθῶσιν αἱ ἑπτὰ πληγαί
+
+sources:
+  - reference: Exodus 40:34-35
+    language: hebrew
+    hebrew_anchors:
+      - וַיְכַס הֶעָנָן אֶת־אֹהֶל מוֹעֵד וּכְבוֹד יְהוָה מָלֵא אֶת־הַמִּשְׁכָּן
+      - וְלֹא־יָכֹל מֹשֶׁה לָבוֹא אֶל־אֹהֶל מוֹעֵד כִּי־שָׁכַן עָלָיו הֶעָנָן וּכְבוֹד יְהוָה מָלֵא אֶת־הַמִּשְׁכָּן
+    contribution:
+      - sanctuary filled with divine glory
+      - human inability to enter while the glory-cloud occupies the sanctuary
+  - reference: 1 Kings 8:10-11
+    language: hebrew
+    hebrew_anchors:
+      - וְהֶעָנָן מָלֵא אֶת־בֵּית יְהוָה
+      - וְלֹא־יָכְלוּ הַכֹּהֲנִים לַעֲמֹד לְשָׁרֵת מִפְּנֵי הֶעָנָן כִּי־מָלֵא כְבוֹד־יְהוָה אֶת־בֵּית יְהוָה
+    contribution:
+      - temple filled with cloud and glory
+      - priests unable to continue ministry because of the divine presence
+  - reference: Isaiah 6:4
+    language: hebrew
+    hebrew_anchor: וְהַבַּיִת יִמָּלֵא עָשָׁן
+    contribution:
+      - sanctuary filled with smoke in a throne-vision context
+
+greek_bridge:
+  status: strong-scene-continuity
+  key_families:
+    - γεμίζω + ναός/σκηνή
+    - δόξα θεοῦ/κυρίου
+    - καπνός/νεφέλη
+    - οὐ δύναμαι + εἰσέρχομαι
+
+shared_features:
+  - sanctuary filled by a visible manifestation of divine presence
+  - glory associated with cloud or smoke
+  - access or service prevented while the manifestation fills the sanctuary
+
+differences:
+  - Exodus and Kings describe cloud; Revelation and Isaiah explicitly use smoke.
+  - Revelation attributes the smoke to God's glory and power and links the access restriction to completion of seven plagues.
+  - Exodus restricts Moses, and Kings restricts priestly service; Revelation states that no one can enter.
+  - Revelation's sanctuary is heavenly and part of a final-plague vision.
+
+classification:
+  relation: composite-sanctuary-glory-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: explicit-revelation-limit
+  statement: Revelation alone states that access remains closed until the seven plagues are completed.
+
+limits:
+  - The smoke must not be assigned a universal meaning apart from divine glory, power, and judgment in this scene.
+  - The earlier sanctuary-fillings are not identified as the same historical event as Revelation 15.
+  - The inability to enter does not establish the permanent closure of the heavenly sanctuary.

@@ -1,0 +1,47 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-21-18-21-isaiah-54-11-12
+status: verified-jewel-city-reuse
+
+revelation:
+  reference: Revelation 21:18-21
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [272118, 272119, 272120, 272121]
+  original_anchors:
+    - ἡ ἐνδώμησις τοῦ τείχους αὐτῆς ἴασπις
+    - ἡ πόλις χρυσίον καθαρὸν
+    - οἱ θεμέλιοι τοῦ τείχους τῆς πόλεως παντὶ λίθῳ τιμίῳ κεκοσμημένοι
+    - αἱ δώδεκα πύλαι δώδεκα μαργαρῖται
+    - ἡ πλατεῖα τῆς πόλεως χρυσίον καθαρὸν
+
+source:
+  reference: Isaiah 54:11-12
+  language: hebrew
+  hebrew_anchors:
+    - הִנֵּה אָנֹכִי מַרְבִּיץ בַּפּוּךְ אֲבָנַיִךְ וִיסַדְתִּיךְ בַּסַּפִּירִים
+    - וְשַׂמְתִּי כַדְכֹד שִׁמְשֹׁתַיִךְ וּשְׁעָרַיִךְ לְאַבְנֵי אֶקְדָּח וְכָל־גְּבוּלֵךְ לְאַבְנֵי־חֵפֶץ
+  contribution:
+    - afflicted Zion rebuilt with precious stones
+    - jeweled foundations, battlements, gates, and borders
+
+shared_features:
+  - restored holy city described through precious stones
+  - foundations and gates receive jewel imagery
+  - beauty and permanence after affliction
+
+differences:
+  - Isaiah does not list twelve foundations, twelve gates, apostles, tribes, pearls, or transparent gold.
+  - Revelation expands the imagery into a measured, cubic city descending from heaven.
+  - Isaiah addresses Zion in restoration language; Revelation identifies the city as the bride, the wife of the Lamb.
+
+classification:
+  relation: precious-stone-city-image-reuse
+  evidence_class: E5
+  confidence: very-high
+
+limits:
+  - Stone correspondences must not be forced into one-to-one symbolic meanings without textual support.
+  - The gemstones do not authorize astrological, mystical, or modern national mappings.
+  - Isaiah's restoration image contributes to Revelation's city portrait but does not exhaust its architecture.

@@ -19,6 +19,8 @@ revelation:
 
 sources:
   - reference: Joel 3:13
+    masoretic_reference: Joel 4:13
+    numbering_note: The English and Protestant chapter numbering used by this filename and reference labels this verse Joel 3:13; the Masoretic Text numbers the same verse Joel 4:13.
     language: hebrew
     hebrew_anchors:
       - שִׁלְחוּ מַגָּל כִּי בָשַׁל קָצִיר

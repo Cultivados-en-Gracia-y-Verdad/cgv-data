@@ -1,0 +1,54 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-22-05-isaiah-60
+status: verified-near-verbatim-light-reuse
+
+revelation:
+  reference: Revelation 22:5
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [272205]
+  original_anchors:
+    - νὺξ οὐκ ἔσται ἔτι
+    - οὐκ ἔχουσιν χρείαν φωτὸς λύχνου καὶ φῶς ἡλίου
+    - κύριος ὁ θεὸς φωτίσει ἐπ’ αὐτούς
+    - βασιλεύσουσιν εἰς τοὺς αἰῶνας τῶν αἰώνων
+
+source:
+  reference: Isaiah 60:19-20
+  language: hebrew
+  hebrew_anchors:
+    - לֹא־יִהְיֶה־לָּךְ עוֹד הַשֶּׁמֶשׁ לְאוֹר יוֹמָם וּלְנֹגַהּ הַיָּרֵחַ לֹא־יָאִיר לָךְ
+    - וְהָיָה־לָךְ יְהוָה לְאוֹר עוֹלָם וֵאלֹהַיִךְ לְתִפְאַרְתֵּךְ
+    - לֹא־יָבוֹא עוֹד שִׁמְשֵׁךְ וִירֵחֵךְ לֹא יֵאָסֵף כִּי יְהוָה יִהְיֶה־לָּךְ לְאוֹר עוֹלָם
+  contribution:
+    - no dependence on sun or moon for light
+    - YHWH as everlasting light
+    - unending illumination associated with the end of mourning
+
+greek_bridge:
+  status: strong
+  shared_terms:
+    - no further need for created luminaries
+    - God as everlasting source of light
+
+shared_features:
+  - divine light replacing ordinary luminaries
+  - permanence expressed through no more language
+  - everlasting blessed existence in God's presence
+
+differences:
+  - Isaiah does not explicitly say there will be no night.
+  - Isaiah names sun and moon; Revelation 22:5 names lamp and sun, while Revelation 21:23 also names sun and moon.
+  - Revelation adds the eternal reign of God's servants.
+
+classification:
+  relation: near-verbatim-everlasting-light-reuse
+  evidence_class: E5
+  confidence: very-high
+
+limits:
+  - The passage does not establish a modern astronomical model.
+  - The divine light language must not be reduced to metaphor only or forced into a technical physical description.
+  - The eternal reign belongs to Revelation's completed scene and is not independently supplied by Isaiah 60.

@@ -1,0 +1,72 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-22-01-02-genesis-02-ezekiel-47-zechariah-14
+status: verified-composite-eden-and-temple-river-reuse
+
+revelation:
+  reference: Revelation 22:1-2
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [272201, 272202]
+  original_anchors:
+    - ποταμὸν ὕδατος ζωῆς λαμπρὸν ὡς κρύσταλλον
+    - ἐκπορευόμενον ἐκ τοῦ θρόνου τοῦ θεοῦ καὶ τοῦ ἀρνίου
+    - ξύλον ζωῆς
+    - ποιοῦν καρποὺς δώδεκα
+    - κατὰ μῆνα ἕκαστον ἀποδιδοῦν τὸν καρπὸν αὐτοῦ
+    - τὰ φύλλα τοῦ ξύλου εἰς θεραπείαν τῶν ἐθνῶν
+
+sources:
+  - reference: Genesis 2:9-10
+    language: hebrew
+    hebrew_anchors:
+      - וְעֵץ הַחַיִּים בְּתוֹךְ הַגָּן
+      - וְנָהָר יֹצֵא מֵעֵדֶן לְהַשְׁקוֹת אֶת־הַגָּן
+    contribution:
+      - the tree of life in Eden
+      - a river flowing out from Eden
+  - reference: Ezekiel 47:1,7,12
+    language: hebrew
+    hebrew_anchors:
+      - וְהִנֵּה־מַיִם יֹצְאִים מִתַּחַת מִפְתַּן הַבַּיִת קָדִימָה
+      - וְהִנֵּה אֶל־שְׂפַת הַנַּחַל עֵץ רַב מְאֹד מִזֶּה וּמִזֶּה
+      - לָחֳדָשָׁיו יְבַכֵּר כִּי מֵימָיו מִן־הַמִּקְדָּשׁ הֵמָּה יוֹצְאִים
+      - וְהָיָה פִרְיוֹ לְמַאֲכָל וְעָלֵהוּ לִתְרוּפָה
+    contribution:
+      - life-giving water flowing from the sanctuary
+      - trees on both sides of the river
+      - continually renewed fruit
+      - leaves used for healing
+  - reference: Zechariah 14:8
+    language: hebrew
+    hebrew_anchor: וְהָיָה בַּיּוֹם הַהוּא יֵצְאוּ מַיִם־חַיִּים מִירוּשָׁלַ‍ִם
+    contribution:
+      - living waters flowing out from Jerusalem
+
+shared_features:
+  - divinely sourced life-giving river
+  - tree or trees associated with perpetual life and fruitfulness
+  - water flowing from a holy center
+  - leaves associated with healing
+
+differences:
+  - Genesis has one Edenic river dividing into four heads and does not mention healing leaves.
+  - Ezekiel has many food trees along the river; Revelation speaks collectively of the tree of life on both sides of the river.
+  - Ezekiel's water flows from the temple; Revelation has no temple building and the river flows from the throne of God and the Lamb.
+  - Zechariah's living waters flow toward two seas; Revelation does not repeat that geography.
+  - Revelation uniquely specifies twelve fruits, monthly yield, and healing of the nations.
+
+classification:
+  relation: composite-eden-temple-and-jerusalem-river-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: revelation-controlled
+  statement: The source passages supply the images; Revelation places their transformed fulfillment within the new Jerusalem after the final judgment.
+
+limits:
+  - The river must not be mapped onto a modern waterway.
+  - The healing of the nations does not by itself prove continuing disease or mortality in the new creation.
+  - The singular tree language must not be used to erase Ezekiel's plural trees or force a botanical reconstruction.

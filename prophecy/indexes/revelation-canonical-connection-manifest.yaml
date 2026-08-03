@@ -1,0 +1,96 @@
+schema_version: 1
+record_type: generated-connection-index
+id: revelation-canonical-connection-manifest
+status: active
+source_of_truth: linked-files
+
+title: Revelation connections to earlier canonical Scripture
+
+scope:
+  revelation_chapters: 22
+  initial_verified_chapter_pass: complete
+  connection_record_count: 90
+  path_pattern: prophecy/connections/revelation-*.yaml
+  canonical_source_scope: Protestant 66-book canon
+  research_languages: [hebrew, aramaic, greek]
+  output_bible_surface: LBF
+
+chapter_index:
+  - chapter: 1
+    path_prefix: prophecy/connections/revelation-01-
+    connection_records: 5
+  - chapter: 2
+    path_prefix: prophecy/connections/revelation-02-
+    connection_records: 5
+  - chapter: 3
+    path_prefix: prophecy/connections/revelation-03-
+    connection_records: 7
+  - chapter: 4
+    path_prefix: prophecy/connections/revelation-04-
+    connection_records: 1
+  - chapter: 5
+    path_prefix: prophecy/connections/revelation-05-
+    connection_records: 5
+  - chapter: 6
+    path_prefix: prophecy/connections/revelation-06-
+    connection_records: 2
+  - chapter: 7
+    path_prefix: prophecy/connections/revelation-07-
+    connection_records: 3
+  - chapter: 8
+    path_prefix: prophecy/connections/revelation-08-
+    connection_records: 6
+  - chapter: 9
+    path_prefix: prophecy/connections/revelation-09-
+    connection_records: 3
+  - chapter: 10
+    path_prefix: prophecy/connections/revelation-10-
+    connection_records: 3
+  - chapter: 11
+    path_prefix: prophecy/connections/revelation-11-
+    connection_records: 5
+  - chapter: 12
+    path_prefix: prophecy/connections/revelation-12-
+    connection_records: 4
+  - chapter: 13
+    path_prefix: prophecy/connections/revelation-13-
+    connection_records: 4
+  - chapter: 14
+    path_prefix: prophecy/connections/revelation-14-
+    connection_records: 4
+  - chapter: 15
+    path_prefix: prophecy/connections/revelation-15-
+    connection_records: 3
+  - chapter: 16
+    path_prefix: prophecy/connections/revelation-16-
+    connection_records: 4
+  - chapter: 17
+    path_prefix: prophecy/connections/revelation-17-
+    connection_records: 4
+  - chapter: 18
+    path_prefix: prophecy/connections/revelation-18-
+    connection_records: 4
+  - chapter: 19
+    path_prefix: prophecy/connections/revelation-19-
+    connection_records: 4
+  - chapter: 20
+    path_prefix: prophecy/connections/revelation-20-
+    connection_records: 4
+  - chapter: 21
+    path_prefix: prophecy/connections/revelation-21-
+    connection_records: 5
+  - chapter: 22
+    path_prefix: prophecy/connections/revelation-22-
+    connection_records: 5
+
+interpretive_controls:
+  - This index records file coverage, not exhaustive discovery of every possible canonical relationship.
+  - Individual connection files remain authoritative over counts, classifications, wording, differences, limits, and unresolved questions.
+  - Textual reuse does not by itself establish identity of events, symbols, cities, kingdoms, rulers, or modern fulfillments.
+  - Revelation's explicit interpretations control its symbols.
+  - Original-language anchors control confidence; LBF is reserved for Spanish presentation.
+
+generation:
+  authoritative: false
+  rebuild_rule: Count files matching each chapter path prefix and read each file's stable ID and status.
+  note: The initial chapter pass is complete, but secondary candidates and textual verification may continue.

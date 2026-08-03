@@ -1,0 +1,58 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-22-04-exodus-33-numbers-06
+status: verified-presence-and-name-reversal
+
+revelation:
+  reference: Revelation 22:4
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [272204]
+  original_anchors:
+    - ὄψονται τὸ πρόσωπον αὐτοῦ
+    - τὸ ὄνομα αὐτοῦ ἐπὶ τῶν μετώπων αὐτῶν
+
+sources:
+  - reference: Exodus 33:18-23
+    language: hebrew
+    hebrew_anchors:
+      - לֹא תוּכַל לִרְאֹת אֶת־פָּנָי כִּי לֹא־יִרְאַנִי הָאָדָם וָחָי
+      - וַהֲסִרֹתִי אֶת־כַּפִּי וְרָאִיתָ אֶת־אֲחֹרָי וּפָנַי לֹא יֵרָאוּ
+    contribution:
+      - restricted human access to the divine face
+      - life-preserving concealment of God's face
+  - reference: Numbers 6:24-27
+    language: hebrew
+    hebrew_anchors:
+      - יָאֵר יְהוָה פָּנָיו אֵלֶיךָ
+      - וְשָׂמוּ אֶת־שְׁמִי עַל־בְּנֵי יִשְׂרָאֵל וַאֲנִי אֲבָרֲכֵם
+    contribution:
+      - divine face shining toward the people
+      - God's name placed upon his people
+  - reference: Ezekiel 9:4
+    language: hebrew
+    contribution:
+      - protective mark placed on foreheads of the faithful within the city
+
+shared_features:
+  - divine face and divine name
+  - God's people identified as belonging to him
+  - forehead marking as visible ownership or protection
+  - movement from mediated blessing to direct presence
+
+differences:
+  - Exodus emphasizes that Moses cannot see God's face and live; Revelation promises that God's servants will see his face.
+  - Numbers places the divine name upon Israel through priestly blessing but does not specify foreheads.
+  - Ezekiel has a protective mark, not explicitly God's name.
+  - Revelation combines direct vision and forehead inscription in the new Jerusalem.
+
+classification:
+  relation: direct-presence-and-divine-name-reversal
+  evidence_class: E4
+  confidence: high
+
+limits:
+  - Revelation does not state the visual or physical form of seeing God's face.
+  - The forehead name must not be reduced to a modern physical marking system.
+  - Exodus 33 supplies a contrast and reversal, not a direct prediction using Revelation's wording.

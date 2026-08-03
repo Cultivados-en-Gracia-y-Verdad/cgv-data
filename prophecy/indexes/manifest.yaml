@@ -21,6 +21,8 @@ collections:
     - passage-daniel-09-20-27
   connections:
     - connection-daniel-09-02-jeremiah-seventy-years
+  connection_indexes:
+    - revelation-canonical-connection-manifest
   statements:
     - statement-daniel-02-38-head-of-gold
     - statement-daniel-02-39-kingdom-after
@@ -37,6 +39,7 @@ collections:
     - study-whole-canon-chronological-spine
     - babel-babylon-canonical-thread
     - revelation-earlier-scripture-reuse
+    - study-revelation-old-testament-source-map
   unresolved:
     - unresolved-core-prophetic-assumptions
     - babel-babylon-continuity

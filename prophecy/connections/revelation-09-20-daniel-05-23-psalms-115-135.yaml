@@ -1,0 +1,72 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-09-20-daniel-05-23-psalms-115-135
+status: verified-composite-verbal-reuse
+
+revelation:
+  reference: Revelation 9:20
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270920
+  original_anchors:
+    - τὰ ἔργα τῶν χειρῶν αὐτῶν
+    - τὰ εἴδωλα τὰ χρυσᾶ καὶ τὰ ἀργυρᾶ καὶ τὰ χαλκᾶ καὶ τὰ λίθινα καὶ τὰ ξύλινα
+    - ἃ οὔτε βλέπειν δύνανται οὔτε ἀκούειν οὔτε περιπατεῖν
+
+sources:
+  - reference: Daniel 5:23
+    language: aramaic
+    aramaic_anchor: וְלֵאלָהֵי כַסְפָּא־וְדַהֲבָא נְחָשָׁא פַרְזְלָא אָעָא וְאַבְנָא דִּי לָא־חָזַיִן וְלָא־שָׁמְעִין וְלָא יָדְעִין שַׁבַּחְתָּ
+    contribution:
+      - ordered idol-material list
+      - idols that do not see, hear, or know
+  - reference: Psalm 115:4-7
+    language: hebrew
+    hebrew_anchors:
+      - עֲצַבֵּיהֶם כֶּסֶף וְזָהָב מַעֲשֵׂה יְדֵי אָדָם
+      - פֶּה־לָהֶם וְלֹא יְדַבֵּרוּ עֵינַיִם לָהֶם וְלֹא יִרְאוּ
+      - אָזְנַיִם לָהֶם וְלֹא יִשְׁמָעוּ
+      - רַגְלֵיהֶם וְלֹא יְהַלֵּכוּ
+    contribution:
+      - idols as works of human hands
+      - inability to see, hear, speak, or walk
+  - reference: Psalm 135:15-17
+    language: hebrew
+    hebrew_anchors:
+      - עֲצַבֵּי הַגּוֹיִם כֶּסֶף וְזָהָב מַעֲשֵׂה יְדֵי אָדָם
+      - עֵינַיִם לָהֶם וְלֹא יִרְאוּ
+      - אָזְנַיִם לָהֶם וְלֹא יַאֲזִינוּ
+    contribution:
+      - repeated works-of-hands and sensory-inability formula
+
+greek_bridge:
+  status: strong
+  shared_phrase_families:
+    - ἔργα χειρῶν
+    - χρυσός / ἄργυρος / χαλκός / λίθος / ξύλον
+    - οὔτε βλέπειν / οὔτε ἀκούειν / οὔτε περιπατεῖν
+
+shared_features:
+  - idols characterized as human handiwork
+  - lists of idol materials
+  - inability to see and hear
+  - inability to walk supplied by the Psalm tradition
+
+differences:
+  - Daniel includes iron and says the idols do not know; Revelation omits iron and knowing, adds walking, and includes demons alongside idols.
+  - Psalms 115 and 135 emphasize mouth, hands, and other bodily incapacity beyond Revelation's three verbs.
+  - Revelation places the formula after trumpet plagues and emphasizes refusal to repent.
+
+classification:
+  relation: composite-near-verbatim-reuse
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: post-plague-response
+  statement: Revelation explicitly places continued idolatry and non-repentance after the preceding plagues.
+
+limits:
+  - The material list does not identify a particular historical idol or empire.
+  - The connection establishes reuse of anti-idol formulas, not identity of every idol mentioned in Daniel, Psalms, and Revelation.

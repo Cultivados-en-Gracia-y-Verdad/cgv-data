@@ -1,0 +1,67 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-08-10-11-jeremiah-09-15-23-15
+status: verified-textual-reuse
+
+revelation:
+  reference: Revelation 8:10-11
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [270810, 270811]
+  original_anchors:
+    - ἔπεσεν ἐκ τοῦ οὐρανοῦ ἀστὴρ μέγας καιόμενος ὡς λαμπάς
+    - ἐπὶ τὸ τρίτον τῶν ποταμῶν καὶ ἐπὶ τὰς πηγὰς τῶν ὑδάτων
+    - τὸ ὄνομα τοῦ ἀστέρος λέγεται ὁ Ἄψινθος
+    - ἐγένετο τὸ τρίτον τῶν ὑδάτων εἰς ἄψινθον
+    - πολλοὶ τῶν ἀνθρώπων ἀπέθανον ἐκ τῶν ὑδάτων, ὅτι ἐπικράνθησαν
+
+sources:
+  - reference: Jeremiah 9:15
+    language: hebrew
+    hebrew_original: לָכֵן כֹּה־אָמַר יְהוָה צְבָאוֹת אֱלֹהֵי יִשְׂרָאֵל הִנְנִי מַאֲכִילָם אֶת־הָעָם הַזֶּה לַעֲנָה וְהִשְׁקִיתִים מֵי־רֹאשׁ
+    contribution:
+      - wormwood joined directly to drinking water
+      - poisonous or bitter water as divine judgment
+  - reference: Jeremiah 23:15
+    language: hebrew
+    hebrew_original: לָכֵן כֹּה־אָמַר יְהוָה צְבָאוֹת עַל־הַנְּבִאִים הִנְנִי מַאֲכִיל אוֹתָם לַעֲנָה וְהִשְׁקִתִים מֵי־רֹאשׁ
+    contribution:
+      - repeated wormwood-plus-water judgment formula
+  - reference: Deuteronomy 29:17
+    language: hebrew
+    hebrew_anchor: פֶּן־יֵשׁ בָּכֶם שֹׁרֶשׁ פֹּרֶה רֹאשׁ וְלַעֲנָה
+    contribution:
+      - poison and wormwood paired as a canonical bitterness image
+    evidence_limit: This passage does not contain water or death from drinking.
+
+greek_bridge:
+  status: strong-lexical-continuity-pending-exact-edition-token-record
+  shared_lexeme: ἄψινθος
+  note: Revelation repeats the Greek wormwood noun as both the star's name and the substance into which the waters become.
+
+shared_features:
+  - wormwood as a divine-judgment image
+  - wormwood directly connected with water or drinking
+  - bitterness or poison causing human harm
+
+differences:
+  - Jeremiah uses food-and-drink judgment language against a people or prophets.
+  - Revelation names a falling star Wormwood and says a third of rivers and springs become wormwood.
+  - Jeremiah's formula includes poisonous water; Revelation explicitly reports deaths because the waters became bitter.
+  - No cited Hebrew passage supplies the falling burning star.
+
+classification:
+  relation: near-verbatim-lexical-and-judgment-reuse
+  evidence_class: E5
+  confidence:
+    wormwood_water_connection: high
+    falling_star_source: unresolved
+
+chronology_effect:
+  status: trumpet-sequence-only
+  statement: Revelation places the bitter-water judgment under the third trumpet; Jeremiah supplies no matching trumpet chronology.
+
+limits:
+  - Isaiah 14:12 is not used to identify the star because it does not supply the wormwood-water sequence.
+  - The star is not assigned a personal identity from the noun Wormwood alone.

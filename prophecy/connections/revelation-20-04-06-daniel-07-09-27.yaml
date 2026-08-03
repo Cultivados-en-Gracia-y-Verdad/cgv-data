@@ -1,0 +1,57 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-20-04-06-daniel-07-09-27
+status: verified-throne-and-saints-reign-reuse
+
+revelation:
+  reference: Revelation 20:4-6
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [272004, 272005, 272006]
+  original_anchors:
+    - εἶδον θρόνους
+    - ἐκάθισαν ἐπ’ αὐτούς
+    - κρίμα ἐδόθη αὐτοῖς
+    - ἔζησαν καὶ ἐβασίλευσαν μετὰ τοῦ χριστοῦ χίλια ἔτη
+    - ἡ ἀνάστασις ἡ πρώτη
+    - ἔσονται ἱερεῖς τοῦ θεοῦ καὶ τοῦ χριστοῦ
+
+source:
+  reference: Daniel 7:9-10,22,26-27
+  language: aramaic
+  aramaic_anchors:
+    - חָזֵה הֲוֵית עַד דִּי כָרְסָוָן רְמִיו
+    - דִּינָא יְתִב וְסִפְרִין פְּתִיחוּ
+    - וְדִינָא יְהִב לְקַדִּישֵׁי עֶלְיוֹנִין
+    - וּמַלְכוּתָא וְשָׁלְטָנָא וּרְבוּתָא דִּי מַלְכְוָת תְּחוֹת כָּל־שְׁמַיָּא יְהִיבַת לְעַם קַדִּישֵׁי עֶלְיוֹנִין
+  contribution:
+    - thrones placed in a heavenly judgment scene
+    - court seated and books opened
+    - judgment given for the holy ones
+    - kingdom and dominion given to the holy people
+
+shared_features:
+  - thrones in a judgment setting
+  - judgment granted in favor of or to the saints
+  - the saints receiving royal participation
+  - defeat of beastly opposition preceding the saints' reign
+
+differences:
+  - Daniel does not describe beheaded witnesses, beast-mark refusal, first resurrection, priesthood, or a thousand-year reign.
+  - Revelation specifies that the faithful live and reign with Christ.
+  - Daniel's kingdom is described as everlasting; Revelation 20 marks a thousand-year phase before later events.
+
+classification:
+  relation: aramaic-driven-throne-judgment-and-saints-reign-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: bounded-by-revelation
+  statement: Daniel establishes the sequence of beast judgment followed by saintly rule, but Revelation alone supplies the thousand years and first-resurrection terminology.
+
+limits:
+  - Daniel 7 does not independently define the identity or full membership of those seated on Revelation's thrones.
+  - The thousand years must not be derived from Daniel's time expressions.
+  - The connection does not resolve broader millennial-system debates beyond the explicit wording of Revelation 20.

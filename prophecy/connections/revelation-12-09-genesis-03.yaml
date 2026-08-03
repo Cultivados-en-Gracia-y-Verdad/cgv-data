@@ -1,0 +1,61 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-12-09-genesis-03
+status: verified-explicit-identification
+
+revelation:
+  reference: Revelation 12:9
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 271209
+  original_anchors:
+    - ὁ δράκων ὁ μέγας
+    - ὁ ὄφις ὁ ἀρχαῖος
+    - ὁ καλούμενος Διάβολος καὶ ὁ Σατανᾶς
+    - ὁ πλανῶν τὴν οἰκουμένην ὅλην
+  explicit_identifications:
+    - great dragon
+    - ancient serpent
+    - Devil
+    - Satan
+    - deceiver of the whole inhabited world
+
+source:
+  reference: Genesis 3:1-15
+  language: hebrew
+  hebrew_anchors:
+    - וְהַנָּחָשׁ הָיָה עָרוּם
+    - וַיֹּאמֶר הַנָּחָשׁ אֶל־הָאִשָּׁה
+    - הַנָּחָשׁ הִשִּׁיאַנִי וָאֹכֵל
+    - וְאֵיבָה אָשִׁית בֵּינְךָ וּבֵין הָאִשָּׁה וּבֵין זַרְעֲךָ וּבֵין זַרְעָהּ
+  contribution:
+    - the primeval serpent who deceives the woman
+    - conflict between the serpent, the woman, and their respective offspring
+
+shared_features:
+  - serpent identification
+  - deception
+  - hostility toward the woman
+  - conflict involving the woman's offspring
+
+differences:
+  - Genesis 3 calls the creature the serpent but does not explicitly use the titles Devil or Satan.
+  - Revelation explicitly identifies its dragon with the ancient serpent and adds worldwide deception, heavenly war, and expulsion from heaven.
+  - Genesis presents the serpent in Eden; Revelation presents a dragon in a heavenly sign and subsequent earthly pursuit.
+
+classification:
+  relation: explicit-authorial-identification-and-narrative-reuse
+  evidence_class: E5
+  confidence: certain
+
+internal_control:
+  statement: Revelation itself makes the identification; it is not inferred merely from similar imagery.
+
+chronology_effect:
+  status: narrative-background-not-full-event-equation
+  statement: The word ancient points back to the primeval serpent, but Revelation 12's war and expulsion are not thereby dated to Genesis 3.
+
+limits:
+  - Genesis 3 must not be rewritten as though it explicitly named Satan; that identification is supplied by Revelation.
+  - The explicit identity of the serpent does not make every detail of Genesis 3 and Revelation 12 the same event.

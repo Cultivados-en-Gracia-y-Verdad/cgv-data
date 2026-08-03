@@ -1,0 +1,34 @@
+id: statement-daniel-02-39-kingdom-after
+record_type: statement
+passage: passage-daniel-02-31-45
+reference: Daniel 2:39
+language: aramaic
+statement_type: chronological-sequence
+subject:
+  label: another kingdom
+predicate:
+  relation: arises
+sequence:
+  marker: after
+  anchor: Nebuchadnezzar and the kingdom addressed in Daniel 2:37-38
+evidence_class: E4
+original_language_anchors:
+  - surface: וּ/בָתְרָ֞/ךְ
+    lemma: c/870
+    morph: AC/R/Sp2ms
+  - surface: תְּק֛וּם
+    lemma: "6966"
+    morph: AVqi3fs
+  - surface: מַלְכ֥וּ
+    lemma: "4437"
+    morph: ANcfsa
+  - surface: אָחֳרִ֖י
+    lemma: "317"
+    morph: AAfs
+observation: The text places another kingdom after the king addressed.
+constraints:
+  - This record stores relative order only.
+  - It does not identify the later kingdom.
+output:
+  bible_surface: LBF
+review_status: source-anchored

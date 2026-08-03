@@ -1,0 +1,88 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-06-12-17-isaiah-02-13-34-joel-02-hosea-10-nahum-01-malachi-03
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 6:12-17
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [270612, 270613, 270614, 270615, 270616, 270617]
+  original_anchors:
+    - ὁ ἥλιος ἐγένετο μέλας ὡς σάκκος τρίχινος
+    - ἡ σελήνη ὅλη ἐγένετο ὡς αἷμα
+    - οἱ ἀστέρες τοῦ οὐρανοῦ ἔπεσαν εἰς τὴν γῆν
+    - ὁ οὐρανὸς ἀπεχωρίσθη ὡς βιβλίον ἑλισσόμενον
+    - ἔκρυψαν ἑαυτοὺς εἰς τὰ σπήλαια καὶ εἰς τὰς πέτρας τῶν ὀρέων
+    - πέσετε ἐφ’ ἡμᾶς καὶ κρύψατε ἡμᾶς
+    - ἦλθεν ἡ ἡμέρα ἡ μεγάλη τῆς ὀργῆς αὐτῶν, καὶ τίς δύναται σταθῆναι
+
+sources:
+  - reference: Isaiah 2:10,19,21
+    language: hebrew
+    contribution:
+      - entering rocks and hiding in dust or caves
+      - terror before the LORD and the splendor of his majesty
+    hebrew_anchors:
+      - בוא בצור והטמן בעפר מפני פחד יהוה
+      - לבוא בנקרות הצרים ובסעפי הסלעים מפני פחד יהוה
+  - reference: Isaiah 13:10,13
+    language: hebrew
+    contribution:
+      - darkened sun, moon, and stars
+      - shaking heavens and earth in the day of divine anger
+  - reference: Isaiah 34:4
+    language: hebrew
+    contribution:
+      - heavenly host dissolving or falling
+      - heavens rolled like a scroll
+      - falling like leaves or fruit from a fig tree
+    hebrew_anchor: ונגלו כספר השמים וכל צבאם יבול כנבל עלה מגפן וכנבלת מתאנה
+  - reference: Joel 2:10,31
+    language: hebrew
+    contribution:
+      - sun and moon darkened
+      - sun turned to darkness and moon to blood before the great day of the LORD
+    hebrew_anchor: השמש יהפך לחשך והירח לדם לפני בוא יום יהוה הגדול והנורא
+  - reference: Hosea 10:8
+    language: hebrew
+    contribution: people call to mountains and hills to cover or fall upon them
+    hebrew_anchor: ואמרו להרים כסונו ולגבעות נפלו עלינו
+  - reference: Nahum 1:6
+    language: hebrew
+    contribution: the question of who can stand before divine indignation and burning anger
+    hebrew_anchor: לפני זעמו מי יעמוד ומי יקום בחרון אפו
+  - reference: Malachi 3:2
+    language: hebrew
+    contribution: who can endure the day of his coming and who can stand when he appears
+    hebrew_anchor: ומי מכלכל את יום בואו ומי העמד בהראותו
+
+shared_features:
+  - cosmic darkening and disturbance
+  - falling heavenly bodies
+  - heavens rolled like a scroll
+  - mountains, rocks, and caves as attempted refuge
+  - the great day of divine wrath or coming
+  - the question of who can stand
+
+differences:
+  - Revelation combines material from several prophetic judgment scenes into one seal vision.
+  - Isaiah 34 describes the host of heaven with leaf and fig imagery; Revelation presents stars falling like unripe figs shaken by a great wind.
+  - Hosea addresses judgment upon Israel's high places; Revelation universalizes the social range of those hiding.
+  - Revelation names the wrath of the enthroned one and the Lamb within its own vision.
+  - Similar day-of-the-LORD wording does not prove that every source passage refers to one indivisible historical event.
+
+classification:
+  relation: composite-verbal-and-image-reuse
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: sixth-seal-sequence
+  statement: Revelation places this composite judgment scene under the sixth seal. The reused prophets supply judgment language but do not independently assign Revelation's seal order.
+
+limits:
+  - Cosmic imagery must be interpreted within each passage before any literal or symbolic transfer is made.
+  - The phrase 'great day' does not by itself establish identity with every prophetic day passage.
+  - Revelation 6:17's plural textual form of wrath must be handled according to the Greek textual witness used by the project.

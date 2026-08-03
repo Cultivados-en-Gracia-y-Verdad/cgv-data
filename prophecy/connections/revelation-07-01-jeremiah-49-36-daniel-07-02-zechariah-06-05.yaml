@@ -1,0 +1,61 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-07-01-jeremiah-49-36-daniel-07-02-zechariah-06-05
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 7:1
+  language: greek
+  original: Μετὰ τοῦτο εἶδον τέσσαρας ἀγγέλους ἑστῶτας ἐπὶ τὰς τέσσαρας γωνίας τῆς γῆς, κρατοῦντας τοὺς τέσσαρας ἀνέμους τῆς γῆς
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270701
+  key_sequence: τέσσαρας ... τέσσαρας ... τέσσαρας ἀνέμους τῆς γῆς
+
+sources:
+  - reference: Jeremiah 49:36
+    language: hebrew
+    hebrew_anchor: וְהֵבֵאתִי אֶל־עֵילָם אַרְבַּע רוּחוֹת מֵאַרְבַּע קְצוֹת הַשָּׁמַיִם
+    contribution:
+      - four winds
+      - four extremities of heaven
+      - winds functioning within a divine judgment action
+  - reference: Daniel 7:2
+    language: aramaic
+    aramaic_anchor: וַאֲרוּ אַרְבַּע רוּחֵי שְׁמַיָּא מְגִיחָן לְיַמָּא רַבָּא
+    contribution:
+      - four winds of heaven
+      - the winds acting upon the sea before the beast vision
+  - reference: Zechariah 6:5
+    language: hebrew
+    hebrew_anchor: אֵלֶּה אַרְבַּע רוּחוֹת הַשָּׁמַיִם יוֹצְאוֹת מֵהִתְיַצֵּב עַל־אֲדוֹן כָּל־הָאָרֶץ
+    contribution:
+      - four winds or spirits of heaven
+      - heavenly agents standing before the Lord of all the earth and going out
+
+shared_features:
+  - a fourfold wind formula
+  - relation to the world's extremities or total geographic scope
+  - winds operating under divine control
+  - heavenly agents connected with the winds
+
+differences:
+  - Revelation calls the heavenly agents four angels and says they restrain the winds.
+  - Jeremiah describes winds brought against Elam from heaven's four extremities.
+  - Daniel describes the winds stirring the great sea.
+  - Zechariah identifies its four chariot groups as the four winds or spirits of heaven going out.
+  - Revelation says winds of the earth rather than winds of heaven.
+
+classification:
+  relation: transformed-four-winds-reuse
+  evidence_class: E4
+  confidence: high-for-phrase-family; moderate-for-specific-source-allocation
+
+chronology_effect:
+  status: explicit-restraint-before-harm
+  statement: Revelation places restraint of the four winds before damage to earth, sea, and trees and before the servants are sealed.
+
+limits:
+  - Shared four-winds language does not prove that Revelation's angels are identical to Zechariah's chariot agents.
+  - The winds' actions differ in Jeremiah, Daniel, Zechariah, and Revelation.
+  - The four corners expression is not used to impose a geometric cosmology.

@@ -1,0 +1,27 @@
+id: connection-daniel-09-02-jeremiah-seventy-years
+record_type: connection
+source:
+  reference: Daniel 9:2
+  language: hebrew
+  anchor: Dan.9.2
+targets:
+  - reference: Jeremiah 25:1-12
+    language: hebrew
+    anchor_start: Jer.25.1
+    anchor_end: Jer.25.12
+  - reference: Jeremiah 29:1-14
+    language: hebrew
+    anchor_start: Jer.29.1
+    anchor_end: Jer.29.14
+evidence:
+  class: E1
+  feature: Jeremiah and seventy years
+statement: Daniel explicitly states that he understood by the writings the word of the LORD to Jeremiah concerning seventy years.
+identity_claim: true
+review_status: seeded
+cautions:
+  - Daniel 9:2 names Jeremiah but does not supply a chapter or verse number.
+  - Jeremiah 25 and Jeremiah 29 must each be examined in their own contexts.
+output:
+  bible_surface: LBF
+  include_original_language: true

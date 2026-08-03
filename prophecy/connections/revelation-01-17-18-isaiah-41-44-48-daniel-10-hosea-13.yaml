@@ -1,0 +1,79 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-01-17-18-isaiah-41-44-48-daniel-10-hosea-13
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 1:17-18
+  language: greek
+  key_phrases:
+    - ἔπεσα πρὸς τοὺς πόδας αὐτοῦ ὡς νεκρός
+    - ἔθηκεν τὴν δεξιὰν αὐτοῦ ἐπ’ ἐμὲ
+    - Μὴ φοβοῦ
+    - ἐγώ εἰμι ὁ πρῶτος καὶ ὁ ἔσχατος
+    - ἔχω τὰς κλεῖς τοῦ θανάτου καὶ τοῦ ᾅδου
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [270117, 270118]
+
+sources:
+  - reference: Daniel 10:8-12
+    language: hebrew
+    contribution:
+      - collapse without strength
+      - contact by a hand
+      - command not to fear
+  - reference: Daniel 10:15-19
+    language: hebrew
+    contribution:
+      - face toward the ground
+      - loss of strength
+      - touch and strengthening
+      - command not to fear
+  - reference: Isaiah 41:4
+    language: hebrew
+    contribution: the first and with the last
+  - reference: Isaiah 44:6
+    language: hebrew
+    contribution: I am the first and I am the last
+  - reference: Isaiah 48:12
+    language: hebrew
+    contribution: I am he; I am the first, also I am the last
+  - reference: Hosea 13:14
+    language: hebrew
+    contribution: death and Sheol named together under divine authority and judgment
+
+greek_bridge:
+  status: strong-phrase-and-scene-correspondence
+  shared_terms_or_structures:
+    - fear prohibition
+    - first and last formula
+    - death and Hades or Sheol pair
+    - collapse, touch, and reassurance scene
+
+shared_features:
+  - Revelation repeats Isaiah's distinctive first-and-last divine self-designation.
+  - Revelation's collapse, right-hand contact, and fear prohibition follow Daniel 10's encounter pattern.
+  - Revelation joins death and Hades, a pair present in Hosea's death-and-Sheol oracle.
+
+differences:
+  - Revelation adds 'the living one,' death, renewed life, and possession of keys.
+  - Isaiah's declarations occur in disputes concerning the LORD's unique identity and sovereignty.
+  - Daniel's reassuring figure and Revelation's speaker must not be declared identical solely from the encounter pattern.
+  - Hosea asks rhetorical questions concerning ransom and destruction; Revelation uses the image of keys.
+
+classification:
+  relation: composite-reuse
+  evidence_class: E5
+  confidence: high
+
+limits:
+  - The reuse record states what wording and scene structures converge; it does not import an external formulation of their theological relationship.
+  - Possession of keys is Revelation's own explicit statement and must not be read backward into Hosea as though Hosea used the same image.
+
+chronology_effect:
+  status: resurrection-sequence-explicit-within-revelation
+  sequence:
+    - became dead
+    - is living for the ages
+  limit: The passage provides sequence but no elapsed duration or calendar date.

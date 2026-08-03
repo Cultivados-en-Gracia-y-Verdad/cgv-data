@@ -1,0 +1,58 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-02-07-genesis-02-09-03-22-24
+status: verified-textual-reuse
+
+revelation:
+  reference: Revelation 2:7
+  language: greek
+  original: τῷ νικῶντι δώσω αὐτῷ φαγεῖν ἐκ τοῦ ξύλου τῆς ζωῆς, ὅ ἐστιν ἐν τῷ παραδείσῳ τοῦ θεοῦ
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270207
+
+sources:
+  - reference: Genesis 2:9
+    language: hebrew
+    hebrew_anchor: עץ החיים בתוך הגן
+    contribution: the tree of life located within the garden
+  - reference: Genesis 3:22
+    language: hebrew
+    hebrew_anchor: ולקח גם מעץ החיים ואכל וחי לעלם
+    contribution: eating from the tree of life and living
+  - reference: Genesis 3:24
+    language: hebrew
+    hebrew_anchor: לשמר את דרך עץ החיים
+    contribution: restricted access to the tree of life after expulsion
+
+greek_bridge:
+  status: strong
+  shared_terms:
+    - ξύλον
+    - ζωή
+    - παράδεισος
+  note: The Greek phrase ξύλον τῆς ζωῆς and garden/paradise wording form a distinctive lexical bridge.
+
+shared_features:
+  - tree of life
+  - eating from the tree
+  - garden or paradise location
+  - access controlled by divine action
+
+differences:
+  - Genesis narrates original placement, attempted access, and guarded exclusion.
+  - Revelation promises future access to the one who conquers.
+  - Revelation names the location as the paradise of God.
+
+classification:
+  relation: near-verbatim-and-narrative-reuse
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: ordered-canonical-frame
+  statement: Genesis supplies earlier loss of access; Revelation presents promised access after overcoming.
+  limit: The connection does not by itself determine the full chronology of Revelation 21-22.
+
+unresolved_questions:
+  - How does Revelation 2:7 relate to the explicit tree-of-life descriptions in Revelation 22:2 and 22:14?

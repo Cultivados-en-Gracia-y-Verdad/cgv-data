@@ -1,0 +1,55 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-03-12-isaiah-56-05-62-02-ezekiel-48-35
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 3:12
+  language: greek
+  original: ὁ νικῶν ποιήσω αὐτὸν στῦλον ἐν τῷ ναῷ τοῦ θεοῦ μου, καὶ ἔξω οὐ μὴ ἐξέλθῃ ἔτι, καὶ γράψω ἐπ’ αὐτὸν τὸ ὄνομα τοῦ θεοῦ μου καὶ τὸ ὄνομα τῆς πόλεως τοῦ θεοῦ μου, τῆς καινῆς Ἰερουσαλήμ, ἡ καταβαίνουσα ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ θεοῦ μου, καὶ τὸ ὄνομά μου τὸ καινόν
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270312
+
+sources:
+  - reference: Isaiah 56:5
+    language: hebrew
+    hebrew_anchor: וְנָתַתִּי לָהֶם בְּבֵיתִי וּבְחוֹמֹתַי יָד וָשֵׁם ... שֵׁם עוֹלָם אֶתֶּן־לוֹ אֲשֶׁר לֹא יִכָּרֵת
+    contribution:
+      - a permanent place within God's house and walls
+      - a divinely given enduring name
+    greek_witness_anchor: ὄνομα αἰώνιον δώσω αὐτοῖς, καὶ οὐκ ἐκλείψει
+  - reference: Isaiah 62:2
+    language: hebrew
+    hebrew_anchor: וְקֹרָא לָךְ שֵׁם חָדָשׁ אֲשֶׁר פִּי יְהוָה יִקֳּבֶנּוּ
+    contribution: a new name assigned by the LORD
+    greek_witness_anchor: τὸ ὄνομά σου τὸ καινόν
+  - reference: Ezekiel 48:35
+    language: hebrew
+    hebrew_anchor: וְשֵׁם־הָעִיר מִיּוֹם יְהוָה שָׁמָּה
+    contribution: the city bears a divinely meaningful name
+
+shared_features:
+  - location within God's house or temple
+  - a name given by God
+  - the exact Greek phrase family ὄνομα ... καινόν
+  - an enduring relation between recipient, God, and the named city
+
+differences:
+  - Isaiah 56:5 promises a place and enduring name; Revelation makes the conqueror a pillar and writes names upon the person.
+  - Isaiah 62:2 addresses Zion; Revelation promises inscription upon the conqueror.
+  - Ezekiel names the city itself; Revelation writes the city's name upon the conqueror.
+  - The phrase 'new Jerusalem descending from heaven' is defined internally by Revelation and is not imported from these passages.
+
+classification:
+  relation: composite-name-and-house-reuse
+  evidence_class: E4
+  confidence: high-for-new-name; moderate-for-house-and-city-name-structure
+
+unresolved_elements:
+  - Revelation's pillar image is not identified with the named pillars of 1 Kings 7 without stronger textual evidence.
+  - The relationship between the inscription promise and Revelation 21:2, 21:10, and 22:4 requires an internal-Revelation connection record.
+
+chronology_effect:
+  status: promise-after-overcoming
+  statement: The inscription and permanent temple placement are promised to the conqueror; no calendar date is supplied.

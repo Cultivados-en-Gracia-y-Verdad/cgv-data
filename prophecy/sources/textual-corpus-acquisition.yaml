@@ -1,0 +1,134 @@
+schema_version: 1
+record_type: textual-corpus-acquisition-manifest
+id: textual-corpus-acquisition
+status: active
+reviewed_on: 2026-08-01
+
+purpose: Acquire reproducible textual corpora for Scripture-only original-language and ancient-version comparison while preserving source hierarchy and redistribution limits.
+
+source_hierarchy:
+  primary_canonical_language_anchors:
+    - old_testament: Hebrew and Aramaic
+    - new_testament: Greek
+  ancient_translation_witnesses:
+    - Greek Old Testament witnesses
+    - Syriac New Testament witnesses
+  later_translation_witnesses:
+    - Hebrew New Testament translations
+
+rules:
+  - A translation witness may help identify wording correspondence but cannot replace the Hebrew, Aramaic, or Greek canonical-language anchor.
+  - No Septuagint, Syriac, or Hebrew New Testament wording may independently establish identity, chronology, fulfillment, or doctrine.
+  - Every accepted connection must preserve edition, witness, verse alignment, exact wording, provenance, and review status.
+  - Commit only data whose redistribution rights have been verified for the exact text and annotations being committed.
+  - Corpora with uncertain or restrictive rights remain local and gitignored.
+  - Record the acquired commit SHA or file checksum at acquisition time.
+
+corpora:
+  - id: lxx-centerblc-rahlfs-1935
+    language: greek
+    corpus_role: ancient-translation-bridge
+    content: Rahlfs 1935 Septuagint text and derived Text-Fabric features
+    repository: CenterBLC/LXX
+    branch: main
+    reviewed_head_commit: 4829f3746c84d75576702498e75a68856358f289
+    local_path: prophecy/.local/corpora/lxx-centerblc
+    repository_license: MIT
+    provenance: Derived through Eliran Wong data based on CATSS material.
+    redistribution_status: local-only-pending-exact-text-rights-review
+    acquisition_status: approved-for-local-acquisition
+    warning: The repository license does not by itself settle every upstream textual-data right.
+
+  - id: lxx-openscriptures-resources
+    language: greek
+    corpus_role: lemma-and-tooling-support
+    content: Septuagint lemma corrections, file maps, and Greek word-list resources
+    repository: openscriptures/GreekResources
+    branch: master
+    reviewed_head_commit: dd5a2fd530ab3c6b748c174cec38966c356d8111
+    local_path: prophecy/.local/corpora/lxx-openscriptures-resources
+    repository_resource_license: CC-BY-4.0
+    contains_full_lxx_text: false
+    note: The repository states that the actual CCAT Septuagint text is not included because of the CCAT license.
+    redistribution_status: resource-files-only-under-stated-license
+    acquisition_status: approved-for-local-acquisition
+
+  - id: syrnt-etcbc-peshitta
+    language: syriac
+    language_family_note: Syriac is an Aramaic language variety.
+    corpus_role: ancient-new-testament-translation-witness
+    content: Peshitta Syriac New Testament in Text-Fabric format from a SEDRA 3.0 export
+    repository: ETCBC/syrnt
+    branch: master
+    reviewed_head_commit: dae3eb6ff62b9b272fb503646796c25d248175ce
+    local_path: prophecy/.local/corpora/syrnt-etcbc
+    repository_license: MIT
+    underlying_data_provenance: SEDRA database export by George A. Kiraz and James W. Bennett
+    canon_coverage:
+      book_count: 22
+      excluded:
+        - 2 Peter
+        - 2 John
+        - 3 John
+        - Jude
+        - Revelation
+    redistribution_status: local-only-until-underlying-data-rights-are-confirmed
+    acquisition_status: approved-for-local-acquisition
+    warning: This corpus supplies no Peshitta text for Revelation.
+
+  - id: syriac-revelation-witness
+    language: syriac
+    corpus_role: later-syriac-translation-witness-for-revelation
+    candidate_traditions:
+      - Philoxenian
+      - Harqlean
+    machine_readable_source: null
+    exact_edition: null
+    redistribution_status: unresolved
+    acquisition_status: research-required
+    warning: Do not substitute a non-biblical Syriac apocalypse or an unidentified modern Syriac translation for the canonical book of Revelation.
+
+  - id: hebrew-nt-delitzsch-ebible
+    language: hebrew
+    corpus_role: later-translation-comparison-only
+    content: Franz Delitzsch Hebrew New Testament within the eBible Modern Hebrew Bible module
+    source_id: heb
+    source_page: https://ebible.org/details.php?id=heb
+    download_url: https://ebible.org/Scriptures/heb_usfm.zip
+    format: USFM
+    license: public-domain
+    local_path: prophecy/.local/corpora/hebrew-nt-delitzsch
+    acquisition_status: approved-for-local-acquisition
+    authority: translation-only
+
+  - id: hebrew-nt-salkinson-ginsburg-ebible
+    language: hebrew
+    corpus_role: later-translation-comparison-only
+    content: Salkinson-Ginsburg Hebrew New Testament
+    source_id: hebsg
+    source_page: https://ebible.org/details.php?id=hebsg
+    download_url: https://ebible.org/Scriptures/hebsg_usfm.zip
+    format: USFM
+    license: public-domain
+    local_path: prophecy/.local/corpora/hebrew-nt-salkinson-ginsburg
+    acquisition_status: approved-for-local-acquisition
+    authority: translation-only
+
+comparison_pipeline:
+  - anchor the New Testament passage in Greek
+  - anchor the proposed Old Testament source in Hebrew or Aramaic
+  - compare one or more identified ancient Greek Old Testament witnesses
+  - optionally compare Syriac or Hebrew New Testament translations as secondary witnesses
+  - record agreements and differences independently
+  - classify the connection without promoting a translation witness to original-language authority
+
+required_acquisition_metadata:
+  - acquired_at
+  - source_url
+  - branch_or_edition
+  - commit_sha_or_checksum
+  - license_snapshot
+  - local_path
+  - included_books
+  - excluded_books
+  - normalization_steps

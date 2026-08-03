@@ -1,0 +1,67 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-05-09-10-psalms-isaiah-exodus-daniel
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 5:9-10
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [270509, 270510]
+  original_anchors:
+    - ᾄδουσιν ᾠδὴν καινήν
+    - ἐκ πάσης φυλῆς καὶ γλώσσης καὶ λαοῦ καὶ ἔθνους
+    - ἐποίησας αὐτοὺς τῷ θεῷ ἡμῶν βασιλείαν καὶ ἱερεῖς
+    - βασιλεύουσιν ἐπὶ τῆς γῆς
+
+sources:
+  - references: [Psalm 96:1, Psalm 98:1, Psalm 144:9, Psalm 149:1, Isaiah 42:10]
+    language: hebrew
+    contribution: the repeated canonical command or declaration of a new song to the LORD
+    hebrew_phrase_family:
+      - שירו ליהוה שיר חדש
+      - שיר חדש
+    evidence_limit: The phrase occurs in multiple passages and does not identify one exclusive source.
+  - reference: Exodus 19:6
+    language: hebrew
+    hebrew_anchor: ואתם תהיו לי ממלכת כהנים וגוי קדוש
+    contribution: a kingdom of priests belonging to God
+  - reference: Isaiah 61:6
+    language: hebrew
+    hebrew_anchor: ואתם כהני יהוה תקראו משרתי אלהינו יאמר לכם
+    contribution: God's people called priests and ministers
+  - references: [Daniel 3:4, Daniel 5:19, Daniel 6:25, Daniel 7:14]
+    language: aramaic
+    contribution: formulaic lists of peoples, nations, and languages
+    aramaic_phrase_family:
+      - עממיא אמיא ולשניא
+    note: Revelation expands the formula with tribe and orders the categories in its own way.
+
+shared_features:
+  - new-song terminology
+  - people gathered from multiple human groups
+  - kingdom and priestly status granted by God
+  - rule upon the earth
+
+differences:
+  - Revelation grounds the song in the Lamb's slaughter and purchase by blood; none of the cited passages supplies that statement.
+  - Exodus addresses Israel at Sinai; Revelation describes people purchased from every tribe, language, people, and nation.
+  - Daniel's list formula is administrative or kingdom language; Revelation uses it for the redeemed multitude.
+  - Revelation combines kingdom, priesthood, purchase, and future or present rule in one song.
+
+classification:
+  relation: composite-verbal-and-title-reuse
+  evidence_class: E5
+  confidence:
+    kingdom_priests: high
+    peoples_nations_languages_formula: high
+    new_song_single_source: unresolved
+
+chronology_effect:
+  status: vision-sequence-only
+  statement: The song follows the Lamb's reception of the scroll and precedes the opening of the seals.
+
+limits:
+  - The new-song phrase does not prove that one psalm alone is being quoted.
+  - The connection does not erase the differences between Sinai Israel, Isaiah's priestly servants, Daniel's nations, and Revelation's redeemed people.

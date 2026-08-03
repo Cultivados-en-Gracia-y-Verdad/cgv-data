@@ -1,0 +1,52 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-12-05-psalm-02-09
+status: verified-near-verbatim-reuse
+
+revelation:
+  reference: Revelation 12:5
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 271205
+  original_anchor: ὃς μέλλει ποιμαίνειν πάντα τὰ ἔθνη ἐν ῥάβδῳ σιδηρᾷ
+
+source:
+  reference: Psalm 2:9
+  language: hebrew
+  hebrew_original: תְּרֹעֵם בְּשֵׁבֶט בַּרְזֶל כִּכְלִי יוֹצֵר תְּנַפְּצֵם
+  contribution:
+    - rule or break the nations with an iron rod
+    - royal authority over hostile nations
+
+greek_bridge:
+  witness_reference: Psalm 2:9
+  working_text: ποιμανεῖς αὐτοὺς ἐν ῥάβδῳ σιδηρᾷ
+  shared_sequence: ποιμαίνω + ἐν ῥάβδῳ σιδηρᾷ
+  status: near-verbatim
+
+shared_features:
+  - iron-rod royal rule
+  - nations as the object of the ruler's authority
+  - messianic royal context
+
+differences:
+  - Psalm 2 addresses the installed king and speaks of the nations and earth's ends as inheritance.
+  - Revelation places the formula in the description of the woman's male child.
+  - Revelation says all the nations and immediately describes the child's being caught up to God and his throne.
+
+classification:
+  relation: explicit-near-verbatim-reuse
+  evidence_class: E5
+  confidence: very-high
+
+internal_control:
+  statement: The rare Greek sequence ποιμαίνειν ... ἐν ῥάβδῳ σιδηρᾷ directly anchors the child in Psalm 2's royal figure.
+
+chronology_effect:
+  status: none-from-source
+  statement: Psalm 2 supplies identity and royal-function language, not the timing of Revelation 12's birth and ascent scene.
+
+limits:
+  - The quotation does not by itself explain every feature of the woman, dragon, or wilderness.
+  - The source establishes messianic royal function without requiring every Psalm 2 detail to occur at the same moment in Revelation 12.

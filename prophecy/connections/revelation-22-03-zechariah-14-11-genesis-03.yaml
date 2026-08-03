@@ -1,0 +1,56 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-22-03-zechariah-14-11-genesis-03
+status: verified-near-verbatim-and-reversal-reuse
+
+revelation:
+  reference: Revelation 22:3
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [272203]
+  original_anchors:
+    - πᾶν κατάθεμα οὐκ ἔσται ἔτι
+    - ὁ θρόνος τοῦ θεοῦ καὶ τοῦ ἀρνίου ἐν αὐτῇ ἔσται
+    - οἱ δοῦλοι αὐτοῦ λατρεύσουσιν αὐτῷ
+
+sources:
+  - reference: Zechariah 14:11
+    language: hebrew
+    hebrew_anchor: וְיָשְׁבוּ בָהּ וְחֵרֶם לֹא יִהְיֶה־עוֹד וְיָשְׁבָה יְרוּשָׁלַ‍ִם לָבֶטַח
+    contribution:
+      - Jerusalem inhabited securely
+      - no further ban or curse
+    greek_witness_bridge:
+      status: strong
+      anchor: καὶ ἀνάθεμα οὐκ ἔσται ἔτι
+  - reference: Genesis 3:14-19,22-24
+    language: hebrew
+    contribution:
+      - curse pronounced after human rebellion
+      - painful toil and death
+      - exclusion from the tree of life
+      - guarded access to the garden
+
+shared_features:
+  - removal of curse or ban language
+  - restored secure holy-city existence
+  - reversal of the consequences associated with rebellion
+  - renewed access to life and divine presence in the surrounding Revelation context
+
+differences:
+  - Zechariah speaks specifically of Jerusalem after a day-of-YHWH conflict; Revelation speaks of the new Jerusalem in the new creation.
+  - Genesis does not contain the formula no more curse; it supplies the curse-and-exile background being reversed.
+  - Revelation joins the absence of curse to the throne of God and the Lamb and the service of his servants.
+
+classification:
+  relation: near-verbatim-zechariah-reuse-with-edenic-reversal
+  evidence_class: E5
+  confidence:
+    zechariah_phrase: very-high
+    genesis_reversal: high
+
+limits:
+  - The term κατάθεμα must not be assumed to reproduce every nuance of every Hebrew curse term.
+  - The removal of the curse does not identify the new Jerusalem with the present earthly city in all respects.
+  - Genesis contributes canonical reversal structure, not a near-verbatim quotation.

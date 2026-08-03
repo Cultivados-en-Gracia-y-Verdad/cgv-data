@@ -1,0 +1,61 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-03-21-psalm-110-01-daniel-07-13-27
+status: verified-image-structure-reuse
+
+revelation:
+  reference: Revelation 3:21
+  language: greek
+  original: ὁ νικῶν δώσω αὐτῷ καθίσαι μετ’ ἐμοῦ ἐν τῷ θρόνῳ μου, ὡς κἀγὼ ἐνίκησα καὶ ἐκάθισα μετὰ τοῦ πατρός μου ἐν τῷ θρόνῳ αὐτοῦ
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270321
+
+sources:
+  - reference: Psalm 110:1
+    language: hebrew
+    hebrew_anchor: שֵׁב לִימִינִי
+    contribution: invitation to sit beside the LORD in royal authority
+    greek_witness_anchor: κάθου ἐκ δεξιῶν μου
+  - reference: Daniel 7:13-14
+    language: aramaic
+    aramaic_anchors:
+      - עִם־עֲנָנֵי שְׁמַיָּא
+      - וְלֵהּ יְהִיב שָׁלְטָן וִיקָר וּמַלְכוּ
+    contribution: the son-of-man figure receives dominion, glory, and kingdom
+  - reference: Daniel 7:18
+    language: aramaic
+    aramaic_anchor: וִיקַבְּלוּן מַלְכוּתָא קַדִּישֵׁי עֶלְיוֹנִין
+    contribution: the holy ones receive the kingdom
+  - reference: Daniel 7:27
+    language: aramaic
+    aramaic_anchor: וּמַלְכוּתָא וְשָׁלְטָנָא וּרְבוּתָא דִּי מַלְכְוָת תְּחוֹת כָּל־שְׁמַיָּא יְהִיבַת לְעַם קַדִּישֵׁי עֶלְיוֹנִין
+    contribution: kingdom and dominion are given to the people of the holy ones
+
+shared_features:
+  - sitting with a reigning figure
+  - received royal authority after victory or judgment
+  - authority shared with a defined faithful group
+  - movement from the central ruler's enthronement to participation by others
+
+differences:
+  - Psalm 110:1 describes sitting at the LORD's right hand, not sitting on the same throne.
+  - Daniel 7 describes reception of dominion and kingdom but does not use Revelation's exact two-level throne formula.
+  - Revelation explicitly distinguishes the speaker's throne from the Father's throne while drawing an analogy between the two grants.
+
+classification:
+  relation: composite-image-structure-reuse
+  evidence_class: E3
+  confidence: moderate
+
+limits:
+  - This connection does not prove that 'throne,' 'right hand,' 'kingdom,' and 'dominion' are interchangeable terms.
+  - It does not resolve the identity of every group called holy ones in Daniel 7.
+  - It does not establish a date for either enthronement or the conquerors' participation.
+
+chronology_effect:
+  status: explicit-order-only
+  sequence:
+    - the speaker conquers
+    - the speaker sits with the Father on the Father's throne
+    - the conqueror is promised a future seat with the speaker on the speaker's throne

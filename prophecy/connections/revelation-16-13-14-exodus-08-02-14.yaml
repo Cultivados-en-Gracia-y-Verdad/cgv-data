@@ -1,0 +1,56 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-16-13-14-exodus-08-02-14
+status: verified-transformed-image-reuse
+
+revelation:
+  reference: Revelation 16:13-14
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271613, 271614]
+  original_anchors:
+    - πνεύματα τρία ἀκάθαρτα ὡς βάτραχοι
+    - πνεύματα δαιμονίων
+    - ποιοῦντα σημεῖα
+    - ἐκπορεύεται ἐπὶ τοὺς βασιλεῖς τῆς οἰκουμένης ὅλης
+    - συναγαγεῖν αὐτοὺς εἰς τὸν πόλεμον
+
+source:
+  reference: Exodus 8:1-14
+  language: hebrew
+  hebrew_anchors:
+    - וְשָׁרַץ הַיְאֹר צְפַרְדְּעִים
+    - וְעָלוּ וּבָאוּ בְּבֵיתֶךָ וּבַחֲדַר מִשְׁכָּבְךָ וְעַל־מִטָּתֶךָ
+    - וַתַּעַל הַצְּפַרְדֵּעַ וַתְּכַס אֶת־אֶרֶץ מִצְרָיִם
+    - וַיַּעֲשׂוּ־כֵן הַחַרְטֻמִּים בְּלָטֵיהֶם וַיַּעֲלוּ אֶת־הַצְפַרְדְּעִים
+  contribution:
+    - frogs emerging as a plague
+    - frogs spreading broadly through the land and human spaces
+    - Egyptian magicians reproducing the sign
+
+shared_features:
+  - frog imagery within a plague context
+  - widespread movement from an originating source
+  - association with deceptive or rival sign-working power
+
+differences:
+  - Exodus describes literal frogs from the Nile; Revelation describes three unclean spirits like frogs emerging from three mouths.
+  - Exodus's magicians reproduce the frog sign but do not gather kings for war.
+  - Revelation explicitly identifies the agents as demonic spirits performing signs.
+  - Revelation uses the frog likeness as part of a global deception-and-gathering scene.
+
+classification:
+  relation: transformed-frog-plague-image-reuse
+  evidence_class: E4
+  confidence:
+    frog-plague-background: high
+    literal_frog_identity: rejected
+
+chronology_effect:
+  status: none
+
+limits:
+  - The spirits are explicitly like frogs, not identified as literal frogs.
+  - The record does not identify the dragon, beast, or false prophet with Pharaoh or the Egyptian magicians.
+  - Sign-working in both texts does not prove identical miracles or agents.

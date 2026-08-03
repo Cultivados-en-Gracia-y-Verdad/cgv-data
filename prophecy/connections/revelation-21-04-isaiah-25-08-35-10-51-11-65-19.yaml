@@ -1,0 +1,63 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-21-04-isaiah-25-08-35-10-51-11-65-19
+status: verified-composite-consolation-reuse
+
+revelation:
+  reference: Revelation 21:4
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [272104]
+  original_anchors:
+    - ἐξαλείψει πᾶν δάκρυον ἐκ τῶν ὀφθαλμῶν αὐτῶν
+    - ὁ θάνατος οὐκ ἔσται ἔτι
+    - οὔτε πένθος οὔτε κραυγὴ οὔτε πόνος οὐκ ἔσται ἔτι
+    - τὰ πρῶτα ἀπῆλθαν
+
+sources:
+  - reference: Isaiah 25:8
+    language: hebrew
+    hebrew_anchors:
+      - בִּלַּע הַמָּוֶת לָנֶצַח
+      - וּמָחָה אֲדֹנָי יְהוִה דִּמְעָה מֵעַל כָּל־פָּנִים
+    contribution:
+      - death swallowed forever
+      - tears wiped from every face
+  - reference: Isaiah 35:10
+    language: hebrew
+    hebrew_anchor: וּפְדוּיֵי יְהוָה יְשֻׁבוּן וּבָאוּ צִיּוֹן בְּרִנָּה וְשִׂמְחַת עוֹלָם עַל־רֹאשָׁם שָׂשׂוֹן וְשִׂמְחָה יַשִּׂיגוּ וְנָסוּ יָגוֹן וַאֲנָחָה
+    contribution:
+      - sorrow and sighing fleeing
+      - everlasting joy
+  - reference: Isaiah 51:11
+    language: hebrew
+    hebrew_anchor: וּפְדוּיֵי יְהוָה יְשׁוּבוּן וּבָאוּ צִיּוֹן בְּרִנָּה וְשִׂמְחַת עוֹלָם עַל־רֹאשָׁם שָׂשׂוֹן וְשִׂמְחָה יַשִּׂיגוּן נָסוּ יָגוֹן וַאֲנָחָה
+    contribution:
+      - repeated Zion consolation formula
+  - reference: Isaiah 65:19
+    language: hebrew
+    hebrew_anchor: וְגַלְתִּי בִירוּשָׁלַם וְשַׂשְׂתִּי בְעַמִּי וְלֹא־יִשָּׁמַע בָּהּ עוֹד קוֹל בְּכִי וְקוֹל זְעָקָה
+    contribution:
+      - no further sound of weeping or distress in Jerusalem
+
+shared_features:
+  - God removes tears
+  - death defeated
+  - sorrow, crying, and distress ended
+  - former affliction replaced by joy
+
+differences:
+  - Isaiah 65 retains death at advanced age in the surrounding passage; Revelation says death is no more.
+  - Revelation adds pain and states that the former things have passed away.
+  - Isaiah's consolations are voiced in Zion and Jerusalem settings; Revelation places them in the new creation and holy city.
+
+classification:
+  relation: composite-final-consolation-reuse
+  evidence_class: E5
+  confidence: very-high
+
+limits:
+  - Isaiah 65 must not be flattened into Revelation's explicit abolition of death.
+  - The passages support final consolation but do not independently define every stage preceding it.
+  - The promise must not be reduced to temporary political relief.

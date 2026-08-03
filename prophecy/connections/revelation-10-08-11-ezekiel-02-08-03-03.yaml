@@ -1,0 +1,75 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-10-08-11-ezekiel-02-08-03-03
+status: verified-near-verbatim-reuse
+
+revelation:
+  reference: Revelation 10:8-11
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271008, 271009, 271010, 271011]
+  original_anchors:
+    - ὕπαγε λάβε τὸ βιβλίον τὸ ἠνεῳγμένον
+    - λάβε καὶ κατάφαγε αὐτό
+    - πικρανεῖ σου τὴν κοιλίαν
+    - ἐν τῷ στόματί σου ἔσται γλυκὺ ὡς μέλι
+    - ἔλαβον ... καὶ κατέφαγον αὐτό
+    - ἐν τῷ στόματί μου ὡς μέλι γλυκύ
+    - ὅτε ἔφαγον αὐτό, ἐπικράνθη ἡ κοιλία μου
+    - δεῖ σε πάλιν προφητεῦσαι ἐπὶ λαοῖς καὶ ἔθνεσιν καὶ γλώσσαις καὶ βασιλεῦσιν πολλοῖς
+
+source:
+  reference: Ezekiel 2:8-3:3
+  language: hebrew
+  hebrew_anchors:
+    - פְּצֵה פִיךָ וֶאֱכֹל אֵת אֲשֶׁר־אֲנִי נֹתֵן אֵלֶיךָ
+    - אֵת אֲשֶׁר־תִּמְצָא אֱכוֹל אֱכוֹל אֶת־הַמְּגִלָּה הַזֹּאת וְלֵךְ דַּבֵּר אֶל־בֵּית יִשְׂרָאֵל
+    - וָאֶפְתַּח אֶת־פִּי וַיַּאֲכִלֵנִי אֵת הַמְּגִלָּה הַזֹּאת
+    - בִּטְנְךָ תַאֲכֵל וּמֵעֶיךָ תְמַלֵּא אֵת הַמְּגִלָּה הַזֹּאת אֲשֶׁר אֲנִי נֹתֵן אֵלֶיךָ
+    - וָאֹכְלָה וַתְּהִי בְּפִי כִּדְבַשׁ לְמָתוֹק
+  contribution:
+    - command to take and eat a prophetic scroll
+    - the prophet actually eats it
+    - internal or belly imagery
+    - honey-like sweetness in the mouth
+    - renewed commission to speak the divine message
+
+greek_bridge:
+  status: strong-phrase-continuity; exact-edition-token-record-pending
+  key_families:
+    - eating imperative and completed eating
+    - mouth
+    - belly or inward parts
+    - honey
+    - sweetness
+    - subsequent prophetic speech
+
+shared_features:
+  - a scroll is given by a heavenly figure
+  - command to eat the scroll
+  - completed act of eating
+  - explicit bodily interior language
+  - sweetness like honey in the mouth
+  - prophetic commission following ingestion
+
+differences:
+  - Ezekiel's scroll contains lamentations, mourning, and woe and is written front and back; Revelation describes a little opened scroll.
+  - Ezekiel says the scroll fills the belly and is sweet in the mouth but does not say the belly becomes bitter.
+  - Revelation adds bitterness after the sweetness.
+  - Ezekiel is commissioned to speak to the house of Israel; Revelation commissions prophecy concerning many peoples, nations, languages, and kings.
+  - Revelation receives the scroll from an angel standing on sea and land; Ezekiel receives it from an extended hand within his throne vision.
+
+classification:
+  relation: near-verbatim-action-sequence-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: vision-sequence-only
+  statement: Revelation places the renewed prophetic commission before the seventh trumpet developments; Ezekiel's commission is not thereby identified as the same event.
+
+limits:
+  - The scroll-eating action is a prophetic commissioning pattern in these passages and must not be assigned as a universal symbol for every book or vision.
+  - Revelation's bitterness must not be retrojected into Ezekiel's account.
+  - The shared sequence does not make Ezekiel and John the same prophetic figure or their audiences identical.

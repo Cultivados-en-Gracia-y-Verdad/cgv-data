@@ -1,0 +1,55 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-21-03-leviticus-26-ezekiel-37
+status: verified-covenant-presence-reuse
+
+revelation:
+  reference: Revelation 21:3
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [272103]
+  original_anchors:
+    - ἡ σκηνὴ τοῦ θεοῦ μετὰ τῶν ἀνθρώπων
+    - σκηνώσει μετ’ αὐτῶν
+    - αὐτοὶ λαοὶ αὐτοῦ ἔσονται
+    - αὐτὸς ὁ θεὸς μετ’ αὐτῶν ἔσται
+
+sources:
+  - reference: Leviticus 26:11-12
+    language: hebrew
+    hebrew_anchors:
+      - וְנָתַתִּי מִשְׁכָּנִי בְּתוֹכְכֶם
+      - וְהִתְהַלַּכְתִּי בְּתוֹכְכֶם וְהָיִיתִי לָכֶם לֵאלֹהִים וְאַתֶּם תִּהְיוּ־לִי לְעָם
+    contribution:
+      - God's dwelling placed among his people
+      - covenant formula: God to them and they his people
+  - reference: Ezekiel 37:27-28
+    language: hebrew
+    hebrew_anchors:
+      - וְהָיָה מִשְׁכָּנִי עֲלֵיהֶם וְהָיִיתִי לָהֶם לֵאלֹהִים וְהֵמָּה יִהְיוּ־לִי לְעָם
+      - בִּהְיוֹת מִקְדָּשִׁי בְּתוֹכָם לְעוֹלָם
+    contribution:
+      - enduring divine dwelling among the restored people
+      - covenant identity and sanctuary presence
+
+shared_features:
+  - God's dwelling among his people
+  - reciprocal covenant formula
+  - enduring divine presence
+
+differences:
+  - Leviticus addresses Israel's covenant obedience in the land.
+  - Ezekiel speaks of restored Israel, one king, and an everlasting covenant of peace.
+  - Revelation broadens the scene to humanity and uses the plural peoples in its textual form.
+  - Revelation's city has no temple building because God and the Lamb are its temple.
+
+classification:
+  relation: covenant-presence-formula-reuse
+  evidence_class: E5
+  confidence: very-high
+
+limits:
+  - The reuse does not erase the original Israel-specific settings of Leviticus and Ezekiel.
+  - Revelation's universal scope must not be reduced to one ethnic or political population.
+  - The tabernacle language does not require a reconstructed physical tent in Revelation 21.

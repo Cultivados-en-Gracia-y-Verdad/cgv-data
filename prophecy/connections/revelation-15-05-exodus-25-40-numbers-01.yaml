@@ -1,0 +1,65 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-15-05-exodus-25-40-numbers-01
+status: verified-lexical-and-structural-reuse
+
+revelation:
+  reference: Revelation 15:5
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 271505
+  original_anchor: ἠνοίγη ὁ ναὸς τῆς σκηνῆς τοῦ μαρτυρίου ἐν τῷ οὐρανῷ
+
+sources:
+  - reference: Exodus 25:9,21-22
+    language: hebrew
+    hebrew_anchors:
+      - כְּכֹל אֲשֶׁר אֲנִי מַרְאֶה אוֹתְךָ אֵת תַּבְנִית הַמִּשְׁכָּן
+      - וְנָתַתָּ אֶל־הָאָרֹן אֵת הָעֵדֻת אֲשֶׁר אֶתֵּן אֵלֶיךָ
+      - וְנוֹעַדְתִּי לְךָ שָׁם וְדִבַּרְתִּי אִתְּךָ מֵעַל הַכַּפֹּרֶת
+    contribution:
+      - divinely revealed tabernacle pattern
+      - testimony placed in the ark
+      - divine communication from the sanctuary
+  - reference: Exodus 38:21
+    language: hebrew
+    hebrew_anchor: אֵלֶּה פְקוּדֵי הַמִּשְׁכָּן מִשְׁכַּן הָעֵדֻת
+    contribution: explicit phrase tabernacle of the testimony
+  - reference: Numbers 1:50,53
+    language: hebrew
+    hebrew_anchors:
+      - וְאַתָּה הַפְקֵד אֶת־הַלְוִיִּם עַל־מִשְׁכַּן הָעֵדֻת
+      - וְהַלְוִיִּם יַחֲנוּ סָבִיב לְמִשְׁכַּן הָעֵדֻת
+    contribution:
+      - repeated sanctuary title
+      - guarded holy-space structure
+
+greek_bridge:
+  status: direct-title-continuity
+  key_phrase: σκηνὴ τοῦ μαρτυρίου
+  note: The ancient Greek phrase directly corresponds to the Hebrew tabernacle-of-testimony title.
+
+shared_features:
+  - tabernacle identified by the testimony
+  - sanctuary as the location of divine revelation and authority
+  - guarded access to sacred space
+
+differences:
+  - Exodus and Numbers describe the earthly wilderness tabernacle.
+  - Revelation locates the opened sanctuary of the tabernacle of testimony in heaven.
+  - Revelation's seven plague-bearing angels emerge from this sanctuary; the Pentateuch does not contain that scene.
+  - Revelation uses both ναός and σκηνή in one phrase, joining sanctuary and tabernacle terminology.
+
+classification:
+  relation: lexical-and-sanctuary-structure-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: scene-origin-only
+  statement: The sanctuary title identifies the origin of the final plagues but supplies no independent chronology.
+
+limits:
+  - The heavenly sanctuary must not be reduced to a claim that every earthly tabernacle dimension is reproduced in Revelation.
+  - The phrase establishes continuity of testimony and holy space, not identity of every object or ritual.

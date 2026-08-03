@@ -1,0 +1,96 @@
+schema_version: 1
+record_type: imagery-catalog
+id: study-prophetic-imagery-catalog
+status: seeded
+purpose: Track each occurrence of recurring imagery without assigning a universal meaning.
+images:
+  - id: image-waters
+    label: waters
+    candidate_passages:
+      - Psalm 18:4
+      - Isaiah 8:7-8
+      - Daniel 7:2
+      - Revelation 17:1
+      - Revelation 17:15
+    explicit_interpretations:
+      - reference: Revelation 17:15
+        scope: the waters seen by John in the stated vision
+        identification: peoples, multitudes, nations, and tongues
+    universal_meaning: unresolved
+
+  - id: image-sea
+    label: sea
+    candidate_passages:
+      - Daniel 7:2-3
+      - Matthew 13:47
+      - Revelation 13:1
+      - Revelation 15:2
+      - Revelation 21:1
+    explicit_interpretations: []
+    universal_meaning: unresolved
+
+  - id: image-birds
+    label: birds
+    candidate_passages:
+      - Genesis 40:16-19
+      - Ezekiel 17:3-10
+      - Matthew 13:4
+      - Matthew 13:19
+      - Revelation 19:17-18
+    explicit_interpretations:
+      - reference: Matthew 13:19
+        scope: birds in the parable of the sower as explained in that discourse
+        identification: the evil one takes away what was sown
+    universal_meaning: unresolved
+
+  - id: image-dragon
+    label: dragon
+    candidate_passages:
+      - Revelation 12:3-17
+      - Revelation 13:2-4
+      - Revelation 16:13
+      - Revelation 20:2
+    explicit_interpretations:
+      - reference: Revelation 12:9
+        scope: the great dragon in Revelation 12
+        identification: the ancient serpent, the Devil, and Satan
+      - reference: Revelation 20:2
+        scope: the dragon seized in Revelation 20
+        identification: the ancient serpent, the Devil, and Satan
+    universal_meaning: unresolved
+
+  - id: image-beasts
+    label: beasts
+    candidate_passages:
+      - Daniel 7:3-23
+      - Daniel 8:3-22
+      - Revelation 13:1-18
+      - Revelation 17:3-17
+    explicit_interpretations:
+      - reference: Daniel 7:17
+        scope: the four great beasts in Daniel 7
+        identification: four kings
+      - reference: Daniel 7:23
+        scope: the fourth beast in Daniel 7
+        identification: a fourth kingdom on earth
+      - reference: Daniel 8:20-21
+        scope: the ram and male goat in Daniel 8
+        identification: kings of Media and Persia; king of Greece
+    universal_meaning: unresolved
+    caution: Daniel 8 identifications must not be transferred to Daniel 7 without an explicit connection.
+
+  - id: image-flooding
+    label: flood or overflowing imagery
+    candidate_passages:
+      - Isaiah 8:7-8
+      - Isaiah 28:2
+      - Daniel 9:26
+      - Daniel 11:10
+      - Daniel 11:22
+      - Revelation 12:15-16
+    explicit_interpretations: []
+    universal_meaning: unresolved
+rules:
+  - Record the original-language lemma and local syntax for each occurrence.
+  - Keep physical description, metaphor, vision symbol, and explicit interpretation separate.
+  - An explicit interpretation applies only to its stated referent unless another passage extends it.

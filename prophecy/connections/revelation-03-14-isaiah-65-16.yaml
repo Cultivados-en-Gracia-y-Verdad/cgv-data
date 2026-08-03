@@ -1,0 +1,45 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-03-14-isaiah-65-16
+status: verified-title-reuse
+
+revelation:
+  reference: Revelation 3:14
+  language: greek
+  original: Τάδε λέγει ὁ Ἀμήν, ὁ μάρτυς ὁ πιστὸς καὶ ἀληθινός, ἡ ἀρχὴ τῆς κτίσεως τοῦ θεοῦ
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270314
+
+source:
+  reference: Isaiah 65:16
+  language: hebrew
+  hebrew_anchor: אֱלֹהֵי אָמֵן
+  contribution: the divine title 'God of Amen' or 'God of truth/faithfulness'
+
+greek_bridge:
+  status: wording-differs
+  note: The selected Greek Old Testament witness renders the title by truth-language rather than transliterating ἀμήν; Revelation preserves Ἀμήν as a title.
+
+shared_features:
+  - Amen functions as a title rather than merely a concluding response.
+  - The title is joined in Revelation with faithful and true witness language.
+  - Both contexts associate the title with divine reliability.
+
+differences:
+  - Isaiah's title is explicitly 'God of Amen'; Revelation applies 'the Amen' to the speaker.
+  - Revelation adds 'the faithful and true witness' and 'the beginning of God's creation.'
+  - This record does not derive the meaning of ἀρχή from Isaiah 65:16.
+
+classification:
+  relation: hebrew-title-reuse
+  evidence_class: E4
+  confidence: high
+
+unresolved_questions:
+  - Does Revelation's use of Ἀμήν intentionally preserve the Hebrew title where the standard Greek witness uses truth-language?
+  - Which earlier canonical passages best account for the paired titles 'faithful' and 'true witness'?
+  - Does ἀρχή in Revelation 3:14 connect most strongly with creation-beginning passages, ruler/source language, or Revelation's own titles?
+
+chronology_effect:
+  status: none

@@ -1,0 +1,53 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-12-01-genesis-37-09-10
+status: verified-transformed-image-reuse
+
+revelation:
+  reference: Revelation 12:1
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 271201
+  original_anchors:
+    - γυνὴ περιβεβλημένη τὸν ἥλιον
+    - ἡ σελήνη ὑποκάτω τῶν ποδῶν αὐτῆς
+    - ἐπὶ τῆς κεφαλῆς αὐτῆς στέφανος ἀστέρων δώδεκα
+
+source:
+  reference: Genesis 37:9-10
+  language: hebrew
+  hebrew_anchors:
+    - וְהִנֵּה הַשֶּׁמֶשׁ וְהַיָּרֵחַ וְאַחַד עָשָׂר כּוֹכָבִים מִשְׁתַּחֲוִים לִי
+    - הֲבוֹא נָבוֹא אֲנִי וְאִמְּךָ וְאַחֶיךָ לְהִשְׁתַּחֲוֹת לְךָ אָרְצָה
+  internal_interpretation:
+    - the sun is associated with Joseph's father
+    - the moon is associated with Joseph's mother
+    - the stars are associated with Joseph's brothers
+
+shared_features:
+  - the coordinated triad of sun, moon, and stars
+  - celestial bodies arranged around a human figure
+  - family or corporate imagery rather than an isolated astronomical description
+
+differences:
+  - Genesis has eleven stars; Revelation has twelve.
+  - Genesis describes the celestial bodies bowing; Revelation describes the sun as clothing, the moon underfoot, and the stars as a crown.
+  - Genesis explicitly interprets its dream through Jacob's household; Revelation does not explicitly name the woman in verse 1.
+  - Revelation adds childbirth, conflict, wilderness preservation, and offspring imagery.
+
+classification:
+  relation: transformed-celestial-family-image-reuse
+  evidence_class: E4
+  confidence:
+    literary_reuse: high
+    woman_identical_to_jacob_or_israel: not-established
+    twelve_stars_as_exact_twelve-tribe-equation: plausible-but-not-explicit
+
+chronology_effect:
+  status: none
+
+limits:
+  - Genesis 37 controls the family character of its own symbols but does not by itself fully identify Revelation's woman.
+  - The change from eleven to twelve stars must be preserved rather than harmonized away.
+  - Shared celestial imagery does not prove that the two visions depict the same event.

@@ -1,0 +1,54 @@
+schema_version: 1
+record_type: prophecy-manifest
+source_of_truth: linked-files
+source_scope:
+  id: scope-protestant-canon
+  path: prophecy/scope/protestant-canon.yaml
+  canon: protestant
+  book_count: 66
+research_languages:
+  - hebrew
+  - aramaic
+  - greek
+output_bible_surface: LBF
+application:
+  repository: Cultivados-en-Gracia-y-Verdad/cgv-reader
+  capability: Compiler
+collections:
+  passages:
+    - passage-daniel-02-31-45
+    - passage-daniel-07-01-28
+    - passage-daniel-09-20-27
+  connections:
+    - connection-daniel-09-02-jeremiah-seventy-years
+  statements:
+    - statement-daniel-02-38-head-of-gold
+    - statement-daniel-02-39-kingdom-after
+    - statement-daniel-02-40-fourth-kingdom
+    - statement-daniel-02-44-god-establishes-kingdom
+  terms:
+    - term-aramaic-malku-4437
+    - hebrew-0894-babel
+    - greek-babylon
+  events: []
+  chronology:
+    - chronology-daniel-02-kingdom-sequence
+  studies:
+    - study-whole-canon-chronological-spine
+    - babel-babylon-canonical-thread
+    - revelation-earlier-scripture-reuse
+  unresolved:
+    - unresolved-core-prophetic-assumptions
+    - babel-babylon-continuity
+  data:
+    - revelation-old-testament-reuse-candidates
+  scope_policies:
+    - scope-protestant-canon
+    - paleo-hebrew-script-layer
+coverage:
+  corpus: Genesis through Revelation
+  initial_entry_point: Daniel
+  restricted_to_initial_entry_point: false
+generation:
+  authoritative: false
+  note: This manifest is a query entry point. Individual linked files remain authoritative.

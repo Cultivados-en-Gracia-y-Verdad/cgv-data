@@ -1,0 +1,18 @@
+topic_id,label,research_definition,primary_references,boundary_note,status
+T001,Daniel 2,"Nebuchadnezzar's dream, its revelation to Daniel, and the explanation recorded in the chapter.",Daniel 2:1-49,Keep the dream description separate from the recorded explanation.,seeded
+T002,Daniel 7,"Daniel's four-beast vision, heavenly court scene, questions, and explanations.",Daniel 7:1-28,Record what Daniel saw separately from what was explained.,seeded
+T003,Daniel 9,Daniel's prayer and Gabriel's message concerning seventy weeks/sevens.,Daniel 9:1-27,"Keep titles, pronouns, and time expressions distinct.",seeded
+T004,Jeremiah and seventy years,The writings of Jeremiah that Daniel says he understood concerning seventy years.,Jeremiah 25:1-12; Jeremiah 29:1-14; Daniel 9:1-2,This connection is explicit in Daniel 9:2.,seeded
+T005,Day of the LORD,Passages that explicitly use the phrase 'day of the LORD'. ,"Isaiah 13:6,9; Joel 1:15; 2:1,11,31; Amos 5:18-20; Obadiah 15; Zephaniah 1:7,14; Zechariah 14:1; Malachi 4:5",Do not assume every occurrence describes identical details.,seeded
+T006,Jacob's trouble,The phrase and immediate statements concerning the time of Jacob's trouble.,Jeremiah 30:4-11,Retain the exact wording and immediate context.,seeded
+T007,Four kingdoms,Passages that explicitly state four kings or four kingdoms.,"Daniel 2:36-43; Daniel 7:17,23; Daniel 8:20-22",Do not equate separate sequences beyond explicit identifications.,seeded
+T008,Final kingdom,Passages that state a kingdom established by God or given after judgment and not destroyed.,"Daniel 2:44-45; Daniel 7:13-14,18,22,26-27",'Final' is an index label; retain each passage's sequence wording.,seeded
+T009,Seventy units of seven,The numbered period stated in Daniel 9:24-27.,Daniel 9:24-27,Do not convert the unit in the observation layer.,seeded
+T010,Trouble and great tribulation,"Passages using 'time of trouble', 'Jacob's trouble', or 'great tribulation' wording.",Jeremiah 30:7; Daniel 12:1; Matthew 24:15-31; Mark 13:14-27,"Shared wording is a connection, not automatic identity.",seeded
+T011,Kingdom,Kingdom statements within the selected prophetic framework.,"Daniel 2:37-45; Daniel 7:13-14,18,22,26-27; Zechariah 14:9","Record owner, recipient, duration, and sequence exactly as stated.",seeded
+T012,Babylon,Named Babylon passages relevant to Daniel's setting and Jeremiah's seventy years.,Daniel 1:1-2; Daniel 2:37-38; Daniel 5:25-31; Jeremiah 25:1-12; Jeremiah 29:1-14; Jeremiah 50-51,Do not import external historical data into the observation field.,seeded
+T013,Prince that shall come,The title or phrase in Daniel 9:26 and its immediate actions.,Daniel 9:26-27,Do not identify the prince unless Scripture explicitly does so.,seeded
+T014,Messiah / Anointed One,The title in Daniel 9:25-26 and passages that explicitly define Messiah terminology.,Daniel 9:25-26; John 1:41; John 4:25-26,Do not merge 'Messiah the Prince' with 'the prince that shall come'.,seeded
+T015,City and sanctuary,"Jerusalem, the holy city, and the sanctuary as named in Daniel 9.",Daniel 9:24-27,"Keep people, city, and sanctuary as separate objects.",seeded
+T016,Desolation and abomination,Desolation wording in Daniel and Matthew's explicit reference to Daniel.,Daniel 9:26-27; Daniel 12:11; Matthew 24:15,Matthew 24:15 is an explicit connection to Daniel.,seeded
+T017,Command concerning Jerusalem,The command to restore and build Jerusalem stated as the starting marker in Daniel 9:25.,Daniel 9:25; compare 2 Chronicles 36:22-23; Ezra 1:1-4; Ezra 7:11-26; Nehemiah 2:1-8,Comparison events are not identified by those passages as Daniel 9:25's command.,review

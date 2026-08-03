@@ -1,0 +1,40 @@
+schema_version: 1
+record_type: term
+id: greek-babylon
+status: collecting
+language: greek
+lemma: Βαβυλών
+
+source_anchor:
+  corpus: MorphGNT
+  occurrence_collection_status: incomplete
+
+initial_occurrences:
+  - reference: Matthew 1:11-12
+    context: Babylon names the destination and period associated with the deportation in the genealogy.
+  - reference: Acts 7:43
+    context: Babylon occurs in Stephen's citation of prophetic Scripture.
+  - reference: 1 Peter 5:13
+    context: Babylon occurs as the location-name in Peter's closing greeting; referent remains limited to what the text states.
+  - reference: Revelation 14:8
+    context: Babylon the great is announced as fallen.
+  - reference: Revelation 16:19
+    context: Babylon the great is remembered before God.
+  - reference: Revelation 17:5
+    context: A name written on the woman includes Babylon the great.
+  - reference: Revelation 18:2-21
+    context: Babylon the great is described, addressed, lamented, judged, and thrown down.
+
+research_boundaries:
+  - The Greek name establishes a lexical thread within the Greek corpus and connects to Hebrew בבל at the level of the canonical name.
+  - The shared name does not by itself prove identical referent, location, institution, city, kingdom, woman, or event in every occurrence.
+  - Revelation's own identifications and explanations must be stored passage by passage.
+  - No external historical identification is accepted as evidence.
+
+links:
+  terms:
+    - hebrew-0894-babel
+  studies:
+    - babel-babylon-canonical-thread
+  unresolved:
+    - babel-babylon-continuity

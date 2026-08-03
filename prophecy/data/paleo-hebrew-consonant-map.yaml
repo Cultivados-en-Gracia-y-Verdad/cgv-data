@@ -1,0 +1,42 @@
+schema_version: 1
+record_type: script-map
+id: paleo-hebrew-consonant-map
+status: active
+source_script: hebrew-square
+output_script: paleo-hebrew
+normalization: consonants-only
+
+mapping:
+  א: 𐤀
+  ב: 𐤁
+  ג: 𐤂
+  ד: 𐤃
+  ה: 𐤄
+  ו: 𐤅
+  ז: 𐤆
+  ח: 𐤇
+  ט: 𐤈
+  י: 𐤉
+  כ: 𐤊
+  ך: 𐤊
+  ל: 𐤋
+  מ: 𐤌
+  ם: 𐤌
+  נ: 𐤍
+  ן: 𐤍
+  ס: 𐤎
+  ע: 𐤏
+  פ: 𐤐
+  ף: 𐤐
+  צ: 𐤑
+  ץ: 𐤑
+  ק: 𐤒
+  ר: 𐤓
+  ש: 𐤔
+  ת: 𐤕
+
+constraints:
+  - This table performs a one-to-one visual script conversion only.
+  - It does not preserve vowel points or cantillation.
+  - It is not a manuscript transcription, paleographic dating tool, or independent textual witness.
+  - Letter-shape interpretations are excluded from the research method.

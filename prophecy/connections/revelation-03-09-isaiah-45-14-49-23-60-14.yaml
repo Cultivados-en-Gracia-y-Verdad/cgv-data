@@ -1,0 +1,57 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-03-09-isaiah-45-14-49-23-60-14
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 3:9
+  language: greek
+  original: ἰδοὺ ποιήσω αὐτοὺς ἵνα ἥξουσιν καὶ προσκυνήσουσιν ἐνώπιον τῶν ποδῶν σου, καὶ γνῶσιν ὅτι ἐγὼ ἠγάπησά σε
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270309
+
+sources:
+  - reference: Isaiah 45:14
+    language: hebrew
+    contribution: peoples come, bow, and acknowledge that God is with the addressed people.
+  - reference: Isaiah 49:23
+    language: hebrew
+    hebrew_anchor: אַפַּיִם אֶרֶץ יִשְׁתַּחֲווּ לָךְ וַעֲפַר רַגְלַיִךְ יְלַחֵכוּ וְיָדַעַתְּ כִּי אֲנִי יְהוָה
+    contribution: bowing before the feet and knowing the LORD's covenant action.
+  - reference: Isaiah 60:14
+    language: hebrew
+    hebrew_anchor: וְהָלְכוּ אֵלַיִךְ שְׁחוֹחַ בְּנֵי מְעַנַּיִךְ וְהִשְׁתַּחֲווּ עַל־כַּפּוֹת רַגְלַיִךְ
+    contribution: former oppressors come bowed down at the soles of the addressed one's feet.
+
+greek_bridge:
+  shared_terms_and_structure:
+    - come
+    - bow_or_worship
+    - before_or_at_the_feet
+    - know
+  status: strong-phrase-and-scene-reuse
+
+shared_features:
+  - hostile or opposing group comes
+  - bowing at the feet of the addressed party
+  - resulting acknowledgment or knowledge
+  - divine action reverses the prior relationship
+
+differences:
+  - Isaiah addresses Zion or Israel in the cited contexts.
+  - Revelation addresses the church in Philadelphia and states that the group will know that the speaker loved it.
+  - The record does not transfer every national, geographic, or restoration detail from Isaiah to Philadelphia.
+
+classification:
+  relation: composite-reuse
+  evidence_class: E5
+  confidence: high
+
+limits:
+  - Bowing before the feet does not establish worship of the human recipients; the action and its object must be interpreted within each passage.
+  - Revelation applies the Isaiah scene without explicitly explaining the full identity relationship between Zion and the addressed congregation.
+
+chronology_effect:
+  status: promised-future-reversal
+  statement: Revelation presents the coming, bowing, and knowing as a future act the speaker will cause.

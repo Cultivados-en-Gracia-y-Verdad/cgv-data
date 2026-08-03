@@ -1,0 +1,83 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-17-16-17-ezekiel-16-37-41-23-25-29
+status: verified-composite-judgment-reuse
+
+revelation:
+  reference: Revelation 17:16-17
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271716, 271717]
+  original_anchors:
+    - μισήσουσι τὴν πόρνην
+    - ἠρημωμένην ποιήσουσιν αὐτὴν καὶ γυμνήν
+    - τὰς σάρκας αὐτῆς φάγονται
+    - αὐτὴν κατακαύσουσιν ἐν πυρί
+    - ὁ θεὸς ἔδωκεν εἰς τὰς καρδίας αὐτῶν ποιῆσαι τὴν γνώμην αὐτοῦ
+
+sources:
+  - reference: Ezekiel 16:37-41
+    language: hebrew
+    hebrew_anchors:
+      - וְקִבַּצְתִּי אֶת־כָּל־מְאַהֲבַיִךְ אֲשֶׁר עָרַבְתְּ עֲלֵיהֶם
+      - וְגִלּוּ עֶרְוָתֵךְ
+      - וְשָׂרְפוּ בָתַּיִךְ בָּאֵשׁ
+    contribution:
+      - former lovers gathered against the adulterous city
+      - exposure and nakedness
+      - destruction by fire
+  - reference: Ezekiel 23:25-29
+    language: hebrew
+    hebrew_anchors:
+      - וְעָשׂוּ אוֹתָךְ בְּחֵמָה
+      - וְלָקְחוּ אֶת־כָּל־יְגִיעֵךְ וְעֲזָבוּךְ עֵירֹם וְעֶרְיָה
+      - וְנִגְלָה עֶרְוַת זְנוּנַיִךְ
+    contribution:
+      - former allies turning in fury
+      - plunder and abandonment
+      - naked exposure of prostitution
+  - reference: Ezekiel 23:46-47
+    language: hebrew
+    hebrew_anchors:
+      - וְנָתַתִּי אֶתְהֶן לְזַעֲוָה וְלָבַז
+      - וּבָרֵא אוֹתְהֶן בְּחַרְבוֹתָם
+    contribution:
+      - hostile assembly executing judgment
+      - violent consumption and plunder pattern
+
+shared_features:
+  - a prostitute or adulterous city judged through former partners
+  - hatred replacing alliance
+  - exposure and nakedness
+  - plunder or consumption
+  - burning with fire
+  - hostile agents carrying out divine judgment
+
+differences:
+  - Ezekiel addresses Jerusalem and Samaria within covenant-adultery indictments.
+  - Revelation applies the pattern to Babylon the Great, explicitly interpreted as the ruling great city.
+  - Revelation adds the beast and ten kings as the agents.
+  - Revelation uniquely states that God placed his purpose in their hearts until his words are fulfilled.
+  - The statement that they eat her flesh is more graphic than Ezekiel's plunder and violent-destruction wording.
+
+classification:
+  relation: composite-adulterous-city-judgment-reuse
+  evidence_class: E5
+  confidence: very-high
+
+agency:
+  proximate_agents:
+    - the beast
+    - the ten kings
+  ultimate_control:
+    - God places the execution of his purpose in their hearts
+
+chronology_effect:
+  status: narrative-reversal
+  statement: The coalition that supports the woman turns against her before the beast's own final defeat; no external date is supplied.
+
+limits:
+  - Ezekiel's use of the pattern for Jerusalem and Samaria does not identify Revelation's Babylon as either city.
+  - The judgment pattern must not be transferred indiscriminately to every city described as unfaithful.
+  - The record does not identify the beast, ten kings, or great city with modern entities.

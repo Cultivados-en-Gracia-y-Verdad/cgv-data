@@ -1,0 +1,58 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-20-07-10-ezekiel-38-39
+status: verified-name-and-battle-pattern-reuse
+
+revelation:
+  reference: Revelation 20:7-10
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [272007, 272008, 272009, 272010]
+  original_anchors:
+    - λυθήσεται ὁ Σατανᾶς ἐκ τῆς φυλακῆς αὐτοῦ
+    - πλανῆσαι τὰ ἔθνη τὰ ἐν ταῖς τέσσαρσι γωνίαις τῆς γῆς
+    - τὸν Γὼγ καὶ Μαγώγ
+    - συναγαγεῖν αὐτοὺς εἰς τὸν πόλεμον
+    - ἐκύκλευσαν τὴν παρεμβολὴν τῶν ἁγίων καὶ τὴν πόλιν τὴν ἠγαπημένην
+    - κατέβη πῦρ ἐκ τοῦ οὐρανοῦ καὶ κατέφαγεν αὐτούς
+
+source:
+  reference: Ezekiel 38:1-23; 39:1-6
+  language: hebrew
+  hebrew_anchors:
+    - בֶּן־אָדָם שִׂים פָּנֶיךָ אֶל־גּוֹג אֶרֶץ הַמָּגוֹג
+    - וְהַעֲלִיתִיךָ מִיַּרְכְּתֵי צָפוֹן וַהֲבִאוֹתִךָ עַל־הָרֵי יִשְׂרָאֵל
+    - וְהִתְגַּדִּלְתִּי וְהִתְקַדִּשְׁתִּי וְנוֹדַעְתִּי לְעֵינֵי גּוֹיִם רַבִּים
+    - וְשִׁלַּחְתִּי־אֵשׁ בְּמָגוֹג וּבְיֹשְׁבֵי הָאִיִּים לָבֶטַח
+  contribution:
+    - the names Gog and Magog
+    - hostile forces gathered against God's people
+    - a large multinational assault
+    - divine destruction including fire
+
+shared_features:
+  - Gog and Magog named in an end-stage hostile gathering
+  - nations assembled for war against God's people
+  - overwhelming forces surrounding or invading the protected community
+  - direct divine destruction by fire
+
+differences:
+  - Ezekiel presents Gog as a ruler from the land of Magog with named allied peoples; Revelation uses Gog and Magog for nations from the four corners of the earth.
+  - Ezekiel's attack is against the mountains and land of Israel; Revelation's forces surround the camp of the saints and the beloved city.
+  - Ezekiel includes earthquake, sword, pestilence, blood, rain, hail, fire, sulfur, burial, and cleansing; Revelation 20:9 narrates immediate fire from heaven.
+  - Revelation explicitly makes Satan the deceiver and organizer after the thousand years.
+
+classification:
+  relation: transformed-name-and-battle-pattern-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: revelation-controlled
+  statement: Revelation explicitly places its Gog-Magog gathering after the thousand years; Ezekiel's oracle does not independently supply that placement.
+
+limits:
+  - The shared names do not prove that every participant, location, weapon, or chronological detail in Ezekiel 38-39 transfers unchanged to Revelation 20.
+  - Revelation's four-corners scope must not be reduced to Ezekiel's named northern coalition.
+  - The record does not identify contemporary nations as Gog or Magog.

@@ -1,0 +1,56 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-21-01-isaiah-65-17-66-22
+status: verified-near-verbatim-reuse
+
+revelation:
+  reference: Revelation 21:1
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [272101]
+  original_anchors:
+    - οὐρανὸν καινὸν καὶ γῆν καινήν
+    - ὁ πρῶτος οὐρανὸς καὶ ἡ πρώτη γῆ ἀπῆλθαν
+    - ἡ θάλασσα οὐκ ἔστιν ἔτι
+
+sources:
+  - reference: Isaiah 65:17
+    language: hebrew
+    hebrew_anchor: כִּי־הִנְנִי בוֹרֵא שָׁמַיִם חֲדָשִׁים וָאָרֶץ חֲדָשָׁה וְלֹא תִזָּכַרְנָה הָרִאשֹׁנוֹת וְלֹא תַעֲלֶינָה עַל־לֵב
+    contribution:
+      - explicit promise of new heavens and a new earth
+      - former things no longer remembered
+  - reference: Isaiah 66:22
+    language: hebrew
+    hebrew_anchor: כִּי כַאֲשֶׁר הַשָּׁמַיִם הַחֲדָשִׁים וְהָאָרֶץ הַחֲדָשָׁה אֲשֶׁר אֲנִי עֹשֶׂה עֹמְדִים לְפָנַי נְאֻם־יְהוָה כֵּן יַעֲמֹד זַרְעֲכֶם וְשִׁמְכֶם
+    contribution:
+      - enduring new heavens and new earth before YHWH
+
+greek_bridge:
+  status: explicit
+  key_phrase: οὐρανὸν καινὸν καὶ γῆν καινήν
+
+shared_features:
+  - new heavens and new earth created by God
+  - former order displaced
+  - enduring renewed creation
+
+differences:
+  - Isaiah 65 continues with death, long life, building, planting, and offspring; Revelation 21:4 later states that death is no more.
+  - Revelation explicitly says the first heaven and earth passed away.
+  - Revelation alone says the sea is no more.
+
+classification:
+  relation: near-verbatim-new-creation-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: revelation-controlled
+  statement: Isaiah establishes the promised new creation; Revelation places it after the great white throne scene.
+
+limits:
+  - The absence of the sea must not be imported into Isaiah 65 or Isaiah 66.
+  - Isaiah's new-creation language must not be forced to answer every question about continuity or discontinuity in Revelation 21.
+  - The connection does not identify a modern political program as the new creation.

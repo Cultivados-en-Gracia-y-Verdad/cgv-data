@@ -1,0 +1,57 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-10-05-07-daniel-12-07
+status: verified-near-verbatim-reuse
+
+revelation:
+  reference: Revelation 10:5-7
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271005, 271006, 271007]
+  original_anchors:
+    - ὁ ἄγγελος ... ἦρεν τὴν χεῖρα αὐτοῦ τὴν δεξιὰν εἰς τὸν οὐρανόν
+    - ὤμοσεν ἐν τῷ ζῶντι εἰς τοὺς αἰῶνας τῶν αἰώνων
+    - ὃς ἔκτισεν τὸν οὐρανὸν ... καὶ τὴν γῆν ... καὶ τὴν θάλασσαν
+    - χρόνος οὐκέτι ἔσται
+    - ἐτελέσθη τὸ μυστήριον τοῦ θεοῦ
+
+source:
+  reference: Daniel 12:7
+  language: hebrew
+  hebrew_anchors:
+    - וָאֶשְׁמַע אֶת־הָאִישׁ לְבוּשׁ הַבַּדִּים אֲשֶׁר מִמַּעַל לְמֵימֵי הַיְאֹר
+    - וַיָּרֶם יְמִינוֹ וּשְׂמֹאלוֹ אֶל־הַשָּׁמַיִם
+    - וַיִּשָּׁבַע בְּחֵי הָעוֹלָם
+    - לְמוֹעֵד מוֹעֲדִים וָחֵצִי
+    - וּכְכַלּוֹת נַפֵּץ יַד־עַם־קֹדֶשׁ תִּכְלֶינָה כָל־אֵלֶּה
+  contribution:
+    - a heavenly figure positioned over waters
+    - raising hand or hands toward heaven
+    - swearing by the One who lives forever
+    - an oath concerning the completion of the appointed prophetic period
+
+shared_features:
+  - heavenly messenger over water
+  - raised hand toward heaven
+  - oath by the eternally living One
+  - declaration concerning the completion of a divinely appointed period
+
+differences:
+  - Daniel raises both right and left hands; Revelation mentions the right hand.
+  - Daniel stands above the river; Revelation places one foot on sea and one on land.
+  - Daniel gives a time, times, and half a time; Revelation says there will be no further delay or time.
+  - Revelation expands the oath with a creation formula and connects completion with the seventh trumpet and God's mystery.
+
+classification:
+  relation: near-verbatim-scene-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: explicit-revelation-sequence
+  statement: Revelation places the completion announcement in the days of the seventh angel's trumpet; Daniel's period is not automatically equated with that trumpet interval.
+
+limits:
+  - The shared oath scene does not prove that the angel in Revelation is the same individual as Daniel's linen-clothed man.
+  - The phrase χρόνος οὐκέτι ἔσται must be interpreted in Revelation's immediate announcement and not automatically as the abolition of chronological time.

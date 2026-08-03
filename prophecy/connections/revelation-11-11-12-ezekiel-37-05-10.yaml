@@ -1,0 +1,53 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-11-11-12-ezekiel-37-05-10
+status: verified-near-verbatim-action-reuse
+
+revelation:
+  reference: Revelation 11:11-12
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes:
+      - 271111
+      - 271112
+  original_anchors:
+    - πνεῦμα ζωῆς ἐκ τοῦ θεοῦ εἰσῆλθεν ἐν αὐτοῖς
+    - ἔστησαν ἐπὶ τοὺς πόδας αὐτῶν
+    - φόβος μέγας ἐπέπεσεν ἐπὶ τοὺς θεωροῦντας αὐτούς
+    - Ἀνάβατε ὧδε
+    - ἀνέβησαν εἰς τὸν οὐρανὸν ἐν τῇ νεφέλῃ
+
+source:
+  reference: Ezekiel 37:5-10
+  language: hebrew
+  hebrew_anchors:
+    - הִנֵּה אֲנִי מֵבִיא בָכֶם רוּחַ וִחְיִיתֶם
+    - וַתָּבוֹא בָהֶם הָרוּחַ וַיִּחְיוּ
+    - וַיַּעַמְדוּ עַל־רַגְלֵיהֶם
+    - חַיִל גָּדוֹל מְאֹד־מְאֹד
+
+shared_features:
+  - divine breath or spirit enters the dead
+  - the dead live
+  - they stand upon their feet
+  - observers confront an overwhelming divine act
+
+differences:
+  - Ezekiel's vision concerns a very great army representing the whole house of Israel; Revelation concerns two slain witnesses.
+  - Revelation specifies three and a half days before revivification; Ezekiel provides no matching interval.
+  - Ezekiel does not narrate ascent to heaven in a cloud.
+  - Revelation emphasizes terror falling upon hostile observers, while Ezekiel emphasizes national restoration and recognition of YHWH.
+
+classification:
+  relation: near-verbatim-action-sequence-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: revelation-specific
+  statement: Ezekiel supplies the breath-life-standing sequence, not Revelation's three-and-a-half-day interval or heavenly ascent.
+
+limits:
+  - The reuse does not establish that the witnesses collectively are the whole house of Israel.
+  - The ascent must be studied separately rather than imported into Ezekiel 37.

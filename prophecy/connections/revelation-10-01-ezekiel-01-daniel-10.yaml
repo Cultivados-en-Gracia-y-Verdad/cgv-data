@@ -1,0 +1,69 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-10-01-ezekiel-01-daniel-10
+status: verified-composite-image-reuse
+
+revelation:
+  reference: Revelation 10:1
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 271001
+  original_anchors:
+    - ἄλλον ἄγγελον ἰσχυρὸν
+    - περιβεβλημένον νεφέλην
+    - ἡ ἶρις ἐπὶ τὴν κεφαλὴν αὐτοῦ
+    - τὸ πρόσωπον αὐτοῦ ὡς ὁ ἥλιος
+    - οἱ πόδες αὐτοῦ ὡς στῦλοι πυρός
+
+sources:
+  - reference: Ezekiel 1:4,26-28
+    language: hebrew
+    hebrew_anchors:
+      - וְהִנֵּה רוּחַ סְעָרָה בָּאָה מִן־הַצָּפוֹן עָנָן גָּדוֹל וְאֵשׁ מִתְלַקַּחַת וְנֹגַהּ לוֹ סָבִיב
+      - וָאֵרֶא כְּעֵין חַשְׁמַל כְּמַרְאֵה־אֵשׁ בֵּית־לָהּ סָבִיב
+      - כְּמַרְאֵה הַקֶּשֶׁת אֲשֶׁר יִהְיֶה בֶעָנָן בְּיוֹם הַגֶּשֶׁם כֵּן מַרְאֵה הַנֹּגַהּ סָבִיב
+    contribution:
+      - great cloud and fire
+      - radiant fire around the enthroned appearance
+      - rainbow appearance in a cloud
+  - reference: Daniel 10:5-6
+    language: hebrew
+    hebrew_anchors:
+      - וְהִנֵּה־אִישׁ אֶחָד לָבוּשׁ בַּדִּים וּמָתְנָיו חֲגֻרִים בְּכֶתֶם אוּפָז
+      - וּפָנָיו כְּמַרְאֵה בָרָק
+      - וְעֵינָיו כְלַפִּידֵי־אֵשׁ
+      - וּזְרֹעֹתָיו וּמַרְגְּלֹתָיו כְּעֵין נְחֹשֶׁת קָלָל
+      - וְקוֹל דְּבָרָיו כְּקוֹל הָמוֹן
+    contribution:
+      - a radiant humanlike heavenly messenger
+      - brilliant face
+      - fiery features
+      - shining limbs
+      - overwhelming voice
+
+shared_features:
+  - cloud, fire, and surrounding radiance
+  - rainbow imagery
+  - a brilliant face
+  - fiery or radiant lower limbs
+  - a powerful heavenly figure
+
+differences:
+  - Ezekiel's cloud, fire, and rainbow describe the vision of the likeness of the glory of YHWH, not an angel.
+  - Daniel's figure has no cloud or rainbow and is described as a man clothed in linen.
+  - Revelation explicitly calls its figure another strong angel and combines features distributed between Ezekiel and Daniel.
+  - Revelation compares the face to the sun and the feet to pillars of fire; neither source uses those exact comparisons.
+
+classification:
+  relation: composite-image-structure-reuse
+  evidence_class: E5
+  confidence: high
+
+chronology_effect:
+  status: vision-sequence-only
+  statement: Revelation places the messenger between the sixth and seventh trumpets; Ezekiel 1 and Daniel 10 do not supply that sequence.
+
+limits:
+  - The shared imagery does not establish that Revelation's angel is YHWH, the Messiah, or the same heavenly figure seen by Daniel.
+  - The rainbow, cloud, sunlike face, and fiery feet must not each be assigned a universal symbolic meaning apart from their immediate texts.

@@ -1,0 +1,57 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-13-05-07-daniel-07-08-25
+status: verified-near-verbatim-and-chronology-reuse
+
+revelation:
+  reference: Revelation 13:5-7
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271305, 271306, 271307]
+  original_anchors:
+    - στόμα λαλοῦν μεγάλα καὶ βλασφημίας
+    - ἐξουσία ποιῆσαι μῆνας τεσσεράκοντα δύο
+    - ποιῆσαι πόλεμον μετὰ τῶν ἁγίων καὶ νικῆσαι αὐτούς
+
+source:
+  reference: Daniel 7:8,21,25
+  language: aramaic
+  aramaic_anchors:
+    - וּפֻם מְמַלִּל רַבְרְבָן
+    - וְקַרְנָא דִכֵּן עָבְדָה קְרָב עִם־קַדִּישִׁין וְיָכְלָה לְהוֹן
+    - וּמִלִּין לְצַד עִלָּיָא יְמַלִּל
+    - וִיבַלֵּא קַדִּישֵׁי עֶלְיוֹנִין
+    - וְיִתְיַהֲבוּן בִּידֵהּ עַד־עִדָּן וְעִדָּנִין וּפְלַג עִדָּן
+  contribution:
+    - a mouth speaking great or arrogant words
+    - speech against the Most High
+    - war against and temporary prevailing over the holy ones
+    - a limited period of time, times, and half a time
+
+shared_features:
+  - boastful or blasphemous speech
+  - hostility toward God
+  - war against the holy ones
+  - temporary victory over them
+  - divinely bounded authority
+
+differences:
+  - Daniel assigns these features to the little horn; Revelation assigns them to the composite sea beast.
+  - Revelation states forty-two months, while Daniel states a time, times, and half a time.
+  - Revelation extends authority over every tribe, people, language, and nation.
+  - Daniel describes attempted changes to times and law; Revelation 13 does not repeat that feature.
+
+classification:
+  relation: near-verbatim-action-and-chronology-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: internally-supported-equivalence
+  statement: Revelation 12:6 and 12:14 explicitly equate 1,260 days with a time, times, and half a time. Revelation 13:5 adds forty-two months to the same persecution complex, strongly linking all three expressions within Revelation's own chronology.
+
+limits:
+  - The equivalence establishes a textual period relation, not a starting calendar date.
+  - The record does not identify a modern ruler or institution.
+  - Temporary victory over the holy ones is not final victory; Daniel and Revelation both place the persecutor under later judgment.

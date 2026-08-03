@@ -1,0 +1,63 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-18-11-19-ezekiel-27
+status: verified-composite-merchant-lament-reuse
+
+revelation:
+  reference: Revelation 18:11-19
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271811, 271812, 271813, 271814, 271815, 271816, 271817, 271818, 271819]
+  original_anchors:
+    - οἱ ἔμποροι τῆς γῆς κλαίουσιν καὶ πενθοῦσιν ἐπ’ αὐτήν
+    - τὸν γόμον αὐτῶν οὐδεὶς ἀγοράζει οὐκέτι
+    - χρυσοῦ καὶ ἀργύρου καὶ λίθου τιμίου καὶ μαργαριτῶν
+    - πᾶς κυβερνήτης καὶ πᾶς ὁ ἐπὶ τόπον πλέων καὶ ναῦται
+    - βλέποντες τὸν καπνὸν τῆς πυρώσεως αὐτῆς
+    - τίς ὁμοία τῇ πόλει τῇ μεγάλῃ
+    - μιᾷ ὥρᾳ ἠρημώθη
+
+source:
+  reference: Ezekiel 27
+  language: hebrew
+  hebrew_anchors:
+    - אֲשֶׁר אֹמֶרֶת אֲנִי כְּלִילַת יֹפִי
+    - תַּרְשִׁישׁ סֹחַרְתֵּךְ מֵרֹב כָּל־הוֹן בְּכֶסֶף בַּרְזֶל בְּדִיל וְעוֹפֶרֶת נָתְנוּ עִזְבוֹנָיִךְ
+    - כָּל־תֹּפְשֵׂי מָשׁוֹט מַלָּחִים כֹּל חֹבְלֵי הַיָּם
+    - וְזָעֲקוּ מָרָה וְהֶעֱלוּ עָפָר עַל־רָאשֵׁיהֶם בָּאֵפֶר יִתְפַּלָּשׁוּ
+    - מִי כְצוֹר כְּדֻמָּה בְּתוֹךְ הַיָּם
+    - בְּעֵת שִׁבְרוֹנֵךְ מִיַּמִּים בְּמַעֲמַקֵּי מַיִם מַעֲרָבֵךְ וְכָל־קְהָלֵךְ בְּתוֹכֵךְ נָפָלוּ
+  contribution:
+    - a wealthy maritime city enriched by international trade
+    - extensive cargo catalog
+    - merchants, sailors, pilots, and seafarers lamenting collapse
+    - rhetorical question asking what city is comparable
+    - public mourning at sudden commercial ruin
+
+shared_features:
+  - globally connected luxury trade
+  - merchants enriched through the city's commerce
+  - extensive commodity lists
+  - sailors and maritime workers watching from a distance
+  - lament over abrupt loss of wealth
+  - rhetorical incomparability formula for the fallen city
+
+differences:
+  - Ezekiel explicitly addresses Tyre; Revelation explicitly addresses Babylon the Great.
+  - Revelation expands the trade network from maritime merchants to kings and merchants of the whole earth.
+  - Revelation includes human bodies and souls in its cargo list and interprets the city's luxury morally.
+  - Revelation repeatedly emphasizes destruction in one hour and smoke from burning.
+
+classification:
+  relation: composite-merchant-lament-reuse
+  evidence_class: E5
+  confidence: very-high
+
+internal_control:
+  statement: Revelation 17:18 identifies the woman as the great city ruling over the kings of the earth; Ezekiel's Tyre lament supplies the commercial-lament form, not the final identity.
+
+limits:
+  - Literary reuse does not make Tyre and Revelation's Babylon the same historical city.
+  - The commodity list should not be used alone to identify one modern port or economy.
+  - Maritime imagery is central to the lament but Revelation's city also exercises political and moral influence beyond seaborne trade.

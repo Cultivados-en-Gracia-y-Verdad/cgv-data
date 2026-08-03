@@ -1,0 +1,63 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-14-10-jeremiah-25-15-29-psalm-75-08
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 14:10
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 271410
+  original_anchors:
+    - πίεται ἐκ τοῦ οἴνου τοῦ θυμοῦ τοῦ θεοῦ
+    - κεκερασμένου ἀκράτου ἐν τῷ ποτηρίῳ τῆς ὀργῆς αὐτοῦ
+    - βασανισθήσεται ἐν πυρὶ καὶ θείῳ
+
+sources:
+  - reference: Jeremiah 25:15-29
+    language: hebrew
+    hebrew_anchors:
+      - קַח אֶת־כּוֹס הַיַּיִן הַחֵמָה הַזֹּאת מִיָּדִי
+      - וְהִשְׁקִיתָה אֹתוֹ אֶת־כָּל־הַגּוֹיִם
+      - וְשָׁתוּ וְהִתְגֹּעֲשׁוּ וְהִתְהֹלָלוּ
+    contribution:
+      - a cup of divine wrath
+      - nations compelled to drink
+      - unavoidable judgment
+  - reference: Psalm 75:8
+    language: hebrew
+    hebrew_anchor: כִּי כוֹס בְּיַד־יְהוָה וְיַיִן חָמַר מָלֵא מֶסֶךְ וַיַּגֵּר מִזֶּה אַךְ־שְׁמָרֶיהָ יִמְצוּ יִשְׁתּוּ כֹּל רִשְׁעֵי־אָרֶץ
+    contribution:
+      - a cup in YHWH's hand
+      - mixed wine
+      - the wicked forced to drain it
+  - reference: Isaiah 51:17,22
+    language: hebrew
+    hebrew_anchors:
+      - אֲשֶׁר שָׁתִית מִיַּד יְהוָה אֶת־כּוֹס חֲמָתוֹ
+      - אֶת־קֻבַּעַת כּוֹס הַתַּרְעֵלָה שָׁתִית מָצִית
+    contribution:
+      - cup of YHWH's wrath
+      - drinking the cup to its dregs
+
+shared_features:
+  - divine wrath portrayed as wine
+  - a cup administered by God
+  - compulsory drinking by the judged
+  - complete and inescapable consumption
+
+differences:
+  - Jeremiah emphasizes judgment among nations and Jerusalem.
+  - Psalm 75 emphasizes the wicked draining the cup's dregs.
+  - Isaiah addresses Jerusalem's experience and later removal of the cup.
+  - Revelation applies the cup individually to worshipers of the beast and adds fire and sulfur punishment.
+
+classification:
+  relation: composite-wrath-cup-reuse
+  evidence_class: E5
+  confidence: high
+
+limits:
+  - The cup imagery does not make every biblical wrath-cup scene the same event.
+  - Revelation's fire-and-sulfur clause requires its own source analysis and is not supplied by Jeremiah 25 or Psalm 75 alone.

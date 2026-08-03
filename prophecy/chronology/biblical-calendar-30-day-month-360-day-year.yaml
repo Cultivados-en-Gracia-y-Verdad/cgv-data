@@ -1,0 +1,104 @@
+schema_version: 1
+record_type: chronology-calendar-study
+id: calendar-30-day-month-360-day-year
+status: collecting
+question: Does Scripture establish a thirty-day month or a 360-day year for prophetic duration calculations?
+
+source_scope:
+  corpus: Protestant canon
+  research_languages: [hebrew, aramaic, greek]
+  external_calendar_sources: prohibited
+
+explicit_data:
+  - id: flood-start-date
+    reference: Genesis 7:11
+    language: hebrew
+    original_consonantal: בחודש השני בשבעה עשר יום לחדש
+    statement: The flood narrative marks the seventeenth day of the second month.
+    source_anchor:
+      corpus: OSHB
+      file: morphology/OSHB/morphhb/wlc/Gen.xml
+      osis_id: Gen.7.11
+
+  - id: flood-150-days
+    reference: Genesis 7:24
+    language: hebrew
+    original_consonantal: חמשים ומאת יום
+    statement: The waters prevail for 150 days.
+    source_anchor:
+      corpus: OSHB
+      file: morphology/OSHB/morphhb/wlc/Gen.xml
+      osis_id: Gen.7.24
+
+  - id: flood-end-150-days
+    reference: Genesis 8:3
+    language: hebrew
+    original_consonantal: מקצה חמשים ומאת יום
+    statement: The narrative marks the end of 150 days.
+    source_anchor:
+      corpus: OSHB
+      file: morphology/OSHB/morphhb/wlc/Gen.xml
+      osis_id: Gen.8.3
+
+  - id: ark-rest-date
+    reference: Genesis 8:4
+    language: hebrew
+    original_consonantal: בחודש השביעי בשבעה עשר יום לחדש
+    statement: The ark rests on the seventeenth day of the seventh month.
+    source_anchor:
+      corpus: OSHB
+      file: morphology/OSHB/morphhb/wlc/Gen.xml
+      osis_id: Gen.8.4
+
+  - id: later-flood-year-markers
+    references: [Genesis 8:13, Genesis 8:14]
+    language: hebrew
+    statement: The narrative later gives first-month and second-month dates in Noah's 601st year.
+    source_anchor:
+      corpus: OSHB
+      file: morphology/OSHB/morphhb/wlc/Gen.xml
+      osis_ids: [Gen.8.13, Gen.8.14]
+
+within_narrative_derivation:
+  start: second month, seventeenth day
+  corresponding_later_date: seventh month, seventeenth day
+  numbered_month_intervals: 5
+  stated_days: 150
+  calculation: 150 / 5 = 30
+  conclusion: The flood chronology supports thirty days per month across this five-month interval.
+  status: derived-within-passage
+  evidence_class: E4
+
+conditional_duration_math:
+  - premise: A month contains thirty days.
+    calculation: 42 * 30 = 1260
+    conclusion: Forty-two such months equal 1,260 days.
+  - premise: A year contains twelve thirty-day months.
+    calculation: 12 * 30 = 360
+    conclusion: Such a year contains 360 days.
+  - premise: A time equals one such year, times equals two such years, and half a time equals half such a year.
+    calculation: 3.5 * 360 = 1260
+    conclusion: Under all stated premises, a time, times, and half a time equals 1,260 days.
+
+what_is_established:
+  - Genesis 7:11-8:4 provides an internal date-duration relationship compatible with five thirty-day months.
+  - A thirty-day month makes forty-two months arithmetically equal to 1,260 days.
+  - A twelve-month year composed entirely of thirty-day months would contain 360 days.
+
+what_is_not_yet_established:
+  - Scripture does not state in these passages that every month always has thirty days.
+  - Scripture does not state here that every year always has 360 days.
+  - Scripture does not explicitly define the Aramaic עדן or Greek καιρός as a 360-day year in the duration passages.
+  - Scripture does not explicitly state that the plural times always equals exactly two years.
+  - Arithmetic equivalence does not prove that separate events share the same beginning and ending dates.
+
+limiting_observation:
+  statement: The later dates in Genesis 8 must remain in the calendar study; the five-month, 150-day relation must not be expanded into a universal calendar without further scriptural evidence.
+
+links:
+  chronology:
+    - duration-time-times-half-42-months-1260-days
+
+working_conclusion:
+  status: partially-supported
+  statement: A 360-day-year model is scripturally compatible and can be derived conditionally from a thirty-day month and twelve months, but it is not yet stored as a universal biblical calendar rule.

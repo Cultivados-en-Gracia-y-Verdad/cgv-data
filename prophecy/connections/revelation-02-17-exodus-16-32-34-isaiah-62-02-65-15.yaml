@@ -1,0 +1,64 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-02-17-exodus-16-32-34-isaiah-62-02-65-15
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 2:17
+  language: greek
+  original: τῷ νικῶντι δώσω αὐτῷ τοῦ μάννα τοῦ κεκρυμμένου, καὶ δώσω αὐτῷ ψῆφον λευκήν, καὶ ἐπὶ τὴν ψῆφον ὄνομα καινὸν γεγραμμένον ὃ οὐδεὶς οἶδεν εἰ μὴ ὁ λαμβάνων
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270217
+
+sources:
+  - reference: Exodus 16:32-34
+    language: hebrew
+    hebrew_anchors:
+      - מְלֹא הָעֹמֶר מִמֶּנּוּ לְמִשְׁמֶרֶת לְדֹרֹתֵיכֶם
+      - וְהַנַּח אֹתוֹ לִפְנֵי יְהוָה לְמִשְׁמֶרֶת לְדֹרֹתֵיכֶם
+      - וַיַּנִּיחֵהוּ אַהֲרֹן לִפְנֵי הָעֵדֻת לְמִשְׁמָרֶת
+    contribution: manna is preserved and placed before the LORD or testimony as a kept memorial.
+  - reference: Isaiah 62:2
+    language: hebrew
+    hebrew_anchor: וְקֹרָא לָךְ שֵׁם חָדָשׁ אֲשֶׁר פִּי יְהוָה יִקֳּבֶנּוּ
+    contribution: a new name given by divine declaration
+  - reference: Isaiah 65:15
+    language: hebrew
+    hebrew_anchor: וְלַעֲבָדָיו יִקְרָא שֵׁם אַחֵר
+    contribution: God's servants are called by another name
+
+greek_bridge:
+  manna:
+    shared_term: μάννα
+    status: explicit-lexical-continuity
+  new_name:
+    shared_phrase_family: ὄνομα καινόν
+    status: strong
+  white_stone:
+    status: unresolved-source
+    note: No Old Testament source is assigned merely from the presence of a stone, whiteness, or writing.
+
+shared_features:
+  - divinely controlled provision
+  - manna retained out of ordinary public consumption
+  - a newly given name
+  - the gift is directed to a defined recipient
+
+differences:
+  - Exodus calls the manna preserved or kept; Revelation calls it hidden.
+  - Isaiah gives the new name to Zion or to God's servants; Revelation gives a written new name to the conqueror.
+  - Revelation's white stone and exclusive knowledge are not explicitly supplied by the cited passages.
+
+classification:
+  relation: composite-reuse
+  evidence_class: E4
+  confidence: high-for-manna-and-new-name; unresolved-for-white-stone
+
+chronology_effect:
+  status: promise-after-overcoming
+  statement: Revelation places receipt of the hidden manna and new name after conquering.
+
+limits:
+  - The record does not identify the white stone with any particular Old Testament object.
+  - The preserved manna in Exodus and hidden manna in Revelation are connected lexically and narratively without asserting material identity.

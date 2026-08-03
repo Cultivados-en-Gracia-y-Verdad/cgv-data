@@ -1,0 +1,55 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-19-19-21-daniel-07-11
+status: verified-beast-destruction-reuse
+
+revelation:
+  reference: Revelation 19:19-21
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271919, 271920, 271921]
+  original_anchors:
+    - τὸ θηρίον καὶ τοὺς βασιλεῖς τῆς γῆς καὶ τὰ στρατεύματα αὐτῶν συνηγμένα
+    - ἐπιάσθη τὸ θηρίον
+    - μετ’ αὐτοῦ ὁ ψευδοπροφήτης
+    - ζῶντες ἐβλήθησαν οἱ δύο εἰς τὴν λίμνην τοῦ πυρὸς τῆς καιομένης ἐν θείῳ
+    - οἱ λοιποὶ ἀπεκτάνθησαν ἐν τῇ ῥομφαίᾳ τοῦ καθημένου ἐπὶ τοῦ ἵππου
+
+source:
+  reference: Daniel 7:11
+  language: aramaic
+  aramaic_anchors:
+    - חָזֵה הֲוֵית בֵּאדַיִן מִן־קָל מִלַּיָּא רַבְרְבָתָא דִּי קַרְנָא מְמַלֱּלָה
+    - חָזֵה הֲוֵית עַד דִּי קְטִילַת חֵיוְתָא
+    - וְהוּבַד גִּשְׁמַהּ וִיהִיבַת לִיקֵדַת אֶשָּׁא
+  contribution:
+    - arrogant beast brought to judgment
+    - beast killed
+    - body destroyed and given to burning fire
+
+shared_features:
+  - a beastly opponent judged after arrogant opposition
+  - decisive destruction by divine authority
+  - fiery punishment
+  - the beast's associated dominion ending
+
+differences:
+  - Daniel 7:11 depicts the fourth beast killed and its body given to burning fire.
+  - Revelation captures the beast alive and throws it with the false prophet into the lake burning with fire and sulfur.
+  - Revelation separately kills the remaining armies by the sword from the rider's mouth.
+  - Daniel 7 does not mention the false prophet, beast mark, image worship, or lake of fire.
+
+classification:
+  relation: transformed-beast-destruction-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: strong-literary-correspondence-not-complete-identity
+  statement: Revelation presents the beast's final destruction in a Daniel 7 framework, but the source alone does not settle every chronological relationship among Revelation's visions.
+
+limits:
+  - The correspondence does not identify the beast with a modern ruler, nation, or institution.
+  - Daniel's burning body and Revelation's living consignment to the lake of fire must not be flattened into identical narrative details.
+  - Revelation's false prophet is an internal identification not supplied by Daniel 7.

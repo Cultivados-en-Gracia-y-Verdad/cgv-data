@@ -1,0 +1,52 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-11-03-04-zechariah-04-02-03-14
+status: verified-explicit-identification
+
+revelation:
+  reference: Revelation 11:3-4
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes:
+      - 271103
+      - 271104
+  original_anchors:
+    - τοῖς δυσὶν μάρτυσίν μου
+    - προφητεύσουσιν ἡμέρας χιλίας διακοσίας ἑξήκοντα
+    - αἱ δύο ἐλαῖαι
+    - αἱ δύο λυχνίαι
+    - ἐνώπιον τοῦ κυρίου τῆς γῆς ἑστῶτες
+
+source:
+  reference: Zechariah 4:2-3,11-14
+  language: hebrew
+  hebrew_anchors:
+    - מְנוֹרַת זָהָב כֻּלָּהּ
+    - וּשְׁנַיִם זֵיתִים עָלֶיהָ
+    - מַה־שְּׁתֵּי הַזֵּיתִים הָאֵלֶּה
+    - אֵלֶּה שְׁנֵי בְנֵי־הַיִּצְהָר הָעֹמְדִים עַל־אֲדוֹן כָּל־הָאָרֶץ
+
+shared_features:
+  - two olive trees
+  - lampstand imagery
+  - standing before the Lord of all the earth
+  - an interpreted visionary symbol rather than an inferred resemblance alone
+
+differences:
+  - Zechariah has one golden lampstand flanked by two olive trees; Revelation calls the witnesses two olive trees and two lampstands.
+  - Zechariah identifies the figures as two sons of oil; Revelation identifies them as God's two witnesses and prophets.
+  - Zechariah does not assign a 1,260-day ministry, sackcloth, death, resurrection, or ascent.
+
+classification:
+  relation: explicit-interpretive-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: revelation-specific
+  statement: Zechariah supplies the interpreted imagery but not Revelation's 1,260-day sequence.
+
+limits:
+  - The explicit Zechariah reuse does not by itself identify the witnesses as specific named historical persons.
+  - The transformation from one lampstand to two must be preserved rather than harmonized away.

@@ -1,0 +1,54 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-22-17-isaiah-55
+status: verified-near-verbatim-invitation-reuse
+
+revelation:
+  reference: Revelation 22:17
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [272217]
+  original_anchors:
+    - τὸ πνεῦμα καὶ ἡ νύμφη λέγουσιν Ἔρχου
+    - ὁ ἀκούων εἰπάτω Ἔρχου
+    - ὁ διψῶν ἐρχέσθω
+    - ὁ θέλων λαβέτω ὕδωρ ζωῆς δωρεάν
+
+source:
+  reference: Isaiah 55:1
+  language: hebrew
+  hebrew_anchor: הוֹי כָּל־צָמֵא לְכוּ לַמַּיִם וַאֲשֶׁר אֵין־לוֹ כָּסֶף לְכוּ שִׁבְרוּ וֶאֱכֹלוּ וּלְכוּ שִׁבְרוּ בְּלוֹא־כֶסֶף וּבְלוֹא מְחִיר יַיִן וְחָלָב
+  contribution:
+    - invitation addressed to every thirsty person
+    - command to come to the waters
+    - reception without money or price
+
+greek_bridge:
+  status: strong
+  shared_features:
+    - thirst
+    - come command
+    - water offered freely
+
+shared_features:
+  - universal invitation to the thirsty
+  - movement toward divinely supplied water
+  - gift offered without payment
+  - willing reception rather than coerced possession
+
+differences:
+  - Isaiah includes wine, milk, food, covenant renewal, and return to YHWH.
+  - Revelation calls the gift the water of life.
+  - Revelation places the invitation on the lips of the Spirit and the bride and includes the hearer's repeated invitation.
+  - The first two calls of come may address the returning Jesus in the immediate closing context, while the latter invitation clearly addresses the thirsty recipient; the syntax must not be flattened.
+
+classification:
+  relation: near-verbatim-free-water-invitation-reuse
+  evidence_class: E5
+  confidence: very-high
+
+limits:
+  - The water of life must not be commercialized or reduced to a physical commodity.
+  - Isaiah 55 does not identify the bride or the Spirit as speakers.
+  - The relation does not erase the distinct addressees potentially present within Revelation 22:17.

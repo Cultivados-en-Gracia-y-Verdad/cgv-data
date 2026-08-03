@@ -1,0 +1,94 @@
+schema_version: 1
+record_type: term-study
+id: hebrew-7620-shavua
+status: collecting
+language: hebrew
+lemma:
+  strong: '7620'
+  consonantal: שבוע
+  pointed_singular: שָׁבוּעַ
+  gloss_control: seven-unit
+
+source:
+  corpus: OSHB
+  root_path: morphology/OSHB/morphhb/wlc
+
+research_question: What duration does שָׁבוּעַ denote in each scriptural context, and when does Scripture itself identify its component unit?
+
+method:
+  - Collect every OSHB token whose lemma resolves to 7620.
+  - Store passage context and grammatical form.
+  - Record an underlying day or year unit only when the passage states or demonstrates it.
+  - Do not transfer the unit from one occurrence to another merely because the lemma is shared.
+
+key_occurrences:
+  - reference: Genesis 29:27
+    context: Jacob is told to complete the seven-unit of Leah before Rachel is given.
+    unit_status: contextually-associated-with-seven-days
+    evidence:
+      - Genesis 29:27 uses the noun שָׁבוּעַ.
+      - Genesis 29:28 says Jacob completed her seven-unit.
+      - The wedding-feast context must be studied with Judges 14:12 and 14:17 only as a contextual comparison, not an explicit cross-reference.
+    conclusion_status: strong-contextual
+
+  - reference: Genesis 29:28
+    context: Jacob completes the stated seven-unit.
+    unit_status: contextually-associated-with-seven-days
+    conclusion_status: strong-contextual
+
+  - reference: Exodus 34:22
+    context: Feast of Sevens associated with the firstfruits of wheat harvest.
+    unit_status: festival-name-not-duration-defined-in-verse
+    links: [Deuteronomy 16:9-10]
+
+  - reference: Leviticus 12:5
+    context: purification period described as two sevens.
+    unit_status: explicitly-days-by-context
+    note: The verse's surrounding purification durations are stated in days.
+
+  - reference: Deuteronomy 16:9
+    context: seven sevens are counted from beginning to put the sickle to standing grain.
+    unit_status: explicitly-counted-from-days-of-harvest-cycle
+    conclusion_status: contextually-defined
+
+  - reference: Deuteronomy 16:10
+    context: Feast of Sevens follows the seven-sevens count.
+    unit_status: linked-to-Deuteronomy-16-9
+
+  - reference: Daniel 9:24
+    context: seventy sevens decreed upon Daniel's people and holy city.
+    unit_status: unresolved-in-verse
+    conclusion_status: open
+
+  - reference: Daniel 9:25
+    context: seven sevens and sixty-two sevens from a stated word concerning Jerusalem to Messiah the Prince.
+    unit_status: unresolved-in-verse
+    conclusion_status: open
+
+  - reference: Daniel 9:26
+    context: events occur after the sixty-two sevens.
+    unit_status: inherited-from-Daniel-9-structure-but-unconverted
+    conclusion_status: open
+
+  - reference: Daniel 9:27
+    context: one seven with a midpoint.
+    unit_status: unresolved-in-verse
+    conclusion_status: open
+
+principles:
+  - A lexical form denotes a seven-unit; context determines what is counted where Scripture makes it known.
+  - A day-defined occurrence does not prove that all occurrences are day-units.
+  - A year-based sabbatical structure using the number seven does not by itself redefine every occurrence of שָׁבוּעַ.
+  - Daniel 9 must be solved from Daniel 9 and explicit scriptural connections, not from the English gloss week alone.
+
+unresolved:
+  - Whether Daniel 9's sevens are explicitly identified as years elsewhere in Scripture.
+  - Whether the Jeremiah seventy-year context supplies only the setting or also the conversion key.
+  - Whether Leviticus 25's seven-years-times-seven pattern is an explicit interpretive key for Daniel 9 or a numerical analogy only.
+
+links:
+  chronology:
+    - daniel-09-seventy-sevens-structure
+  studies:
+    - scripture-use-of-seven-and-sevens
+    - seven-years-sabbatical-jubilee-structure

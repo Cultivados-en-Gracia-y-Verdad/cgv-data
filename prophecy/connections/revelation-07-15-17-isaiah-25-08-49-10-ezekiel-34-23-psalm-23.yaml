@@ -1,0 +1,81 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-07-15-17-isaiah-25-08-49-10-ezekiel-34-23-psalm-23
+status: verified-composite-reuse
+
+revelation:
+  reference: Revelation 7:15-17
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [270715, 270716, 270717]
+  original_anchors:
+    - ὁ καθήμενος ἐπὶ τοῦ θρόνου σκηνώσει ἐπ’ αὐτούς
+    - οὐ πεινάσουσιν ἔτι, οὐδὲ διψήσουσιν ἔτι
+    - οὐδὲ μὴ πέσῃ ἐπ’ αὐτοὺς ὁ ἥλιος οὐδὲ πᾶν καῦμα
+    - τὸ ἀρνίον ... ποιμανεῖ αὐτούς
+    - ὁδηγήσει αὐτοὺς ἐπὶ ζωῆς πηγὰς ὑδάτων
+    - ἐξαλείψει ὁ θεὸς πᾶν δάκρυον ἐκ τῶν ὀφθαλμῶν αὐτῶν
+
+sources:
+  - reference: Isaiah 49:10
+    language: hebrew
+    hebrew_anchor: לֹא יִרְעָבוּ וְלֹא יִצְמָאוּ וְלֹא־יַכֵּם שָׁרָב וָשָׁמֶשׁ כִּי־מְרַחֲמָם יְנַהֲגֵם וְעַל־מַבּוּעֵי מַיִם יְנַהֲלֵם
+    contribution:
+      - no hunger
+      - no thirst
+      - no striking heat or sun
+      - compassionate guidance
+      - leading to springs of water
+    greek_witness_role: Revelation closely follows the sequence and much of the Greek phrase structure of the ancient Greek witness.
+  - reference: Isaiah 25:8
+    language: hebrew
+    hebrew_anchor: וּמָחָה אֲדֹנָי יְהוִה דִּמְעָה מֵעַל כָּל־פָּנִים
+    contribution: the Lord wipes away tears
+    greek_witness_anchor: ἀφεῖλεν κύριος ὁ θεὸς πᾶν δάκρυον ἀπὸ παντὸς προσώπου
+  - reference: Ezekiel 34:23
+    language: hebrew
+    hebrew_anchor: וַהֲקִמֹתִי עֲלֵיהֶם רֹעֶה אֶחָד וְרָעָה אֶתְהֶן אֵת עַבְדִּי דָוִד
+    contribution: one divinely appointed shepherd tends the flock
+  - reference: Psalm 23:1-2
+    language: hebrew
+    hebrew_anchors:
+      - יְהוָה רֹעִי
+      - עַל־מֵי מְנֻחוֹת יְנַהֲלֵנִי
+    contribution: shepherding and leading beside waters
+  - reference: Leviticus 26:11-12
+    language: hebrew
+    hebrew_anchor: וְנָתַתִּי מִשְׁכָּנִי בְּתוֹכְכֶם ... וְהִתְהַלַּכְתִּי בְּתוֹכְכֶם
+    contribution: God's dwelling presence among his people
+
+shared_features:
+  - divine dwelling or tabernacling presence
+  - absence of hunger and thirst
+  - protection from sun and heat
+  - shepherding
+  - guidance to water springs
+  - removal of tears
+
+differences:
+  - Isaiah 49 attributes guidance to the compassionate one; Revelation identifies the Lamb as shepherd and guide.
+  - Revelation paradoxically presents the Lamb as the shepherd.
+  - Isaiah 25 speaks of wiping tears from all faces; Revelation speaks of every tear from their eyes.
+  - Leviticus describes covenant dwelling among Israel; Revelation describes the enthroned one spreading his dwelling over the multitude.
+  - Psalm 23 and Ezekiel 34 contribute shepherd imagery but do not reproduce Isaiah 49's full ordered sequence.
+
+classification:
+  relation: composite-near-verbatim-and-image-reuse
+  evidence_class: E5
+  confidence:
+    isaiah_49_sequence: very-high
+    isaiah_25_tears: high
+    shepherd_sources: moderate-to-high
+    tabernacling_source: moderate
+
+chronology_effect:
+  status: resulting-condition
+  statement: Revelation presents these conditions as the state of the multitude after coming through the great tribulation and standing before the throne.
+
+limits:
+  - The connection does not by itself define the duration or calendar placement of the great tribulation.
+  - Shared shepherd imagery does not collapse Psalm 23, Ezekiel 34, Isaiah 49, and Revelation 7 into one undifferentiated event.

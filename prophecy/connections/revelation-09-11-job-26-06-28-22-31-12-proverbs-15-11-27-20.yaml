@@ -1,0 +1,57 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-09-11-job-26-06-28-22-31-12-proverbs-15-11-27-20
+status: verified-lexical-reuse
+
+revelation:
+  reference: Revelation 9:11
+  language: greek-with-hebrew-name
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 270911
+  original: ἔχουσιν ἐπ’ αὐτῶν βασιλέα τὸν ἄγγελον τῆς ἀβύσσου· ὄνομα αὐτῷ Ἑβραϊστὶ Ἀβαδδών, καὶ ἐν τῇ Ἑλληνικῇ ὄνομα ἔχει Ἀπολλύων
+  key_terms:
+    hebrew_transliteration: Ἀβαδδών
+    greek_interpretation: Ἀπολλύων
+
+sources:
+  - reference: Job 26:6
+    language: hebrew
+    hebrew_anchor: עָרוֹם שְׁאוֹל נֶגְדּוֹ וְאֵין כְּסוּת לָאֲבַדּוֹן
+  - reference: Job 28:22
+    language: hebrew
+    hebrew_anchor: אֲבַדּוֹן וָמָוֶת אָמְרוּ בְּאָזְנֵינוּ שָׁמַעְנוּ שִׁמְעָהּ
+  - reference: Job 31:12
+    language: hebrew
+    hebrew_anchor: כִּי אֵשׁ הִיא עַד־אֲבַדּוֹן תֹּאכֵל
+  - reference: Proverbs 15:11
+    language: hebrew
+    hebrew_anchor: שְׁאוֹל וַאֲבַדּוֹן נֶגֶד יְהוָה
+  - reference: Proverbs 27:20
+    language: hebrew
+    hebrew_anchor: שְׁאוֹל וַאֲבַדּוֹן לֹא תִשְׂבַּעְנָה
+
+shared_features:
+  - exact Hebrew noun אֲבַדּוֹן preserved by Greek transliteration Ἀβαδδών
+  - association with Sheol, death, or destruction
+  - destructive semantic field reflected by Greek Ἀπολλύων, 'destroyer'
+
+differences:
+  - In Job and Proverbs, Abaddon is a realm, condition, or personified destruction term.
+  - Revelation explicitly presents Abaddon/Apollyon as the name of the angel-king of the abyss locusts.
+  - The Hebrew Bible passages do not identify Abaddon as an angel or king.
+
+classification:
+  relation: explicit-hebrew-name-and-greek-interpretation
+  evidence_class: E5
+  confidence:
+    lexical_identity: certain
+    personal_identity_with_old_testament_entity: not-established
+
+chronology_effect:
+  status: none
+  statement: The lexical connection supplies no chronology outside Revelation's fifth-trumpet sequence.
+
+limits:
+  - Revelation's personification or naming must not be retroactively imposed on every Hebrew occurrence of אֲבַדּוֹן.
+  - The angel's identity beyond the names supplied in Revelation remains unresolved.

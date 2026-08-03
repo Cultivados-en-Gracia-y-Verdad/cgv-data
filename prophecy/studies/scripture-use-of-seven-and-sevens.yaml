@@ -1,0 +1,109 @@
+schema_version: 1
+record_type: scripture-wide-study
+id: scripture-use-of-seven-and-sevens
+status: collecting
+question: How does Scripture use seven, sevens, sevenfold periods, and multiplied sevens?
+
+scope:
+  languages: [hebrew, aramaic, greek]
+  include:
+    - cardinal seven
+    - ordinal seventh
+    - seven-unit nouns
+    - sevenfold expressions
+    - seven times seven
+    - seventy
+    - seventy times seven where present
+  exclude:
+    - conclusions based solely on symbolic-number systems outside Scripture
+
+research_categories:
+  creation_and_seventh_day:
+    seed_references: [Genesis 2:2, Genesis 2:3, Exodus 20:11, Exodus 31:17]
+    question: What does Scripture explicitly say about completion, rest, blessing, and sanctification of the seventh day?
+
+  seven_day_cycles:
+    seed_references:
+      - Genesis 7:4
+      - Genesis 7:10
+      - Genesis 8:10
+      - Genesis 8:12
+      - Genesis 29:27
+      - Genesis 29:28
+      - Exodus 12:15
+      - Leviticus 8:33
+      - Leviticus 12:2
+      - Judges 14:12
+      - Judges 14:17
+    rule: Record a seven-day duration only where days or narrative sequencing establish it.
+
+  seventh_day_sabbath:
+    seed_references: [Exodus 16:26, Exodus 20:8-11, Exodus 23:12, Leviticus 23:3, Deuteronomy 5:12-15]
+
+  seven_week_count:
+    seed_references: [Leviticus 23:15-16, Deuteronomy 16:9-10]
+    observation: Leviticus explicitly counts seven complete sabbaths and then fifty days; Deuteronomy states seven sevens.
+    relevance_to_daniel: lexical-and-structural-comparison-only-until-explicit-link-found
+
+  seventh_year_release_and_land_sabbath:
+    seed_references: [Exodus 21:2, Exodus 23:10-11, Leviticus 25:2-7, Deuteronomy 15:1, Deuteronomy 15:9, Deuteronomy 31:10]
+    rule: Preserve the explicit year-language in these passages.
+
+  seven_years_times_seven:
+    seed_references: [Leviticus 25:8-10]
+    observation: Seven sabbaths of years are explicitly defined as seven times seven years, totaling forty-nine years.
+    relevance_to_daniel: possible scriptural precedent for a seven-unit composed of years; not an explicit identification of Daniel 9's unit.
+
+  seventy_years:
+    seed_references: [Jeremiah 25:11-12, Jeremiah 29:10, 2 Chronicles 36:21, Daniel 9:2]
+    observation: These passages explicitly state years and are directly connected to Daniel's prayer setting.
+    relevance_to_daniel: explicit contextual connection; whether it defines the seventy sevens remains unresolved.
+
+  covenant_and_judgment_sevens:
+    seed_references: [Leviticus 26:18, Leviticus 26:21, Leviticus 26:24, Leviticus 26:28]
+    question: Does sevenfold punishment describe multiplication, repetition, intensity, duration, or some combination in context?
+
+  ritual_sevens:
+    seed_references: [Leviticus 4:6, Leviticus 8:11, Leviticus 14:7, Leviticus 16:14, Joshua 6:4]
+    rule: Do not infer chronology when seven counts actions, objects, priests, trumpets, or sprinklings.
+
+  apocalyptic_sevens:
+    seed_references:
+      - Daniel 3:19
+      - Daniel 4:16
+      - Daniel 4:23
+      - Daniel 4:25
+      - Daniel 4:32
+      - Revelation 1:4
+      - Revelation 5:1
+      - Revelation 8:2
+      - Revelation 15:1
+    rule: Separate numbered objects, sevenfold intensity, and temporal periods.
+
+classification_fields:
+  - reference
+  - language
+  - lemma
+  - grammatical_form
+  - counted_object
+  - explicit_unit
+  - derived_unit
+  - narrative_or_legal_context
+  - connection_type
+  - relevance_to_daniel_9
+  - confidence
+
+controls:
+  - Shared number does not establish shared meaning.
+  - Shared lemma does not establish identical duration units.
+  - Explicitly stated days or years outrank inferred units.
+  - Numerical analogy is not an explicit cross-reference.
+  - Every proposed Daniel 9 connection must identify the precise textual bridge.
+
+links:
+  terms: [hebrew-7620-shavua]
+  chronology:
+    - daniel-09-seventy-sevens-structure
+    - daniel-09-jeremiah-seventy-years
+  studies:
+    - seven-years-sabbatical-jubilee-structure

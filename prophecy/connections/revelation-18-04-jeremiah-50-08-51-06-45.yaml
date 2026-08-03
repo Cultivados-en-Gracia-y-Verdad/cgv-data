@@ -1,0 +1,61 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-18-04-jeremiah-50-08-51-06-45
+status: verified-explicit-imperative-reuse
+
+revelation:
+  reference: Revelation 18:4
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_code: 271804
+  original_anchors:
+    - ἐξέλθατε ὁ λαός μου ἐξ αὐτῆς
+    - ἵνα μὴ συγκοινωνήσητε ταῖς ἁμαρτίαις αὐτῆς
+    - ἐκ τῶν πληγῶν αὐτῆς ἵνα μὴ λάβητε
+
+sources:
+  - reference: Jeremiah 50:8
+    language: hebrew
+    hebrew_anchor: נֻדוּ מִתּוֹךְ בָּבֶל וּמֵאֶרֶץ כַּשְׂדִּים צֵאוּ
+    contribution:
+      - command to leave Babylon and Chaldea
+  - reference: Jeremiah 51:6
+    language: hebrew
+    hebrew_anchor: נֻסוּ מִתּוֹךְ בָּבֶל וּמַלְּטוּ אִישׁ נַפְשׁוֹ אַל־תִּדַּמּוּ בַּעֲוֺנָהּ כִּי עֵת נְקָמָה הִיא לַיהוָה גְּמוּל הוּא מְשַׁלֵּם לָהּ
+    contribution:
+      - flight from Babylon
+      - preservation from sharing her punishment
+      - divine recompense
+  - reference: Jeremiah 51:45
+    language: hebrew
+    hebrew_anchor: צְאוּ מִתּוֹכָהּ עַמִּי וּמַלְּטוּ אִישׁ אֶת־נַפְשׁוֹ מֵחֲרוֹן אַף־יְהוָה
+    contribution:
+      - direct address to God's people
+      - command to come out from her
+      - escape from divine wrath
+
+shared_features:
+  - God's people directly commanded to leave Babylon
+  - separation precedes Babylon's judgment
+  - remaining risks participation in her punishment
+  - judgment is framed as divine recompense
+
+differences:
+  - Jeremiah addresses Judeans in relation to historical Babylon.
+  - Revelation explicitly adds nonparticipation in Babylon's sins as the reason for separation.
+  - Revelation describes receiving her plagues rather than Jeremiah's historical military destruction language.
+
+classification:
+  relation: explicit-imperative-reuse
+  evidence_class: E5
+  confidence: very-high
+
+chronology_effect:
+  status: explicit-warning-before-judgment
+  statement: In Revelation's discourse, the call to separate precedes the announced execution of Babylon's plagues.
+
+limits:
+  - The command establishes moral and covenantal separation but does not by itself define whether departure is geographical, social, economic, or some combination.
+  - The historical return from Babylon must not be treated as a complete one-to-one chronology for Revelation 18.
+  - The identity of Babylon remains controlled by Revelation 17-18.

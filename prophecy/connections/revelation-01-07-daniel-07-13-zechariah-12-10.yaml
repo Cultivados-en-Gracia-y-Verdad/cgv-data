@@ -1,0 +1,51 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-01-07-daniel-07-13-zechariah-12-10
+status: verified-textual-reuse
+
+revelation:
+  reference: Revelation 1:7
+  language: greek
+  original: Ἰδοὺ ἔρχεται μετὰ τῶν νεφελῶν, καὶ ὄψεται αὐτὸν πᾶς ὀφθαλμὸς καὶ οἵτινες αὐτὸν ἐξεκέντησαν, καὶ κόψονται ἐπ’ αὐτὸν πᾶσαι αἱ φυλαὶ τῆς γῆς
+  source_anchor:
+    corpus: MorphGNT
+    file: 87-Re-morphgnt.txt
+    verse_code: 270107
+
+sources:
+  - reference: Daniel 7:13
+    language: aramaic
+    contribution:
+      concept: coming with the clouds
+      aramaic_anchor: עִם־עֲנָנֵי שְׁמַיָּא
+    greek_witness_role: compare the ancient Greek wording for cloud-coming language
+  - reference: Zechariah 12:10-14
+    language: hebrew
+    contribution:
+      concepts:
+        - looking upon the pierced one
+        - mourning
+        - families or clans
+      hebrew_anchors:
+        - וְהִבִּיטוּ אֵלַי אֵת אֲשֶׁר־דָּקָרוּ
+        - וְסָפְדוּ עָלָיו
+        - מִשְׁפְּחוֹת
+
+shared_features:
+  - Revelation's ἔρχεται μετὰ τῶν νεφελῶν corresponds to Daniel's cloud-coming scene.
+  - Revelation's ὄψεται αὐτὸν and ἐξεκέντησαν correspond to Zechariah's looking and piercing wording.
+  - Revelation's κόψονται and φυλαὶ correspond to Zechariah's mourning and family-group structure.
+
+classification:
+  relation: composite-reuse
+  evidence_class: E5
+  confidence: high
+
+limits:
+  - The composite textual connection does not by itself determine whether every detail of Daniel 7 and Zechariah 12 is exhausted in Revelation 1:7.
+  - Revelation changes and combines wording; each source contribution remains separately traceable.
+  - The connection establishes reuse, not a universal identity between every cloud-coming or mourning passage.
+
+chronology_effect:
+  status: unplaced
+  statement: Revelation presents the coming, seeing, piercing-related identification, and mourning in one sentence, but this record does not assign a calendar date.

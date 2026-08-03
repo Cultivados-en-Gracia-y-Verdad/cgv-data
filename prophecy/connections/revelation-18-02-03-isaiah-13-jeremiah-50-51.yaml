@@ -1,0 +1,63 @@
+schema_version: 1
+record_type: canonical-connection
+id: connection-revelation-18-02-03-isaiah-13-jeremiah-50-51
+status: verified-composite-desolation-reuse
+
+revelation:
+  reference: Revelation 18:2-3
+  language: greek
+  source_anchor:
+    corpus: MorphGNT
+    verse_codes: [271802, 271803]
+  original_anchors:
+    - ἔπεσεν ἔπεσεν Βαβυλὼν ἡ μεγάλη
+    - ἐγένετο κατοικητήριον δαιμονίων
+    - φυλακὴ παντὸς πνεύματος ἀκαθάρτου
+    - φυλακὴ παντὸς ὀρνέου ἀκαθάρτου
+    - ἐκ τοῦ οἴνου τοῦ θυμοῦ τῆς πορνείας αὐτῆς πέπωκαν πάντα τὰ ἔθνη
+    - οἱ ἔμποροι τῆς γῆς ἐκ τῆς δυνάμεως τοῦ στρήνους αὐτῆς ἐπλούτησαν
+
+sources:
+  - reference: Isaiah 13:19-22
+    language: hebrew
+    hebrew_anchors:
+      - וְהָיְתָה בָבֶל צְבִי מַמְלָכוֹת תִּפְאֶרֶת גְּאוֹן כַּשְׂדִּים כְּמַהְפֵּכַת אֱלֹהִים אֶת־סְדֹם וְאֶת־עֲמֹרָה
+      - וְרָבְצוּ־שָׁם צִיִּים וּמָלְאוּ בָתֵּיהֶם אֹחִים
+      - וּשְׂעִירִים יְרַקְּדוּ־שָׁם
+    contribution:
+      - Babylon named as a glorious kingdom brought to desolation
+      - abandoned habitation occupied by desert and uncanny creatures
+  - reference: Jeremiah 50:39
+    language: hebrew
+    hebrew_anchor: לָכֵן יֵשְׁבוּ צִיִּים אֶת־אִיִּים וְיָשְׁבוּ בָהּ בְּנוֹת יַעֲנָה וְלֹא־תֵשֵׁב עוֹד לָנֶצַח וְלֹא תִשְׁכֹּן עַד־דּוֹר וָדוֹר
+    contribution:
+      - Babylon becoming an uninhabited haunt of desert creatures
+  - reference: Jeremiah 51:7-8
+    language: hebrew
+    hebrew_anchors:
+      - כּוֹס־זָהָב בָּבֶל בְּיַד־יְהוָה מְשַׁכֶּרֶת כָּל־הָאָרֶץ מִיֵּינָהּ שָׁתוּ גוֹיִם
+      - פִּתְאֹם נָפְלָה בָבֶל וַתִּשָּׁבֵר
+    contribution:
+      - Babylon intoxicating the nations
+      - sudden announced fall
+
+shared_features:
+  - Babylon explicitly named and declared fallen
+  - desolation expressed through habitation by unclean or desert creatures
+  - nations affected by Babylon's wine
+  - wealth and imperial influence preceding judgment
+
+differences:
+  - Isaiah and Jeremiah describe historical Babylon through desert-creature imagery.
+  - Revelation explicitly adds demons, unclean spirits, unclean birds, global merchants, kings, and sexual-immorality language.
+  - Revelation's Babylon is interpreted within Revelation 17-18 as a ruling great city and commercial power.
+
+classification:
+  relation: composite-babylon-desolation-reuse
+  evidence_class: E5
+  confidence: very-high
+
+limits:
+  - The creature imagery does not require a zoological or geographical fulfillment.
+  - The connection does not independently identify Revelation's Babylon with one modern nation, city, church, or economic system.
+  - Jeremiah 51:7 contributes the intoxicating-nations image but Revelation transforms the cup's function and ownership.

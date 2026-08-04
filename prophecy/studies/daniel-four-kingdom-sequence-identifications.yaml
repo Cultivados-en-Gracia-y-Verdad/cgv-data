@@ -1,0 +1,130 @@
+schema_version: 1
+record_type: within-book-study
+id: daniel-four-kingdom-sequence-identifications
+status: verified-initial-pass
+question: What kingdoms does Daniel explicitly identify in the four-kingdom sequence, and where does the text move from present history into prophecy?
+
+scope:
+  book: Daniel
+  languages: [aramaic, hebrew]
+  primary_passages:
+    - Daniel 2:31-45
+    - Daniel 5:25-31
+    - Daniel 7:1-28
+    - Daniel 8:1-22
+    - Daniel 10:20-21
+    - Daniel 11:1-4
+  controls:
+    - Distinguish an explicit identification from a within-book sequential inference.
+    - Do not import a kingdom name from later historical tradition when Daniel does not name it.
+    - Do not separate Media and Persia into two kingdoms where Daniel presents them together as one ram.
+    - Do not equate the four divisions of Greece in Daniel 8 with Daniel 2's four successive kingdoms.
+    - Do not identify the fourth kingdom as Rome or any other nation unless a separate canonical argument establishes it.
+
+present_to_prophetic_boundary:
+  reference: Daniel 2:37-39
+  observation: Daniel addresses Nebuchadnezzar in the present as the recipient of a kingdom from the God of heaven and identifies him as the head of gold. The next kingdom is introduced as arising after him.
+  sequence:
+    - stage: present_identification
+      text_claim: Nebuchadnezzar is the head of gold.
+      reference: Daniel 2:37-38
+      temporal_status: present-to-Daniel-and-Nebuchadnezzar
+      identification: Nebuchadnezzar and his Babylonian kingdom
+      evidence_status: explicit-within-narrative-context
+    - stage: prophetic_succession_begins
+      text_claim: After you another kingdom will arise.
+      reference: Daniel 2:39
+      temporal_status: future-relative-to-Nebuchadnezzar
+      evidence_status: explicit
+  conclusion: From the kingdom after Babylon onward, Daniel 2 presents prophetic succession rather than Daniel's present imperial setting.
+
+kingdom_sequence:
+  - order: 1
+    daniel_2_symbol: head of gold
+    identification: Babylon under Nebuchadnezzar
+    references:
+      - Daniel 2:1
+      - Daniel 2:37-38
+    evidence_status: explicit-within-narrative-context
+    notes:
+      - Daniel 2:1 identifies Nebuchadnezzar as king of Babylon.
+      - Daniel 2:38 directly says, "You are the head of gold."
+
+  - order: 2
+    daniel_2_symbol: silver kingdom arising after Nebuchadnezzar
+    identification: Media-Persia
+    references:
+      - Daniel 2:39
+      - Daniel 5:28
+      - Daniel 6:8
+      - Daniel 8:20
+    evidence_status: strong-within-book-sequential-inference
+    explicit_data:
+      - Babylon's kingdom is given to the Medes and Persians in Daniel 5:28.
+      - Daniel 8:20 identifies the ram's two horns as the kings of Media and Persia.
+    constraint: Daniel does not directly say in Daniel 2 that the silver kingdom is Media-Persia; the identification follows from the book's stated succession.
+
+  - order: 3
+    daniel_2_symbol: bronze kingdom ruling over all the earth
+    identification: Greece or Javan
+    references:
+      - Daniel 2:39
+      - Daniel 8:20-21
+      - Daniel 10:20
+      - Daniel 11:2-4
+    evidence_status: strong-within-book-sequential-inference
+    explicit_data:
+      - Daniel 8 places Greece after the combined Media-Persia ram.
+      - Daniel 8:21 explicitly identifies the male goat as the king of Javan or Greece.
+      - Daniel 10:20 explicitly moves from the prince of Persia to the prince of Greece.
+    constraint: Daniel does not directly say in Daniel 2 that the bronze kingdom is Greece; the identification follows from the book's stated succession.
+
+  - order: 4
+    daniel_2_symbol: iron kingdom, later divided and mixed
+    identification: unnamed fourth kingdom
+    references:
+      - Daniel 2:40-43
+      - Daniel 7:7-8
+      - Daniel 7:19-27
+    evidence_status: explicitly-fourth-but-nationally-unnamed
+    explicit_data:
+      - Daniel 2 explicitly calls it the fourth kingdom.
+      - Daniel 7 explicitly calls the final beast a fourth kingdom on the earth.
+      - It crushes, divides, produces multiple kings, persecutes the saints, and is judged when the heavenly court sits.
+    constraints:
+      - Daniel never explicitly names this kingdom Rome.
+      - Daniel never explicitly gives another national name for it.
+      - A proposed identification must therefore be labeled as an inference and argued separately.
+
+greece_fourfold_division:
+  references:
+    - Daniel 8:8
+    - Daniel 8:21-22
+    - Daniel 11:4
+  observation: The great Greek horn is broken and four kingdoms arise from that nation toward the four winds.
+  distinction: These are four divisions within the Greek stage, not four successive world kingdoms equivalent to Daniel 2's complete sequence.
+  evidence_status: explicit
+
+summary:
+  explicit_or_near_explicit_sequence:
+    - Babylon under Nebuchadnezzar
+    - Media-Persia
+    - Greece or Javan
+    - unnamed fourth kingdom
+  concise_conclusion: Babylon is Daniel's present identified kingdom. The kingdoms after Babylon are prophetic from Daniel 2's viewpoint. Daniel's later visions explicitly name Media-Persia and Greece in succession, while the fourth kingdom remains nationally unnamed.
+
+links:
+  chronology:
+    - daniel-02-kingdom-sequence
+  statements:
+    - statement-daniel-02-38-head-of-gold
+    - statement-daniel-02-39-kingdom-after
+    - statement-daniel-02-40-fourth-kingdom
+  passages:
+    - passage-daniel-02-31-45
+    - passage-daniel-07-01-28
+
+review_notes:
+  - Preserve the difference between direct wording in Daniel 2 and identifications derived from Daniel's later visions.
+  - The sequence Media-Persia then Greece is explicit in Daniel 8; mapping those names back onto Daniel 2 is a strong within-book inference, not a direct label attached to the statue metals.
+  - The fourth kingdom should remain unnamed in data outputs unless a separate research record presents and grades an identification proposal.

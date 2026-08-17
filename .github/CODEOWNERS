@@ -1,0 +1,31 @@
+# Ownership for cgv-data, the published distribution repository.
+#
+# REPLACE every @OWNER_* placeholder below with a real GitHub user or team.
+# A team must be written as @org/team-name and must have write access.
+#
+# Publisher automation should NOT be a code owner: a generated release still
+# needs a human reviewer.
+
+*                                   @OWNER_GITHUB_USERNAME
+
+# Normative rules and the safeguards themselves.
+/DATA_CONTRACT.md                   @OWNER_GITHUB_USERNAME @CGV_DATA_STEWARD
+/AGENTS.md                          @OWNER_GITHUB_USERNAME @CGV_DATA_STEWARD
+/schemas/                           @OWNER_GITHUB_USERNAME @CGV_DATA_STEWARD
+/scripts/check-data-contract.py     @OWNER_GITHUB_USERNAME @CGV_DATA_STEWARD
+/.github/                           @OWNER_GITHUB_USERNAME
+/.data-contract-baseline.json       @OWNER_GITHUB_USERNAME @CGV_DATA_STEWARD
+
+# Published Bible datasets. LBF is generated from Biblia-LBF and must not be
+# hand-edited here.
+/bibles/LBF/                        @OWNER_GITHUB_USERNAME @LBF_RELEASE_MANAGER
+/bibles/                            @OWNER_GITHUB_USERNAME
+/interlinears/                      @OWNER_GITHUB_USERNAME @LBF_RELEASE_MANAGER
+/morphology/                        @OWNER_GITHUB_USERNAME
+
+# Other published content.
+/songs/                             @CGV_CONTENT_OWNER
+/courses/                           @CGV_CONTENT_OWNER
+/media/                             @CGV_CONTENT_OWNER
+/dictionaries/                      @CGV_CONTENT_OWNER
+/lexicons/                          @CGV_CONTENT_OWNER

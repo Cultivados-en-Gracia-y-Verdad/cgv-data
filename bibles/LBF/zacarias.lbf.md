@@ -1,8 +1,13 @@
 <!-- LBF — La Biblia Fiel
-     book: zechariah
-     edition: LBF
-     version: 1.0.0
-     translation-revision: TR-zechariah-ac24fdec642c
+     book: zacarias
+     translation: done
+     alignment: done
+     translation_by: John Wry
+     translation_on: 2026-08-18
+     alignment_by: John Wry
+     alignment_on: 2026-08-18
+     source: Biblia-LBF/translation/ot/zacarias.md
+     sourceCommit: f1f8de5fe4032fe6f9a529cbdaf89eb4d577729f
 -->
 Zechariah 1:1 En el mes octavo, en el año segundo de Darío, vino palabra de Jehová a Zacarías, hijo de Berequías, hijo de Iddo, el profeta, diciendo:
 Zechariah 1:2 Se airó Jehová contra sus padres con ira.

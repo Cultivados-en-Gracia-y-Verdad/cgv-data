@@ -1,0 +1,49 @@
+name: Data contract
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  boundary-check:
+    name: Boundary check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Released version directories are immutable. The check needs the base
+      # commit to tell "new version" from "rewrote a shipped version".
+      - name: Resolve base ref
+        id: base
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "ref=${{ github.event.pull_request.base.sha }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "ref=${{ github.event.before }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check data contract
+        run: python3 scripts/check-data-contract.py --base-ref "${{ steps.base.outputs.ref }}"
+
+      - name: Report (always)
+        if: always()
+        run: |
+          python3 scripts/check-data-contract.py \
+            --base-ref "${{ steps.base.outputs.ref }}" --json > data-contract-report.json || true
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: data-contract-report
+          path: data-contract-report.json
+          if-no-files-found: ignore

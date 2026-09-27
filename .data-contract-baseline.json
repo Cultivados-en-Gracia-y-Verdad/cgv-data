@@ -1,0 +1,32 @@
+{
+  "_comment": "Violations that already existed when the boundary check was introduced. CI fails on anything not listed here. Shrink this list; never grow it.",
+  "repository": "cgv-data",
+  "accepted": [
+    "BACKUP_FILE|interlinears/OT/1reyes.tokens.jsonl.bak|",
+    "BACKUP_FILE|interlinears/OT/1samuel.tokens.jsonl.bak|",
+    "BACKUP_FILE|interlinears/OT/2samuel.tokens.jsonl.bak|",
+    "BACKUP_FILE|interlinears/OT/deuteronomio.tokens.jsonl.bak|",
+    "BACKUP_FILE|interlinears/OT/exodo.tokens.jsonl.bak|",
+    "BACKUP_FILE|interlinears/OT/josue.tokens.jsonl.bak|",
+    "BACKUP_FILE|interlinears/OT/jueces.tokens.jsonl.bak|",
+    "BACKUP_FILE|interlinears/OT/levitico.tokens.jsonl.bak|",
+    "BACKUP_FILE|interlinears/OT/numeros.tokens.jsonl.bak|",
+    "BACKUP_FILE|interlinears/OT/rut.tokens.jsonl.bak|",
+    "UNVERSIONED_DATASET|bibles/BLE|no-versions",
+    "UNVERSIONED_DATASET|bibles/LBF|no-versions",
+    "UNVERSIONED_DATASET|bibles/NBLA|no-versions",
+    "UNVERSIONED_DATASET|bibles/RV1862|no-versions",
+    "UNVERSIONED_DATASET|bibles/RV1909|no-versions",
+    "UNVERSIONED_DATASET|bibles/SPNBES|no-versions",
+    "UNVERSIONED_DATASET|bibles/SPNVBL|no-versions",
+    "UNVERSIONED_DATASET|bibles/TR1894|no-versions",
+    "UNVERSIONED_DATASET|courses|no-versions",
+    "UNVERSIONED_DATASET|dictionaries|no-versions",
+    "UNVERSIONED_DATASET|interlinears/NT|no-versions",
+    "UNVERSIONED_DATASET|interlinears/OT|no-versions",
+    "UNVERSIONED_DATASET|lexicons|no-versions",
+    "UNVERSIONED_DATASET|media|no-versions",
+    "UNVERSIONED_DATASET|morphology/MorphGNT|no-versions",
+    "UNVERSIONED_DATASET|morphology/OSHB|no-versions"
+  ]
+}

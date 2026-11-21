@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cgv-data.example/schemas/current-pointer.schema.json",
+  "title": "cgv-data current version pointer",
+  "description": "Small mutable pointer to one immutable version. This is the only file in a dataset that may change after publication, and only to a version that is complete and validated.",
+  "type": "object",
+  "required": ["datasetId", "datasetVersion"],
+  "additionalProperties": false,
+  "properties": {
+    "datasetId": { "type": "string" },
+    "datasetVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(-[0-9A-Za-z.-]+)?$" },
+    "updatedAt": { "type": "string" },
+    "updatedBy": { "type": "string" }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cgv-data.example/schemas/dataset-manifest.schema.json",
+  "title": "cgv-data generated dataset manifest",
+  "description": "Every published dataset version declares itself with a manifest.json. The manifest is the only thing that makes a file in this repository legitimate: a file not listed in checksums is undeclared, and an undeclared file must not ship.",
+  "type": "object",
+  "required": [
+    "datasetId",
+    "datasetVersion",
+    "schemaVersion",
+    "generated",
+    "doNotEdit",
+    "sourceRepository",
+    "sourceCommit",
+    "generator",
+    "generatorVersion",
+    "checksums"
+  ],
+  "properties": {
+    "datasetId": {
+      "type": "string",
+      "description": "Stable identifier, e.g. 'bibles/LBF'.",
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9._/-]*$"
+    },
+    "datasetVersion": {
+      "type": "string",
+      "description": "Semantic version of this dataset release. Immutable once published.",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(-[0-9A-Za-z.-]+)?$"
+    },
+    "schemaVersion": {
+      "type": "string",
+      "description": "Version of the consumer-facing file format. Consumers reject unsupported values rather than guessing.",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "generated": {
+      "type": "boolean",
+      "description": "True for machine-produced artifacts. Must be true for anything published by an exporter.",
+      "enum": [true]
+    },
+    "doNotEdit": {
+      "type": "boolean",
+      "description": "True means: edit the source repository and re-publish. Hand-editing this dataset is a contract violation.",
+      "enum": [true]
+    },
+    "sourceRepository": {
+      "type": "string",
+      "description": "Repository that owns the editable truth, e.g. 'La-Biblia-Fiel/Biblia-LBF'."
+    },
+    "sourceCommit": {
+      "type": "string",
+      "description": "Exact commit SHA in sourceRepository that produced these bytes.",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "generator": {
+      "type": "string",
+      "description": "Name of the exporter that produced this release."
+    },
+    "generatorVersion": {
+      "type": "string",
+      "description": "Version of that exporter, so a build can be reproduced."
+    },
+    "sourceRevisionIds": {
+      "type": "object",
+      "description": "Revision ids bound by the source release manifest.",
+      "properties": {
+        "source": { "type": "string" },
+        "translation": { "type": "string" },
+        "alignment": { "type": "string" }
+      }
+    },
+    "sourceEditions": {
+      "type": "array",
+      "description": "Source editions this dataset was built from, e.g. TR1894, OSHB/WLC.",
+      "items": { "type": "string" }
+    },
+    "scope": {
+      "type": "object",
+      "description": "What is included, and how much of it is approved.",
+      "properties": {
+        "books": { "type": "array", "items": { "type": "string" } },
+        "approvedBooks": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "license": {
+      "type": "object",
+      "required": ["id"],
+      "properties": {
+        "id": { "type": "string" },
+        "redistribution": { "type": "boolean" },
+        "noticeFile": { "type": "string" }
+      }
+    },
+    "buildTimestamp": { "type": "string" },
+    "atomicWith": {
+      "type": "array",
+      "description": "Dataset ids published in the same atomic release. LBF text and LBF alignment must list each other.",
+      "items": { "type": "string" }
+    },
+    "checksums": {
+      "type": "object",
+      "description": "Every published file in this version, path relative to the version directory, mapped to its sha256. A file present but unlisted is undeclared.",
+      "minProperties": 1
+    }
+  }
+}

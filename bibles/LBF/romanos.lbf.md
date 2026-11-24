@@ -3,11 +3,11 @@
      translation: done
      alignment: done
      translation_by: John Wry
-     translation_on: 2026-11-23
+     translation_on: 2026-11-24
      alignment_by: John Wry
-     alignment_on: 2026-11-23
+     alignment_on: 2026-11-24
      source: Biblia-LBF/translation/nt/romanos.md
-     sourceCommit: 7774879d3d560bf3cbaf151a3597ad04d8de507c
+     sourceCommit: 777ffb1a5a3f853cf1790ef7664915aa856f4604
 -->
 romanos 1:1 Pablo, esclavo de Jesús, *el* Cristo, llamado a ser apóstol, apartado para el evangelio de Dios.
 romanos 1:2 que prometió de antemano por medio de Sus profetas en las Escrituras santas,
@@ -301,7 +301,7 @@ romanos 11:10 Que se oscurezcan sus ojos para que no vean, y dobla por completo 
 romanos 11:11 Digo, entonces: ¿acaso tropezaron para caer? ¡Que no suceda! Al contrario, por su transgresión, la salvación *es* para las naciones, para provocar celos en ellos.
 romanos 11:12 Y si la transgresión de ellos *es* riqueza para el mundo y la pérdida de ellos *es* riqueza para las naciones, ¡cuánto más la plenitud de ellos!
 romanos 11:13 Pues a ustedes, los gentiles, les hablo. En la medida en que yo soy apóstol de gentiles, ciertamente honro mi ministerio.
-romanos 11:14 Por si de algún modo provoco celos en mi carne y salvo a algunos de ellos.
+romanos 11:14 Por si de algún modo provoco a celos a *los de* mi carne y salvo a algunos de ellos.
 romanos 11:15 Porque, si el rechazo de ellos *es* reconciliación del mundo, ¿qué *es* la aceptación, sino vida de entre los muertos?
 romanos 11:16 Y si la primicia *es* santa, también la masa; y si la raíz *es* santa, también las ramas.
 romanos 11:17 Pero si algunas de las ramas fueron desgajadas y tú, siendo un olivo silvestre, fuiste injertado entre ellas y llegaste a ser copartícipe de la raíz y de la grasa del olivo,

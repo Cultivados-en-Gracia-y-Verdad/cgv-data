@@ -7,7 +7,7 @@
      alignment_by: John Wry
      alignment_on: 2026-11-24
      source: Biblia-LBF/translation/nt/romanos.md
-     sourceCommit: 777ffb1a5a3f853cf1790ef7664915aa856f4604
+     sourceCommit: 96fa157b1c1f97d33649407fbb725a95687b8405
 -->
 romanos 1:1 Pablo, esclavo de Jesús, *el* Cristo, llamado a ser apóstol, apartado para el evangelio de Dios.
 romanos 1:2 que prometió de antemano por medio de Sus profetas en las Escrituras santas,

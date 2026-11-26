@@ -2,12 +2,13 @@
   "generated": true,
   "doNotEdit": true,
   "sourceRepository": "La-Palabra-Fiel/Biblia-LPF",
-  "sourceCommit": "777ffb1a5a3f853cf1790ef7664915aa856f4604",
+  "sourceCommit": "96fa157b1c1f97d33649407fbb725a95687b8405",
   "sourceFile": "alignment/nt/romanos/romanos-reverse-links.json",
   "sourceSha256": "3fddba7edf76c24a853fae6bd0eefff6b1a768a4450f6acbe3c8d21df2c82b89",
   "generator": "tools/export.py",
-  "publishedAt": "2026-11-24T12:04:06Z",
+  "publishedAt": "2026-11-26T18:14:36Z",
   "bookId": "romanos",
+  "sourceBookId": "romanos",
   "textualBasis": "TR",
   "schemaVersion": 1,
   "numbering": "protestant",
@@ -72234,7 +72235,10 @@
           "surface": "seas arrogante",
           "charStart": 87,
           "charEnd": 101,
-          "sourceTokenIds": [],
+          "sourceTokenIds": [
+            "n45011020011",
+            "n45011020012"
+          ],
           "method": "hand",
           "status": "confirmed",
           "canonicalSourceTokenIds": [
@@ -104035,18 +104039,18 @@
     }
   ],
   "readerTokenBridge": {
-    "schema": "lpf-tr-to-reader-token-bridge-v1",
-    "mappingPolicy": "exact-normalized-greek-forced-or-unique-v1",
+    "schema": "lpf-tr-to-reader-token-bridge-v2",
+    "mappingPolicy": "exact-normalized-greek-forced-or-unique-plus-reviewed-one-to-many-v2",
     "sourceTokenBasis": "Scrivener TR1894, SCV-authoritative token order",
     "readerTokenBasis": "SBLGNT token order used by MorphGNT",
     "referenceDataset": "Clear-Bible/macula-greek SBLGNT lowfat",
     "referenceRevision": "8423afe47b9e8f24b7772e808af45c7159a6fe7e",
     "bridgeFile": "source/greek/TR1894/reader-token-bridge.json",
-    "bridgeSha256": "07cb712c126e0cd1ac3d6d6c1ff4576a38641a1f98ae60dac7a594143464405b",
+    "bridgeSha256": "2d696df4ca44cb49a4ff1d62b7bed98b25a584efebd0d4f09a30404a761797fc",
     "canonicalSourceTokenField": "canonicalSourceTokenIds",
     "readerSourceTokenField": "sourceTokenIds",
     "canonicalTokenCount": 7209,
-    "mappedReaderTokenCount": 6889,
-    "unmappedCanonicalTokenCount": 320
+    "mappedReaderTokenCount": 6891,
+    "unmappedCanonicalTokenCount": 319
   }
 }
